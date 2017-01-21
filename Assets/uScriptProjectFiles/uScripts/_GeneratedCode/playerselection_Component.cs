@@ -50,6 +50,26 @@ public class playerselection_Component : uScriptCode
    #if UNITY_EDITOR
       void OnDrawGizmos( )
       {
+         {
+            GameObject gameObject;
+            gameObject = GameObject.Find( "player2select" ); 
+            if ( null != gameObject ) Gizmos.DrawIcon(gameObject.transform.position, "uscript_gizmo_variables.png");
+         }
+         {
+            GameObject gameObject;
+            gameObject = GameObject.Find( "player1select" ); 
+            if ( null != gameObject ) Gizmos.DrawIcon(gameObject.transform.position, "uscript_gizmo_variables.png");
+         }
+         {
+            GameObject gameObject;
+            gameObject = GameObject.Find( "player4select" ); 
+            if ( null != gameObject ) Gizmos.DrawIcon(gameObject.transform.position, "uscript_gizmo_variables.png");
+         }
+         {
+            GameObject gameObject;
+            gameObject = GameObject.Find( "player3select" ); 
+            if ( null != gameObject ) Gizmos.DrawIcon(gameObject.transform.position, "uscript_gizmo_variables.png");
+         }
       }
    #endif
 }
