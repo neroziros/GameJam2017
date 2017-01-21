@@ -14,6 +14,11 @@ public class Entity : MonoBehaviour {
         // todo: if required
     }
 
+    public virtual void DealDamage(int damage)
+    {
+        // todo: deal damage
+    }
+
     public virtual void ReactGameplayCollision(Entity entity)
     {}
 
