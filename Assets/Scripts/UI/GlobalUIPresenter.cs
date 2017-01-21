@@ -32,7 +32,8 @@ public class GlobalUIPresenter : MonoBehaviour {
             return;
 
         // Update core game timer
-        this.ProgressBar.fillAmount = GamePresenter.Instance.CurrentMatchDuration / GamePresenter.Instance.MatchDuration;
+        if(GamePresenter.Instance.CurrentMatchDuration > 0)
+            this.ProgressBar.fillAmount = GamePresenter.Instance.CurrentMatchDuration / GamePresenter.Instance.MatchDuration;
     }
 	
 }

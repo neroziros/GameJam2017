@@ -49,7 +49,7 @@ public class PlayerPresenter : MonoBehaviour {
             this.Players[this.KeyboardPlayerIndex].InputController.InputConfiguration = this.ConfigKeyboard;
 
         // Set initial random player positions
-	    Transform[] initialTransforms = this.environmentPresenter.GetSeparateSpawnTransforms(this.Players.Length + 1);
+	    Transform[] initialTransforms = this.environmentPresenter.GetPossibleSpawnPoints();
 	    if (initialTransforms != null && this.Players.Length <= initialTransforms.Length)
 	    {
 	        for (int index = 0; index < this.Players.Length; index++)
@@ -58,13 +58,6 @@ public class PlayerPresenter : MonoBehaviour {
                 this.SetPlayerPosition(player, initialTransforms[index]);
             }
         }
-
-        // Set initial power up location
-        this.environmentPresenter.InitialPlayerPowerUp.transform.position =
-            initialTransforms[initialTransforms.Length - 1].position;
-
-        // Play wolf sfx
-        GamePresenter.Instance.AudioPresenter.PlayHowlSFX();
     }
 
     private void CreatePlayers()

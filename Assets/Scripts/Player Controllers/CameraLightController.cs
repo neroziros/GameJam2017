@@ -70,10 +70,6 @@ public class CameraLightController : MonoBehaviour {
 
     void OnPostRender()
     {
-        // Reenable disabled lights
-        foreach (var light in GamePresenter.Instance.EnvironmentPresenter.HumanLights)
-        {
-            light.enabled = true;
-        }
+        // todo: if required
     }
 }

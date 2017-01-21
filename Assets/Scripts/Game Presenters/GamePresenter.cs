@@ -41,9 +41,9 @@ public class GamePresenter : MonoBehaviour {
 
         // Initialize core presenters
         this.EnvironmentPresenter.Initialize();
-        this.UiPresenter.Initialize();
+        //this.UiPresenter.Initialize();
         this.PlayerPresenter.Initialize(this.EnvironmentPresenter);
-        this.AudioPresenter.Initialize(true);
+        //this.AudioPresenter.Initialize(true);
 
         // Display connected gamepad
         this.PrintGamepad();
@@ -100,7 +100,7 @@ public class GamePresenter : MonoBehaviour {
     private void UpdateMatchTimer()
     {
         this.CurrentMatchDuration += Time.deltaTime;
-        if (this.CurrentMatchDuration >= this.MatchDuration)
+        if (this.CurrentMatchDuration >= this.MatchDuration && this.CurrentMatchDuration > 0)
             this.EndMatch();
     }
 
