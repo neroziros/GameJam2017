@@ -28,13 +28,24 @@ public class PlayerController : MovableEntity
     public LayerMask GameplayLayerMask;
 
     // General state
+    private PlayerState _state = PlayerState.Normal;
+
+    public PlayerState State
+    {
+        get { return _state; }
+        set
+        {
+            _state = value;
+            PlayerAbilityController.Reset();
+        }
+    }
     public bool CanMove
     {
         get { return true; }
     }
     public bool CanFire
     {
-        get { return true; }
+        get { return State == PlayerState.Normal; }
     }
     // Initialize this class
     public void Initialize(PlayerPresenter playerPresenter,int index)
@@ -162,7 +173,11 @@ public class PlayerController : MovableEntity
     }
 
     #endregion
-
+    public enum PlayerState
+    {
+        Normal,
+        Stunned,
+    }
     public enum ID
     {
         Player1,

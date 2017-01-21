@@ -41,6 +41,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4820772708696252}
+  - component: {fileID: 114898623046519590}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -59,7 +60,6 @@ GameObject:
   - component: {fileID: 33013842963358340}
   - component: {fileID: 65945163022134452}
   - component: {fileID: 23894120860371636}
-  - component: {fileID: 114276720261458656}
   - component: {fileID: 114265617547635230}
   - component: {fileID: 54810333769115922}
   m_Layer: 0
@@ -285,20 +285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114276720261458656
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1869499032821700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a55019fdbc1ef3343889e3462125053d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShieldObject: {fileID: 1869499032821700}
-  minScale: {x: 1, y: 0.5, z: 0.1}
-  maxScale: {x: 1, y: 2, z: 0.1}
 --- !u!114 &114286196029621360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -342,7 +328,7 @@ MonoBehaviour:
   FireColdown: 1
   MaxProjectileBounces: 10
   MinProjectileSpeed: 5
-  MaxProjectileSpeed: 60
+  MaxProjectileSpeed: 40
   ChargingSpeed: 2
   MaxProjectileLevel: 5
   currentProjectileLevel: 0
@@ -375,6 +361,21 @@ MonoBehaviour:
   GameplayLayerMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &114898623046519590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689608314122752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55019fdbc1ef3343889e3462125053d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShieldObject: {fileID: 1869499032821700}
+  ShieldStunDuration: 0.5
+  minScale: {x: 1, y: 0.5, z: 0.1}
+  maxScale: {x: 1, y: 2, z: 0.1}
 --- !u!136 &136470098332361912
 CapsuleCollider:
   m_ObjectHideFlags: 1

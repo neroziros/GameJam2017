@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,15 +10,19 @@ public class BounceableSourface : MonoBehaviour
     private PlayerController controller;
     private Collider collider;
 
+    // Events
+    private Action OnCollision;
+
     private void Awake()
     {
         collider = GetComponentInChildren<Collider>();
     }
 
-    public void Initialize(PlayerController playerController)
+    public void Initialize(PlayerController playerController, Action onCollision)
     {
         // Store core components
         controller = playerController;
+        this.OnCollision = onCollision;
     }
     
     private void ProcessIncomingProjectile(Projectile projectile, Vector3 collisionVector)
@@ -52,6 +57,9 @@ public class BounceableSourface : MonoBehaviour
             {
                 Vector3 collisionVector = (this.transform.position - other.transform.position).normalized;
                 ProcessIncomingProjectile(incomingProjectile, collisionVector);
+
+                if (OnCollision != null)
+                    OnCollision();
             }
         }
     }

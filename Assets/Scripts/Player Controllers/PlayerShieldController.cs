@@ -7,18 +7,40 @@ public class PlayerShieldController : MonoBehaviour
 {
     // Core parameters
     public GameObject ShieldObject;
+    public float ShieldStunDuration = 0.5f;
     public Vector3 minScale = Vector3.one * 0.5f;
     public Vector3 maxScale = Vector3.one;
 
     // Core references
+    private PlayerController controller;
     private BounceableSourface surface;
 
     public void Initialize(PlayerController playerController)
     {
         // Store core components
+        controller = playerController;
         surface = this.GetComponentInChildren<BounceableSourface>();
-        surface.Initialize(playerController);
+        surface.Initialize(playerController, OnShieldCollision);
     }
+
+    public void OnShieldCollision()
+    {
+        StopCoroutine("ExecuteShieldStun");
+        StartCoroutine("ExecuteShieldStun");
+    }
+
+
+    IEnumerator ExecuteShieldStun()
+    {
+        controller.State = PlayerController.PlayerState.Stunned;
+        ShieldObject.gameObject.SetActive(false);
+
+        yield return new  WaitForSeconds(ShieldStunDuration);
+
+        controller.State = PlayerController.PlayerState.Normal;
+        ShieldObject.gameObject.SetActive(true);
+    }
+
 
     public void ManageShields(bool state)
     {
@@ -37,6 +59,6 @@ public class PlayerShieldController : MonoBehaviour
         m_TargetWorldPos = Camera.main.transform.TransformDirection(m_TargetWorldPos);
         m_TargetWorldPos.y = 0;
 
-        transform.parent.rotation = Quaternion.LookRotation(m_TargetWorldPos);
+        transform.rotation = Quaternion.LookRotation(m_TargetWorldPos);
     }
 }

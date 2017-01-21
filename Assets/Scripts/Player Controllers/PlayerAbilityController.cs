@@ -75,7 +75,7 @@ public class PlayerAbilityController : MonoBehaviour {
             playerController.ShieldController.ShieldObject.transform.rotation).GetComponent<Projectile>();
 
         // Get target values
-        float targetSpeed = Mathf.Lerp(MinProjectileSpeed, MaxProjectileSpeed, currentProjectileLevel/MaxProjectileSpeed);
+        float targetSpeed = Mathf.Lerp(MinProjectileSpeed, MaxProjectileSpeed, currentProjectileLevel/MaxProjectileLevel);
 
         // Initialize projectile
         newProjectile.Initialize(playerController,targetSpeed);
