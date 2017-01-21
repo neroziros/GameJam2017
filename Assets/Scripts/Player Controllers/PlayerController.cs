@@ -17,6 +17,7 @@ public class PlayerController : Entity
 
     // Main controllers
     public PlayerInput InputController { get; private set; }
+    public PlayerShieldController ShieldController { get; private set; }
     public PlayerMovementController MovementController { get; private set; }
     public PlayerCameraController CameraController { get; private set; }
     public AvatarController PlayerAvatarController { get; private set; }
@@ -42,14 +43,16 @@ public class PlayerController : Entity
         this.PlayerAvatarController = this.GetComponentInChildren<AvatarController>();
         this.PlayerUIPresenter = this.GetComponentInChildren<PlayerUIPresenter>();
         this.PlayerAudioController = this.GetComponentInChildren<AudioController>();
+        this.ShieldController = this.GetComponentInChildren<PlayerShieldController>();
 
         // Initialize player components
-        this.PlayerAudioController.Initialize();
+        //this.PlayerAudioController.Initialize();
         this.InputController.Initialize(this);
         this.MovementController.Initialize(this);
+        this.ShieldController.Initialize(this);
         //this.CameraController.Initialize(this, cameraConfiguration);
-        this.PlayerAvatarController.Initialize(this);
-        this.PlayerUIPresenter.Initialize(this);
+        //this.PlayerAvatarController.Initialize(this);
+        //this.PlayerUIPresenter.Initialize(this);
 	}
 
     #region Player Components Update
@@ -77,7 +80,9 @@ public class PlayerController : Entity
     private void UpdateControllers()
     {
         // Update controlers using updated player input if required
-        this.CameraController.UpdateCamera(this.InputController.InputInstance);
+        // this.CameraController.UpdateCamera(this.InputController.InputInstance);
+        this.MovementController.UpdateMovement(this.InputController.InputInstance);
+        this.ShieldController.UpdateShieldInput(this.InputController.InputInstance);
     }
 
     // Update player controllers every physics frame
@@ -85,7 +90,7 @@ public class PlayerController : Entity
     {
         // Update controlers using updated player input if required
         // note: there is no need to update the input here since it only changes between update frames
-        this.MovementController.FixedUpdateMovement(this.InputController.InputInstance);
+        // this.MovementController.FixedUpdateMovement(this.InputController.InputInstance);
     }
     #endregion
 

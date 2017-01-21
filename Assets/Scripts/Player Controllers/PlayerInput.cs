@@ -78,7 +78,6 @@ public class InputInstance
         {
             this.MoveForward = Input.GetAxisRaw(config.GamepadVerticalInput);
             this.StrafeRight = Input.GetAxisRaw(config.GamepadHorizontalInput);
-
             this.Sprint = !Input.GetKey(config.GamepadSprint);
             this.Crouch = Input.GetKey(config.GamepadCrouch);
             this.Jump = Input.GetKeyDown(config.GamepadJump);

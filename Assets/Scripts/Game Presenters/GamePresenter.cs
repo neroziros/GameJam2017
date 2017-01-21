@@ -100,7 +100,7 @@ public class GamePresenter : MonoBehaviour {
     private void UpdateMatchTimer()
     {
         this.CurrentMatchDuration += Time.deltaTime;
-        if (this.CurrentMatchDuration >= this.MatchDuration && this.CurrentMatchDuration > 0)
+        if (this.CurrentMatchDuration >= this.MatchDuration && this.MatchDuration > 0)
             this.EndMatch();
     }
 
