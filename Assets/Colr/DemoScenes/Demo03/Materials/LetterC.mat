@@ -109,7 +109,7 @@ Material:
       second: {r: 1, g: 1, b: 1, a: 0}
     - first:
         name: _BottomColor
-      second: {r: 0, g: 0.904057, b: 1, a: 0}
+      second: {r: 0.21204588, g: 0.724977, b: 0.7794118, a: 0}
     - first:
         name: _Color
       second: {r: 1, g: 1, b: 1, a: 1}
@@ -127,7 +127,7 @@ Material:
       second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _FrontBottomColor
-      second: {r: 0.9725491, g: 0.6117647, b: 0.1137255, a: 0}
+      second: {r: 0.9264706, g: 0.7862433, b: 0.5926687, a: 0}
     - first:
         name: _FrontColor
       second: {r: 0.9338235, g: 0.54930794, b: 0.6049963, a: 0}
@@ -166,4 +166,4 @@ Material:
       second: {r: 0, g: 1, b: 0, a: 0}
     - first:
         name: _TopColor
-      second: {r: 0.1254902, g: 0.67058825, b: 0.43921572, a: 0}
+      second: {r: 0.41198096, g: 0.56673425, b: 0.9338235, a: 0}
