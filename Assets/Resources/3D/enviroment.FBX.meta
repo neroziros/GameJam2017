@@ -107,6 +107,23 @@ ModelImporter:
     100198: wood3 1
     100200: wood4
     100202: wood5
+    100204: lava
+    100206: train_tabla1
+    100208: train_tabla10
+    100210: train_tabla10 1
+    100212: train_tabla11
+    100214: train_tabla2
+    100216: train_tabla3
+    100218: train_tabla4
+    100220: train_tabla5
+    100222: train_tabla6
+    100224: train_tabla7
+    100226: train_tabla8
+    100228: train_tabla9
+    100230: train_tubo1
+    100232: train_tubo1 1
+    100234: train_tubo3
+    100236: train_tubo4
     400000: ______041
     400002: ______042
     400004: ______043
@@ -209,6 +226,23 @@ ModelImporter:
     400198: wood3 1
     400200: wood4
     400202: wood5
+    400204: lava
+    400206: train_tabla1
+    400208: train_tabla10
+    400210: train_tabla10 1
+    400212: train_tabla11
+    400214: train_tabla2
+    400216: train_tabla3
+    400218: train_tabla4
+    400220: train_tabla5
+    400222: train_tabla6
+    400224: train_tabla7
+    400226: train_tabla8
+    400228: train_tabla9
+    400230: train_tubo1
+    400232: train_tubo1 1
+    400234: train_tubo3
+    400236: train_tubo4
     2300000: ______041
     2300002: ______042
     2300004: ______043
@@ -305,6 +339,23 @@ ModelImporter:
     2300186: wood3 1
     2300188: wood4
     2300190: wood5
+    2300192: lava
+    2300194: train_tabla1
+    2300196: train_tabla10
+    2300198: train_tabla10 1
+    2300200: train_tabla11
+    2300202: train_tabla2
+    2300204: train_tabla3
+    2300206: train_tabla4
+    2300208: train_tabla5
+    2300210: train_tabla6
+    2300212: train_tabla7
+    2300214: train_tabla8
+    2300216: train_tabla9
+    2300218: train_tubo1
+    2300220: train_tubo1 1
+    2300222: train_tubo3
+    2300224: train_tubo4
     3300000: ______041
     3300002: ______042
     3300004: ______043
@@ -401,6 +452,23 @@ ModelImporter:
     3300186: wood3 1
     3300188: wood4
     3300190: wood5
+    3300192: lava
+    3300194: train_tabla1
+    3300196: train_tabla10
+    3300198: train_tabla10 1
+    3300200: train_tabla11
+    3300202: train_tabla2
+    3300204: train_tabla3
+    3300206: train_tabla4
+    3300208: train_tabla5
+    3300210: train_tabla6
+    3300212: train_tabla7
+    3300214: train_tabla8
+    3300216: train_tabla9
+    3300218: train_tubo1
+    3300220: train_tubo1 1
+    3300222: train_tubo3
+    3300224: train_tubo4
     4300000: floor
     4300002: roca14_lvl1
     4300004: obs_roca10_lvl1
@@ -497,6 +565,23 @@ ModelImporter:
     4300186: Box079
     4300188: Box066
     4300190: Box065
+    4300192: lava
+    4300194: train_tabla3
+    4300196: train_tubo1
+    4300198: train_tubo1
+    4300200: train_tabla4
+    4300202: train_tabla5
+    4300204: train_tabla6
+    4300206: train_tabla2
+    4300208: train_tabla1
+    4300210: train_tabla10
+    4300212: train_tabla11
+    4300214: train_tabla10
+    4300216: train_tubo3
+    4300218: train_tabla9
+    4300220: train_tabla8
+    4300222: train_tabla7
+    4300224: train_tubo4
     9500000: //RootNode
   materials:
     importMaterials: 1

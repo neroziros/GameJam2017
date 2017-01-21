@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlayerAbilityController : MonoBehaviour {
 
@@ -24,6 +25,11 @@ public class PlayerAbilityController : MonoBehaviour {
     private List<Projectile> currentProjectileList = new List<Projectile>(); 
     private PlayerController playerController;
 
+    // VFX
+    public Renderer VfxRenderer;
+    public float VfxDuration = 1.0f;
+    public float RepulseScale = 10.0f;
+
     public void Initialize(PlayerController controller)
     {
         // Store initial references
@@ -32,7 +38,18 @@ public class PlayerAbilityController : MonoBehaviour {
 
     public void UpdatePlayerAbility(InputInstance playerInput)
     {
-        // Fire projectile
+        // Repulse
+        if (playerInput.Repel)
+        {
+            VfxRenderer.gameObject.transform.DOKill();
+            VfxRenderer.gameObject.transform.localScale = Vector3.zero;
+            VfxRenderer.gameObject.transform.DOScale(Vector3.one*RepulseScale, VfxDuration);
+        }
+
+        // Attact 
+        // todo:
+
+        // Fire Projectile
         if (!inColdown && playerController.CanFire)
         {
             // Charge projectile
