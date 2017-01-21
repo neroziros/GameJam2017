@@ -9,8 +9,6 @@ public class Projectile : MovableEntity
     [System.NonSerialized]
     public PlayerController OriginPlayer;
 
-    public int currentBounceAmount = 0;
-
     private bool isInitialized = false;
     private float movementSpeed;
 
@@ -35,7 +33,6 @@ public class Projectile : MovableEntity
         if(!isInitialized)return;
 
         transform.position += transform.forward * Time.deltaTime * movementSpeed;
-
     }
 
     IEnumerator UpdateLifetime()

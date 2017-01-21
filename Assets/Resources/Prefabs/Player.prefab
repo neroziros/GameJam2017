@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 65945163022134452}
   - component: {fileID: 23894120860371636}
   - component: {fileID: 114276720261458656}
+  - component: {fileID: 114265617547635230}
   - component: {fileID: 54810333769115922}
   m_Layer: 0
   m_Name: Model
@@ -273,6 +274,17 @@ MonoBehaviour:
   MonsterAvatar: {fileID: 0}
   MagicalGirlFX: {fileID: 0}
   PFXDuration: 3
+--- !u!114 &114265617547635230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869499032821700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114276720261458656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -358,6 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HitPoints: 5
+  currentBounceAmount: 0
   PlayerId: 0
   GameplayLayerMask:
     serializedVersion: 2

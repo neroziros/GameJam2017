@@ -16,7 +16,12 @@ public class Entity : MonoBehaviour {
 
     public virtual void DealDamage(int damage)
     {
-        // todo: deal damage
+        // Deal damage
+        HitPoints = Mathf.Max(HitPoints - damage, 0);
+
+        // Check if we died
+        if(!IsAlive)
+            Kill();
     }
 
     public virtual void ReactGameplayCollision(Entity entity)
@@ -26,5 +31,7 @@ public class Entity : MonoBehaviour {
     {}
 
     public virtual void Kill()
-    {}
+    {
+        Destroy(this.gameObject);
+    }
 }

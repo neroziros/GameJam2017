@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Profiling;
 
 public class PlayerShieldController : MonoBehaviour
 {
@@ -10,12 +11,13 @@ public class PlayerShieldController : MonoBehaviour
     public Vector3 maxScale = Vector3.one;
 
     // Core references
-    private PlayerController controller;
+    private BounceableSourface surface;
 
     public void Initialize(PlayerController playerController)
     {
         // Store core components
-        controller = playerController;
+        surface = this.GetComponentInChildren<BounceableSourface>();
+        surface.Initialize(playerController);
     }
 
     public void ManageShields(bool state)
@@ -36,29 +38,5 @@ public class PlayerShieldController : MonoBehaviour
         m_TargetWorldPos.y = 0;
 
         transform.parent.rotation = Quaternion.LookRotation(m_TargetWorldPos);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Projectile incomingProjectile = other.GetComponentInChildren<Projectile>();
-        if (incomingProjectile != null)
-        {
-            bool isSamePlayerAndNotEnoughBounces = controller == incomingProjectile.OriginPlayer &&
-                                                   incomingProjectile.currentBounceAmount <= 0;
-            if (!isSamePlayerAndNotEnoughBounces)
-            {
-                Vector3 collisionVector = (this.transform.position - other.transform.position).normalized;
-                ProcessIncomingProjectile(incomingProjectile);
-            }
-        }
-    }
-
-    private void ProcessIncomingProjectile(Projectile projectile)
-    {
-        // Execute damage to missile
-        projectile.DealDamage(1);
-
-        // If it is still alive, bounce the object
-        // todo:
     }
 }

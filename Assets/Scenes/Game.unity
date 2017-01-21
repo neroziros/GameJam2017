@@ -346,6 +346,9 @@ MonoBehaviour:
   - {fileID: 1668460955}
   - {fileID: 2029630803}
   - {fileID: 2111732646}
+  - {fileID: 996377315}
+  - {fileID: 1415466137}
+  - {fileID: 0}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
   - e8b3dc90-0011-45ea-9c74-704268dc7cf5
@@ -364,6 +367,9 @@ MonoBehaviour:
   - 283ce966-02e5-4499-95e0-3c54d663729b
   - 34e5eb95-4aac-4614-a17b-b3e05b227d03
   - 9aa94049-6c02-4f74-b5d5-21f1c9ea4e31
+  - f53d99f5-dc67-411a-ab72-a2404fe1deb9
+  - 6c8b01c7-69a4-4dba-b6b8-d46a06914d80
+  - 51005fda-bca8-4abd-a07f-e1843958000f
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
 --- !u!4 &223164204
@@ -831,6 +837,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &996377315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 996377316}
+  m_Layer: 0
+  m_Name: WallSet (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &996377316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 996377315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1415466138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1223437696
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +891,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 91495273}
+  - {fileID: 1415466138}
   m_Father: {fileID: 464888885}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -872,6 +907,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UndoNumber: 80
+--- !u!1 &1415466137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1415466138}
+  m_Layer: 0
+  m_Name: Dynamic Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1415466138
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415466137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 996377316}
+  m_Father: {fileID: 1223437697}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1563781304
 GameObject:
   m_ObjectHideFlags: 0
