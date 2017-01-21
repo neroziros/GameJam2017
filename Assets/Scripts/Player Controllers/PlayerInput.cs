@@ -46,10 +46,13 @@ public class InputInstance
     public float VerticalLook;
     public float HorizontalLook;
 
-    public bool Sprint;
-    public bool Jump;
-    public bool Crouch;
-    public bool Dive;
+    public bool FireCharging;
+    public bool FireRelease;
+
+    public bool Attract;
+    public bool Repel;
+
+    public bool Debugging = false;
 
     public void Update(InputConfiguration config)
     {
@@ -68,20 +71,37 @@ public class InputInstance
             this.StrafeRight = Input.GetKey(config.StrafeRight) ? 1 : 0;
             this.StrafeRight = Input.GetKey(config.StrafeLeft) ? -1 : this.StrafeRight;
             
-            this.Sprint = !Input.GetKey(config.Sprint);
-            this.Crouch = Input.GetKey(config.Crouch);
-            this.Jump = Input.GetKeyDown(config.Jump);
-            this.Dive = Input.GetKeyDown(config.Dive);
+            this.FireCharging = Input.GetKey(config.Fire);
+
+            this.Attract = Input.GetKey(config.Attract);
+            this.Repel = Input.GetKeyDown(config.Repel);
         }
         // Gamepad input
         else
         {
             this.MoveForward = Input.GetAxisRaw(config.GamepadVerticalInput);
             this.StrafeRight = Input.GetAxisRaw(config.GamepadHorizontalInput);
-            this.Sprint = !Input.GetKey(config.GamepadSprint);
-            this.Crouch = Input.GetKey(config.GamepadCrouch);
-            this.Jump = Input.GetKeyDown(config.GamepadJump);
-            this.Dive = Input.GetKeyDown(config.GamepadDive);
+
+            this.FireCharging = Input.GetKey(config.GamepadFire);
+            this.FireRelease = Input.GetKeyUp(config.GamepadFire);
+
+            this.Attract = Input.GetKey(config.GamepadAttract);
+            this.Repel = Input.GetKeyDown(config.GamepadRepel);
+
+            if (Debugging)
+            {
+                for (int j = 1; j <= 4; j++)
+                {
+                    for (int i = 0; i < 20; i++)
+                    {
+                        if (Input.GetKeyDown("joystick " + j + " button " + i))
+                        {
+                            Debug.Log("joystick " + j + " button " + i);
+                        }
+                    }
+                }
+            }
+
         }
     }
 
@@ -97,10 +117,9 @@ public class InputInstance
         public KeyCode StrafeLeft = KeyCode.A;
         public KeyCode StrafeRight = KeyCode.D;
 
-        public string GamepadSprint = "joystick 1 button 0";
-        public string GamepadCrouch = "joystick 1 button 1";
-        public string GamepadJump = "joystick 1 button 2";
-        public string GamepadDive = "joystick 1 button 3";
+        public string GamepadFire = "joystick 1 button 0";
+        public string GamepadAttract = "joystick 1 button 1";
+        public string GamepadRepel = "joystick 1 button 2";
 
         [Header("Gamepad Movement Axes")]
         public string GamepadHorizontalInput = "Mouse X";
@@ -111,10 +130,9 @@ public class InputInstance
         public string VerticalInput = "Mouse Y";
 
         [Header("Special Movement Actions")]
-        public KeyCode Sprint = KeyCode.LeftShift;
-        public KeyCode Crouch = KeyCode.LeftControl;
-        public KeyCode Jump   = KeyCode.Space;
-        public KeyCode Dive = KeyCode.Mouse0;
+        public KeyCode Fire = KeyCode.LeftShift;
+        public KeyCode Attract = KeyCode.LeftControl;
+        public KeyCode Repel = KeyCode.Space;
     }
 
     public enum ControlType

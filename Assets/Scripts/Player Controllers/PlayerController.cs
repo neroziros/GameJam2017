@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 /// <summary>
 /// Manages the player status
 /// </summary>
-public class PlayerController : Entity
+public class PlayerController : MovableEntity
 {
     // Core presenter
     private PlayerPresenter playerPresenter;
@@ -21,12 +21,21 @@ public class PlayerController : Entity
     public PlayerMovementController MovementController { get; private set; }
     public PlayerCameraController CameraController { get; private set; }
     public AvatarController PlayerAvatarController { get; private set; }
-    public PlayerUIPresenter PlayerUIPresenter { get; private set; }
     public AudioController PlayerAudioController { get; private set; }
+    public PlayerAbilityController PlayerAbilityController { get; private set; }
 
     // Collisions
     public LayerMask GameplayLayerMask;
 
+    // General state
+    public bool CanMove
+    {
+        get { return true; }
+    }
+    public bool CanFire
+    {
+        get { return true; }
+    }
     // Initialize this class
     public void Initialize(PlayerPresenter playerPresenter,int index)
 	{
@@ -41,15 +50,17 @@ public class PlayerController : Entity
         this.MovementController = this.GetComponentInChildren<PlayerMovementController>();
         this.CameraController = this.GetComponentInChildren<PlayerCameraController>();
         this.PlayerAvatarController = this.GetComponentInChildren<AvatarController>();
-        this.PlayerUIPresenter = this.GetComponentInChildren<PlayerUIPresenter>();
         this.PlayerAudioController = this.GetComponentInChildren<AudioController>();
+
         this.ShieldController = this.GetComponentInChildren<PlayerShieldController>();
+        this.PlayerAbilityController = this.GetComponentInChildren<PlayerAbilityController>();
 
         // Initialize player components
         //this.PlayerAudioController.Initialize();
         this.InputController.Initialize(this);
         this.MovementController.Initialize(this);
         this.ShieldController.Initialize(this);
+        this.PlayerAbilityController.Initialize(this);
         //this.CameraController.Initialize(this, cameraConfiguration);
         //this.PlayerAvatarController.Initialize(this);
         //this.PlayerUIPresenter.Initialize(this);
@@ -83,6 +94,7 @@ public class PlayerController : Entity
         // this.CameraController.UpdateCamera(this.InputController.InputInstance);
         this.MovementController.UpdateMovement(this.InputController.InputInstance);
         this.ShieldController.UpdateShieldInput(this.InputController.InputInstance);
+        this.PlayerAbilityController.UpdatePlayerAbility(this.InputController.InputInstance);
     }
 
     // Update player controllers every physics frame
@@ -98,7 +110,11 @@ public class PlayerController : Entity
 
     public override void Resurrect()
     {
-        base.Resurrect();
+        // Reactivate gameobject
+        this.gameObject.SetActive(true);
+
+        // Restore health points
+        this.HitPoints = 1;
 
         // Stop player
         this.MovementController.Stop();
@@ -109,8 +125,11 @@ public class PlayerController : Entity
         // Stop player
         this.MovementController.Stop();
 
-        // Kill unit
-        base.Kill();
+        // Remove health points
+        this.HitPoints = 0;
+
+        // Deactivate unit
+        this.gameObject.SetActive(false);
 
         // Request player respawn
         this.playerPresenter.RequestPlayerRespawn(this);
@@ -125,7 +144,7 @@ public class PlayerController : Entity
     public void ReactGameplayCollision(Entity entity)
     {
         // Only react to the entity if it's alive
-        if (!entity.IsAlive || !this.IsAlive || GamePresenter.Instance.CurrentMatchState != GamePresenter.State.Running)
+        if (!this.IsAlive || GamePresenter.Instance.CurrentMatchState != GamePresenter.State.Running)
             return;
         
         // todo:

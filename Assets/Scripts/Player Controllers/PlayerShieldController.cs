@@ -2,11 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShieldController : MonoBehaviour {
+public class PlayerShieldController : MonoBehaviour
+{
+    // Core parameters
+    public GameObject ShieldObject;
 
     public void Initialize(PlayerController playerController)
     {
         
+    }
+
+    public void ManageShields(bool state)
+    {
+        //todo:
     }
 
     public void UpdateShieldInput(InputInstance playerInput)

@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 136470098332361912}
   - component: {fileID: 114626453115693808}
   - component: {fileID: 114286196029621360}
-  - component: {fileID: 54057085814326318}
   - component: {fileID: 114189502316996758}
   - component: {fileID: 114516760722634472}
+  - component: {fileID: 114463440885417610}
+  - component: {fileID: 54057085814326318}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -252,6 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55019fdbc1ef3343889e3462125053d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShieldObject: {fileID: 1869499032821700}
 --- !u!114 &114189502316996758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -284,18 +286,34 @@ MonoBehaviour:
     MoveBack: 115
     StrafeLeft: 97
     StrafeRight: 100
-    GamepadSprint: joystick 1 button 0
-    GamepadCrouch: joystick 1 button 1
-    GamepadJump: joystick 1 button 2
-    GamepadDive: joystick 1 button 3
+    GamepadFire: joystick 1 button 0
+    GamepadAttract: joystick 1 button 1
+    GamepadRepel: joystick 1 button 2
     GamepadHorizontalInput: Mouse X
     GamepadVerticalInput: Mouse Y
     HorizontalInput: Mouse X
     VerticalInput: Mouse Y
-    Sprint: 304
-    Crouch: 306
-    Jump: 32
-    Dive: 323
+    Fire: 304
+    Attract: 306
+    Repel: 32
+--- !u!114 &114463440885417610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336070099927946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98a8848b9ed6b646b6073eb6b168340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 114213390144860780, guid: feedfd8983ef4e5428c317867e575bfc,
+    type: 2}
+  MaxProjectileBounces: 10
+  MaxProjectileSpeed: 10
+  ChargingSpeed: 1
+  MaxProjectileLevel: 5
+  currentProjectileLevel: 0
 --- !u!114 &114516760722634472
 MonoBehaviour:
   m_ObjectHideFlags: 1
