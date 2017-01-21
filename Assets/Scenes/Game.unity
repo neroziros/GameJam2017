@@ -600,10 +600,10 @@ MonoBehaviour:
     GamepadCrouch: joystick 1 button 1
     GamepadJump: joystick 1 button 2
     GamepadDive: joystick 1 button 3
-    GamepadHorizontalInput: Mouse X
-    GamepadVerticalInput: Mouse Y
-    HorizontalInput: Mouse X
-    VerticalInput: Mouse Y
+    GamepadHorizontalInput: Horizontal 1
+    GamepadVerticalInput: Vertical 1
+    HorizontalInput: Camera X 2
+    VerticalInput: Camera Y 2
     Sprint: 304
     Crouch: 306
     Jump: 32

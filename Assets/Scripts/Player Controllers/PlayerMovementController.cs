@@ -19,9 +19,8 @@ public class PlayerMovementController : MonoBehaviour
             return;
 
         m_TargetWorldPos = Camera.main.transform.TransformDirection(m_TargetWorldPos);
+
         m_TargetWorldPos.y = 0;
-
-
         transform.Translate(m_TargetWorldPos.normalized  * MaxSpeed * Time.deltaTime);
 
 

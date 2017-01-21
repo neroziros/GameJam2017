@@ -11,7 +11,7 @@ public class PlayerShieldController : MonoBehaviour {
 
     public void UpdateShieldInput(InputInstance playerInput)
     {
-                // Generate new target
+        // Generate new target
         Vector3 m_TargetWorldPos = new Vector3(playerInput.HorizontalLook, 0, playerInput.VerticalLook);
 
         // Check if we must move
