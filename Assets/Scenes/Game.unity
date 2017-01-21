@@ -348,6 +348,8 @@ MonoBehaviour:
   - {fileID: 2111732646}
   - {fileID: 996377315}
   - {fileID: 1415466137}
+  - {fileID: 432876892}
+  - {fileID: 1488511607}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
   - e8b3dc90-0011-45ea-9c74-704268dc7cf5
@@ -368,6 +370,8 @@ MonoBehaviour:
   - 9aa94049-6c02-4f74-b5d5-21f1c9ea4e31
   - f53d99f5-dc67-411a-ab72-a2404fe1deb9
   - 6c8b01c7-69a4-4dba-b6b8-d46a06914d80
+  - 681c6dce-2aa3-4346-88ef-a53d4f9a5690
+  - df20fccd-0bdf-403d-b926-933eaddf0b75
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
 --- !u!4 &223164204
@@ -688,8 +692,8 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 893909371}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -741,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 893909371}
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
   m_LocalPosition: {x: -15.71, y: 9.68, z: -15.71}
-  m_LocalScale: {x: 45.225243, y: 45.225445, z: 45.225445}
+  m_LocalScale: {x: -20.156946, y: -20.157103, z: -40.691753}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

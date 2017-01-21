@@ -91,7 +91,6 @@ public class PlayerAbilityController : MonoBehaviour {
 
         // Reactivate shields
         Reset();
-
     }
 
     IEnumerator ExecuteFireColdown()

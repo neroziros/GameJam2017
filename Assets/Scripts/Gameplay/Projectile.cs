@@ -25,6 +25,12 @@ public class Projectile : MovableEntity
         isInitialized = true;
     }
 
+    public override void Kill()
+    {
+        StopCoroutine("UpdateLifetime");
+        base.Kill();
+    }
+
     /// <summary>
     /// Update this instance
     /// </summary>

@@ -18,7 +18,7 @@ Material:
     - first:
         name: _AlphaMask
       second:
-        m_Texture: {fileID: 2800000, guid: 6782523a596ff5442b2cdd8dc31989ba, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4929dbca138678b47bfa0a7969d49427, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -78,7 +78,7 @@ Material:
     - first:
         name: _Refraction
       second:
-        m_Texture: {fileID: 2800000, guid: b55ea5febdfb62647b3cba4366fb6737, type: 3}
+        m_Texture: {fileID: 2800000, guid: 71cac6ad110e9f04c95191b1baffac31, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

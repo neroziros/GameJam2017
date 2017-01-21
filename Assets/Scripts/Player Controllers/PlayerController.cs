@@ -142,33 +142,39 @@ public class PlayerController : MovableEntity
         // Deactivate unit
         this.gameObject.SetActive(false);
 
-        // Request player respawn
-        this.playerPresenter.RequestPlayerRespawn(this);
-
-        // Play sfx
-        GamePresenter.Instance.AudioPresenter.PlayCapturedHumanSFX();
+        // Destroy all his proyectiles
+        // todo:
     }
 
     #endregion
 
     #region Collisions
-    public void ReactGameplayCollision(Entity entity)
+    public void ReactGameplayCollision(Projectile projectile)
     {
         // Only react to the entity if it's alive
         if (!this.IsAlive || GamePresenter.Instance.CurrentMatchState != GamePresenter.State.Running)
             return;
-        
-        // todo:
+
+        // Safety check for stupid stuff
+        bool isSamePlayerAndNotEnoughBounces = this == projectile.OriginPlayer &&
+                                       projectile.currentBounceAmount <= 0;
+        if (isSamePlayerAndNotEnoughBounces)
+            return;
+
+        // Reduce player health point
+        this.DealDamage(1);
+
+        // Kill projectile
+        projectile.DealDamage(projectile.HitPoints);
     }
 
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (((1 << collision.collider.gameObject.layer) & this.GameplayLayerMask) != 0)
+        Projectile incomingProjectile = other.GetComponentInChildren<Projectile>();
+        if (incomingProjectile != null)
         {
-            // Check if it's an entity
-            Entity entity = collision.collider.GetComponent<Entity>();
-            if (entity != null)
-                this.ReactGameplayCollision(entity);
+            Vector3 collisionVector = (this.transform.position - other.transform.position).normalized;
+            ReactGameplayCollision(incomingProjectile);
         }
     }
 
