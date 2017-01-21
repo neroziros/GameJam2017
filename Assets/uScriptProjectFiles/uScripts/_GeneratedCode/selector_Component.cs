@@ -12,9 +12,11 @@ public class selector_Component : uScriptCode
    public selector ExposedVariables = new selector( ); 
    #pragma warning restore 414
    
-   public UnityEngine.GameObject play { get { return ExposedVariables.play; } set { ExposedVariables.play = value; } } 
    public UnityEngine.GameObject credit { get { return ExposedVariables.credit; } set { ExposedVariables.credit = value; } } 
+   public System.Single axis { get { return ExposedVariables.axis; } set { ExposedVariables.axis = value; } } 
+   public System.Single axis2 { get { return ExposedVariables.axis2; } set { ExposedVariables.axis2 = value; } } 
    public System.Int32 selectorVar { get { return ExposedVariables.selectorVar; } set { ExposedVariables.selectorVar = value; } } 
+   public UnityEngine.GameObject play { get { return ExposedVariables.play; } set { ExposedVariables.play = value; } } 
    
    void Awake( )
    {

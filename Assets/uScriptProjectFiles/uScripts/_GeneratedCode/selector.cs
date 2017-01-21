@@ -25,6 +25,8 @@ public class selector : uScriptLogic
    //external parameters
    
    //local nodes
+   public System.Single axis = (float) 0;
+   public System.Single axis2 = (float) 0;
    public UnityEngine.GameObject credit = default(UnityEngine.GameObject);
    UnityEngine.GameObject credit_previous = null;
    public UnityEngine.GameObject play = default(UnityEngine.GameObject);
@@ -75,53 +77,103 @@ public class selector : uScriptLogic
    System.Boolean logic_uScriptAct_Toggle_IgnoreChildren_11 = (bool) false;
    bool logic_uScriptAct_Toggle_Out_11 = true;
    //pointer to script instanced logic node
-   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_28 = new uScriptAct_OnInputEventFilter( );
-   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_28 = UnityEngine.KeyCode.A;
-   bool logic_uScriptAct_OnInputEventFilter_KeyDown_28 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_28 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyUp_28 = true;
+   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_17 = new uScriptCon_CompareInt( );
+   System.Int32 logic_uScriptCon_CompareInt_A_17 = (int) 0;
+   System.Int32 logic_uScriptCon_CompareInt_B_17 = (int) 2;
+   bool logic_uScriptCon_CompareInt_GreaterThan_17 = true;
+   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_17 = true;
+   bool logic_uScriptCon_CompareInt_EqualTo_17 = true;
+   bool logic_uScriptCon_CompareInt_NotEqualTo_17 = true;
+   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_17 = true;
+   bool logic_uScriptCon_CompareInt_LessThan_17 = true;
    //pointer to script instanced logic node
-   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_29 = new uScriptAct_OnInputEventFilter( );
-   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_29 = UnityEngine.KeyCode.S;
-   bool logic_uScriptAct_OnInputEventFilter_KeyDown_29 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_29 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyUp_29 = true;
+   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_18 = new uScriptAct_SetInt( );
+   System.Int32 logic_uScriptAct_SetInt_Value_18 = (int) 1;
+   System.Int32 logic_uScriptAct_SetInt_Target_18;
+   bool logic_uScriptAct_SetInt_Out_18 = true;
    //pointer to script instanced logic node
-   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_35 = new uScriptCon_CompareInt( );
-   System.Int32 logic_uScriptCon_CompareInt_A_35 = (int) 0;
-   System.Int32 logic_uScriptCon_CompareInt_B_35 = (int) 2;
-   bool logic_uScriptCon_CompareInt_GreaterThan_35 = true;
-   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_35 = true;
-   bool logic_uScriptCon_CompareInt_EqualTo_35 = true;
-   bool logic_uScriptCon_CompareInt_NotEqualTo_35 = true;
-   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_35 = true;
-   bool logic_uScriptCon_CompareInt_LessThan_35 = true;
+   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_19 = new uScriptAct_SetInt( );
+   System.Int32 logic_uScriptAct_SetInt_Value_19 = (int) 2;
+   System.Int32 logic_uScriptAct_SetInt_Target_19;
+   bool logic_uScriptAct_SetInt_Out_19 = true;
    //pointer to script instanced logic node
-   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_38 = new uScriptAct_SetInt( );
-   System.Int32 logic_uScriptAct_SetInt_Value_38 = (int) 1;
-   System.Int32 logic_uScriptAct_SetInt_Target_38;
-   bool logic_uScriptAct_SetInt_Out_38 = true;
+   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_21 = new uScriptCon_CompareInt( );
+   System.Int32 logic_uScriptCon_CompareInt_A_21 = (int) 0;
+   System.Int32 logic_uScriptCon_CompareInt_B_21 = (int) 1;
+   bool logic_uScriptCon_CompareInt_GreaterThan_21 = true;
+   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_21 = true;
+   bool logic_uScriptCon_CompareInt_EqualTo_21 = true;
+   bool logic_uScriptCon_CompareInt_NotEqualTo_21 = true;
+   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_21 = true;
+   bool logic_uScriptCon_CompareInt_LessThan_21 = true;
    //pointer to script instanced logic node
-   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_41 = new uScriptAct_SetInt( );
-   System.Int32 logic_uScriptAct_SetInt_Value_41 = (int) 2;
-   System.Int32 logic_uScriptAct_SetInt_Target_41;
-   bool logic_uScriptAct_SetInt_Out_41 = true;
+   uScriptAct_GetAxis logic_uScriptAct_GetAxis_uScriptAct_GetAxis_22 = new uScriptAct_GetAxis( );
+   System.String logic_uScriptAct_GetAxis_axisName_22 = "Vertical 1";
+   System.Single logic_uScriptAct_GetAxis_result_22;
+   System.Single logic_uScriptAct_GetAxis_rawResult_22;
+   bool logic_uScriptAct_GetAxis_Out_22 = true;
    //pointer to script instanced logic node
-   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_43 = new uScriptCon_CompareInt( );
-   System.Int32 logic_uScriptCon_CompareInt_A_43 = (int) 0;
-   System.Int32 logic_uScriptCon_CompareInt_B_43 = (int) 1;
-   bool logic_uScriptCon_CompareInt_GreaterThan_43 = true;
-   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_43 = true;
-   bool logic_uScriptCon_CompareInt_EqualTo_43 = true;
-   bool logic_uScriptCon_CompareInt_NotEqualTo_43 = true;
-   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_43 = true;
-   bool logic_uScriptCon_CompareInt_LessThan_43 = true;
+   uScriptAct_GetAxis logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24 = new uScriptAct_GetAxis( );
+   System.String logic_uScriptAct_GetAxis_axisName_24 = "Vertical 1";
+   System.Single logic_uScriptAct_GetAxis_result_24;
+   System.Single logic_uScriptAct_GetAxis_rawResult_24;
+   bool logic_uScriptAct_GetAxis_Out_24 = true;
+   //pointer to script instanced logic node
+   uScriptCon_CompareFloat logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_26 = new uScriptCon_CompareFloat( );
+   System.Single logic_uScriptCon_CompareFloat_A_26 = (float) 0;
+   System.Single logic_uScriptCon_CompareFloat_B_26 = (float) 0;
+   bool logic_uScriptCon_CompareFloat_GreaterThan_26 = true;
+   bool logic_uScriptCon_CompareFloat_GreaterThanOrEqualTo_26 = true;
+   bool logic_uScriptCon_CompareFloat_EqualTo_26 = true;
+   bool logic_uScriptCon_CompareFloat_NotEqualTo_26 = true;
+   bool logic_uScriptCon_CompareFloat_LessThanOrEqualTo_26 = true;
+   bool logic_uScriptCon_CompareFloat_LessThan_26 = true;
+   //pointer to script instanced logic node
+   uScriptCon_CompareFloat logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_27 = new uScriptCon_CompareFloat( );
+   System.Single logic_uScriptCon_CompareFloat_A_27 = (float) 0;
+   System.Single logic_uScriptCon_CompareFloat_B_27 = (float) 0;
+   bool logic_uScriptCon_CompareFloat_GreaterThan_27 = true;
+   bool logic_uScriptCon_CompareFloat_GreaterThanOrEqualTo_27 = true;
+   bool logic_uScriptCon_CompareFloat_EqualTo_27 = true;
+   bool logic_uScriptCon_CompareFloat_NotEqualTo_27 = true;
+   bool logic_uScriptCon_CompareFloat_LessThanOrEqualTo_27 = true;
+   bool logic_uScriptCon_CompareFloat_LessThan_27 = true;
+   //pointer to script instanced logic node
+   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_31 = new uScriptAct_OnInputEventFilter( );
+   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_31 = UnityEngine.KeyCode.JoystickButton1;
+   bool logic_uScriptAct_OnInputEventFilter_KeyDown_31 = true;
+   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_31 = true;
+   bool logic_uScriptAct_OnInputEventFilter_KeyUp_31 = true;
+   //pointer to script instanced logic node
+   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_33 = new uScriptCon_CompareInt( );
+   System.Int32 logic_uScriptCon_CompareInt_A_33 = (int) 2;
+   System.Int32 logic_uScriptCon_CompareInt_B_33 = (int) 0;
+   bool logic_uScriptCon_CompareInt_GreaterThan_33 = true;
+   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_33 = true;
+   bool logic_uScriptCon_CompareInt_EqualTo_33 = true;
+   bool logic_uScriptCon_CompareInt_NotEqualTo_33 = true;
+   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_33 = true;
+   bool logic_uScriptCon_CompareInt_LessThan_33 = true;
+   //pointer to script instanced logic node
+   public uScriptAct_LoadLevel load = new uScriptAct_LoadLevel( );
+   System.String logic_uScriptAct_LoadLevel_name_34 = "Game";
+   System.Boolean logic_uScriptAct_LoadLevel_destroyOtherObjects_34 = (bool) true;
+   System.Boolean logic_uScriptAct_LoadLevel_blockUntilLoaded_34 = (bool) true;
+   bool logic_uScriptAct_LoadLevel_Out_34 = true;
+   //pointer to script instanced logic node
+   uScriptAct_Destroy logic_uScriptAct_Destroy_uScriptAct_Destroy_35 = new uScriptAct_Destroy( );
+   UnityEngine.GameObject[] logic_uScriptAct_Destroy_Target_35 = new UnityEngine.GameObject[] {};
+   System.Single logic_uScriptAct_Destroy_DelayTime_35 = (float) 0;
+   bool logic_uScriptAct_Destroy_Out_35 = true;
+   bool logic_uScriptAct_Destroy_ObjectsDestroyed_35 = true;
+   bool logic_uScriptAct_Destroy_WaitOneTick_35 = false;
    
    //event nodes
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_0 = default(UnityEngine.GameObject);
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_10 = default(UnityEngine.GameObject);
+   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_28 = default(UnityEngine.GameObject);
+   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_29 = default(UnityEngine.GameObject);
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_30 = default(UnityEngine.GameObject);
-   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_32 = default(UnityEngine.GameObject);
    
    //property nodes
    
@@ -133,19 +185,6 @@ public class selector : uScriptLogic
    void SyncUnityHooks( )
    {
       SyncEventListeners( );
-      if ( null == play || false == m_RegisteredForEvents )
-      {
-         play = GameObject.Find( "selectPlay" ) as UnityEngine.GameObject;
-      }
-      //if our game object reference was changed then we need to reset event listeners
-      if ( play_previous != play || false == m_RegisteredForEvents )
-      {
-         //tear down old listeners
-         
-         play_previous = play;
-         
-         //setup new listeners
-      }
       if ( null == credit || false == m_RegisteredForEvents )
       {
          credit = GameObject.Find( "selectCredits" ) as UnityEngine.GameObject;
@@ -159,11 +198,10 @@ public class selector : uScriptLogic
          
          //setup new listeners
       }
-   }
-   
-   void RegisterForUnityHooks( )
-   {
-      SyncEventListeners( );
+      if ( null == play || false == m_RegisteredForEvents )
+      {
+         play = GameObject.Find( "selectPlay" ) as UnityEngine.GameObject;
+      }
       //if our game object reference was changed then we need to reset event listeners
       if ( play_previous != play || false == m_RegisteredForEvents )
       {
@@ -173,12 +211,26 @@ public class selector : uScriptLogic
          
          //setup new listeners
       }
+   }
+   
+   void RegisterForUnityHooks( )
+   {
+      SyncEventListeners( );
       //if our game object reference was changed then we need to reset event listeners
       if ( credit_previous != credit || false == m_RegisteredForEvents )
       {
          //tear down old listeners
          
          credit_previous = credit;
+         
+         //setup new listeners
+      }
+      //if our game object reference was changed then we need to reset event listeners
+      if ( play_previous != play || false == m_RegisteredForEvents )
+      {
+         //tear down old listeners
+         
+         play_previous = play;
          
          //setup new listeners
       }
@@ -226,6 +278,46 @@ public class selector : uScriptLogic
             }
          }
       }
+      if ( null == event_UnityEngine_GameObject_Instance_28 || false == m_RegisteredForEvents )
+      {
+         event_UnityEngine_GameObject_Instance_28 = uScript_MasterComponent.LatestMaster;
+         if ( null != event_UnityEngine_GameObject_Instance_28 )
+         {
+            {
+               uScript_Update component = event_UnityEngine_GameObject_Instance_28.GetComponent<uScript_Update>();
+               if ( null == component )
+               {
+                  component = event_UnityEngine_GameObject_Instance_28.AddComponent<uScript_Update>();
+               }
+               if ( null != component )
+               {
+                  component.OnUpdate += Instance_OnUpdate_28;
+                  component.OnLateUpdate += Instance_OnLateUpdate_28;
+                  component.OnFixedUpdate += Instance_OnFixedUpdate_28;
+               }
+            }
+         }
+      }
+      if ( null == event_UnityEngine_GameObject_Instance_29 || false == m_RegisteredForEvents )
+      {
+         event_UnityEngine_GameObject_Instance_29 = uScript_MasterComponent.LatestMaster;
+         if ( null != event_UnityEngine_GameObject_Instance_29 )
+         {
+            {
+               uScript_Update component = event_UnityEngine_GameObject_Instance_29.GetComponent<uScript_Update>();
+               if ( null == component )
+               {
+                  component = event_UnityEngine_GameObject_Instance_29.AddComponent<uScript_Update>();
+               }
+               if ( null != component )
+               {
+                  component.OnUpdate += Instance_OnUpdate_29;
+                  component.OnLateUpdate += Instance_OnLateUpdate_29;
+                  component.OnFixedUpdate += Instance_OnFixedUpdate_29;
+               }
+            }
+         }
+      }
       if ( null == event_UnityEngine_GameObject_Instance_30 || false == m_RegisteredForEvents )
       {
          event_UnityEngine_GameObject_Instance_30 = uScript_MasterComponent.LatestMaster;
@@ -240,24 +332,6 @@ public class selector : uScriptLogic
                if ( null != component )
                {
                   component.KeyEvent += Instance_KeyEvent_30;
-               }
-            }
-         }
-      }
-      if ( null == event_UnityEngine_GameObject_Instance_32 || false == m_RegisteredForEvents )
-      {
-         event_UnityEngine_GameObject_Instance_32 = uScript_MasterComponent.LatestMaster;
-         if ( null != event_UnityEngine_GameObject_Instance_32 )
-         {
-            {
-               uScript_Input component = event_UnityEngine_GameObject_Instance_32.GetComponent<uScript_Input>();
-               if ( null == component )
-               {
-                  component = event_UnityEngine_GameObject_Instance_32.AddComponent<uScript_Input>();
-               }
-               if ( null != component )
-               {
-                  component.KeyEvent += Instance_KeyEvent_32;
                }
             }
          }
@@ -290,6 +364,30 @@ public class selector : uScriptLogic
             }
          }
       }
+      if ( null != event_UnityEngine_GameObject_Instance_28 )
+      {
+         {
+            uScript_Update component = event_UnityEngine_GameObject_Instance_28.GetComponent<uScript_Update>();
+            if ( null != component )
+            {
+               component.OnUpdate -= Instance_OnUpdate_28;
+               component.OnLateUpdate -= Instance_OnLateUpdate_28;
+               component.OnFixedUpdate -= Instance_OnFixedUpdate_28;
+            }
+         }
+      }
+      if ( null != event_UnityEngine_GameObject_Instance_29 )
+      {
+         {
+            uScript_Update component = event_UnityEngine_GameObject_Instance_29.GetComponent<uScript_Update>();
+            if ( null != component )
+            {
+               component.OnUpdate -= Instance_OnUpdate_29;
+               component.OnLateUpdate -= Instance_OnLateUpdate_29;
+               component.OnFixedUpdate -= Instance_OnFixedUpdate_29;
+            }
+         }
+      }
       if ( null != event_UnityEngine_GameObject_Instance_30 )
       {
          {
@@ -297,16 +395,6 @@ public class selector : uScriptLogic
             if ( null != component )
             {
                component.KeyEvent -= Instance_KeyEvent_30;
-            }
-         }
-      }
-      if ( null != event_UnityEngine_GameObject_Instance_32 )
-      {
-         {
-            uScript_Input component = event_UnityEngine_GameObject_Instance_32.GetComponent<uScript_Input>();
-            if ( null != component )
-            {
-               component.KeyEvent -= Instance_KeyEvent_32;
             }
          }
       }
@@ -322,12 +410,18 @@ public class selector : uScriptLogic
       logic_uScriptCon_CompareInt_uScriptCon_CompareInt_8.SetParent(g);
       logic_uScriptAct_Toggle_uScriptAct_Toggle_9.SetParent(g);
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.SetParent(g);
-      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_28.SetParent(g);
-      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_29.SetParent(g);
-      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_35.SetParent(g);
-      logic_uScriptAct_SetInt_uScriptAct_SetInt_38.SetParent(g);
-      logic_uScriptAct_SetInt_uScriptAct_SetInt_41.SetParent(g);
-      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_43.SetParent(g);
+      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_17.SetParent(g);
+      logic_uScriptAct_SetInt_uScriptAct_SetInt_18.SetParent(g);
+      logic_uScriptAct_SetInt_uScriptAct_SetInt_19.SetParent(g);
+      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_21.SetParent(g);
+      logic_uScriptAct_GetAxis_uScriptAct_GetAxis_22.SetParent(g);
+      logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24.SetParent(g);
+      logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_26.SetParent(g);
+      logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_27.SetParent(g);
+      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_31.SetParent(g);
+      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_33.SetParent(g);
+      load.SetParent(g);
+      logic_uScriptAct_Destroy_uScriptAct_Destroy_35.SetParent(g);
    }
    public void Awake()
    {
@@ -344,6 +438,7 @@ public class selector : uScriptLogic
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.OnOut += uScriptAct_Toggle_OnOut_11;
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.OffOut += uScriptAct_Toggle_OffOut_11;
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.ToggleOut += uScriptAct_Toggle_ToggleOut_11;
+      load.Loaded += uScriptAct_LoadLevel_Loaded_34;
    }
    
    public void Start()
@@ -385,6 +480,11 @@ public class selector : uScriptLogic
       //so we need to verify all our event listeners are registered
       SyncEventListeners( );
       
+      load.Update( );
+      if (true == logic_uScriptAct_Destroy_WaitOneTick_35)
+      {
+         Relay_WaitOneTick_35();
+      }
    }
    
    public void OnDestroy()
@@ -401,6 +501,7 @@ public class selector : uScriptLogic
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.OnOut -= uScriptAct_Toggle_OnOut_11;
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.OffOut -= uScriptAct_Toggle_OffOut_11;
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.ToggleOut -= uScriptAct_Toggle_ToggleOut_11;
+      load.Loaded -= uScriptAct_LoadLevel_Loaded_34;
    }
    
    void Instance_OnUpdate_0(object o, System.EventArgs e)
@@ -475,6 +576,78 @@ public class selector : uScriptLogic
       Relay_OnFixedUpdate_10( );
    }
    
+   void Instance_OnUpdate_28(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_OnUpdate_28( );
+   }
+   
+   void Instance_OnLateUpdate_28(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_OnLateUpdate_28( );
+   }
+   
+   void Instance_OnFixedUpdate_28(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_OnFixedUpdate_28( );
+   }
+   
+   void Instance_OnUpdate_29(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_OnUpdate_29( );
+   }
+   
+   void Instance_OnLateUpdate_29(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_OnLateUpdate_29( );
+   }
+   
+   void Instance_OnFixedUpdate_29(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_OnFixedUpdate_29( );
+   }
+   
    void Instance_KeyEvent_30(object o, System.EventArgs e)
    {
       //reset event call
@@ -485,18 +658,6 @@ public class selector : uScriptLogic
       //fill globals
       //relay event to nodes
       Relay_KeyEvent_30( );
-   }
-   
-   void Instance_KeyEvent_32(object o, System.EventArgs e)
-   {
-      //reset event call
-      //if it ever goes above MaxRelayCallCount before being reset
-      //then we assume it is stuck in an infinite loop
-      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
-      
-      //fill globals
-      //relay event to nodes
-      Relay_KeyEvent_32( );
    }
    
    void uScriptAct_Toggle_OnOut_6(object o, System.EventArgs e)
@@ -581,6 +742,13 @@ public class selector : uScriptLogic
       //fill globals
       //relay event to nodes
       Relay_ToggleOut_11( );
+   }
+   
+   void uScriptAct_LoadLevel_Loaded_34(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_Loaded_34( );
    }
    
    void Relay_OnUpdate_0()
@@ -1299,180 +1467,448 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_In_28()
+   void Relay_In_17()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("f8d3200e-dcac-4a0c-bbfa-e00eaa5e11d6", "Input_Events_Filter", Relay_In_28)) return; 
+         if (true == CheckDebugBreak("09d02581-a996-40c6-b4eb-8c9a032bc0f6", "Compare_Int", Relay_In_17)) return; 
+         {
+            {
+               logic_uScriptCon_CompareInt_A_17 = selectorVar;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_17.In(logic_uScriptCon_CompareInt_A_17, logic_uScriptCon_CompareInt_B_17);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_17.EqualTo;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_18();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_18()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("fa22a4d9-f245-4e49-b37d-6167ce3105df", "Set_Int", Relay_In_18)) return; 
+         {
+            {
+            }
+            {
+            }
+         }
+         logic_uScriptAct_SetInt_uScriptAct_SetInt_18.In(logic_uScriptAct_SetInt_Value_18, out logic_uScriptAct_SetInt_Target_18);
+         selectorVar = logic_uScriptAct_SetInt_Target_18;
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Set Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_19()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("bfa5f1fe-7008-4ad3-933d-1228ba9ce38c", "Set_Int", Relay_In_19)) return; 
+         {
+            {
+            }
+            {
+            }
+         }
+         logic_uScriptAct_SetInt_uScriptAct_SetInt_19.In(logic_uScriptAct_SetInt_Value_19, out logic_uScriptAct_SetInt_Target_19);
+         selectorVar = logic_uScriptAct_SetInt_Target_19;
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Set Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_21()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("3ca8e3d4-ee3b-48c9-bab1-e07e81d0d5bf", "Compare_Int", Relay_In_21)) return; 
+         {
+            {
+               logic_uScriptCon_CompareInt_A_21 = selectorVar;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_21.In(logic_uScriptCon_CompareInt_A_21, logic_uScriptCon_CompareInt_B_21);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_21.EqualTo;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_19();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_22()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("08eb620e-f963-49fb-aff8-cac91caf025a", "Get_Axis", Relay_In_22)) return; 
+         {
+            {
+            }
+            {
+            }
+            {
+            }
+         }
+         logic_uScriptAct_GetAxis_uScriptAct_GetAxis_22.In(logic_uScriptAct_GetAxis_axisName_22, out logic_uScriptAct_GetAxis_result_22, out logic_uScriptAct_GetAxis_rawResult_22);
+         axis = logic_uScriptAct_GetAxis_result_22;
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_GetAxis_uScriptAct_GetAxis_22.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_27();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Get Axis.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_24()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("03a09ab8-5aed-426f-ab5a-02c2b5a7d471", "Get_Axis", Relay_In_24)) return; 
+         {
+            {
+            }
+            {
+            }
+            {
+            }
+         }
+         logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24.In(logic_uScriptAct_GetAxis_axisName_24, out logic_uScriptAct_GetAxis_result_24, out logic_uScriptAct_GetAxis_rawResult_24);
+         axis2 = logic_uScriptAct_GetAxis_result_24;
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_26();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Get Axis.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_26()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("9312ec8a-38c3-4cc9-b76e-19e1b201233f", "Compare_Float", Relay_In_26)) return; 
+         {
+            {
+               logic_uScriptCon_CompareFloat_A_26 = axis2;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_26.In(logic_uScriptCon_CompareFloat_A_26, logic_uScriptCon_CompareFloat_B_26);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_26.GreaterThan;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_21();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Float.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_27()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("11ddfa13-4ceb-4dbf-aae2-a10394f98df9", "Compare_Float", Relay_In_27)) return; 
+         {
+            {
+               logic_uScriptCon_CompareFloat_A_27 = axis;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_27.In(logic_uScriptCon_CompareFloat_A_27, logic_uScriptCon_CompareFloat_B_27);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptCon_CompareFloat_uScriptCon_CompareFloat_27.LessThan;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_17();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Float.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_OnUpdate_28()
+   {
+      if (true == CheckDebugBreak("1cb20517-5a34-42ee-856c-a0c92381c0cf", "Global_Update", Relay_OnUpdate_28)) return; 
+      Relay_In_22();
+   }
+   
+   void Relay_OnLateUpdate_28()
+   {
+      if (true == CheckDebugBreak("1cb20517-5a34-42ee-856c-a0c92381c0cf", "Global_Update", Relay_OnLateUpdate_28)) return; 
+   }
+   
+   void Relay_OnFixedUpdate_28()
+   {
+      if (true == CheckDebugBreak("1cb20517-5a34-42ee-856c-a0c92381c0cf", "Global_Update", Relay_OnFixedUpdate_28)) return; 
+   }
+   
+   void Relay_OnUpdate_29()
+   {
+      if (true == CheckDebugBreak("52280efc-fc5c-48c0-a1ed-879af7632eeb", "Global_Update", Relay_OnUpdate_29)) return; 
+      Relay_In_24();
+   }
+   
+   void Relay_OnLateUpdate_29()
+   {
+      if (true == CheckDebugBreak("52280efc-fc5c-48c0-a1ed-879af7632eeb", "Global_Update", Relay_OnLateUpdate_29)) return; 
+   }
+   
+   void Relay_OnFixedUpdate_29()
+   {
+      if (true == CheckDebugBreak("52280efc-fc5c-48c0-a1ed-879af7632eeb", "Global_Update", Relay_OnFixedUpdate_29)) return; 
+   }
+   
+   void Relay_KeyEvent_30()
+   {
+      if (true == CheckDebugBreak("66433aa8-5763-4943-b4d3-8282c58b37f0", "Input_Events", Relay_KeyEvent_30)) return; 
+      Relay_In_31();
+   }
+   
+   void Relay_In_31()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("87c1cce4-90b1-40e3-8200-3427af6855a2", "Input_Events_Filter", Relay_In_31)) return; 
          {
             {
             }
          }
-         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_28.In(logic_uScriptAct_OnInputEventFilter_KeyCode_28);
+         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_31.In(logic_uScriptAct_OnInputEventFilter_KeyCode_31);
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_28.KeyDown;
+         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_31.KeyDown;
          
          if ( test_0 == true )
          {
+            Relay_In_33();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Input Events Filter.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_In_33()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("1d2cad76-c3f2-4c8d-9f70-1cdbd3eafb0f", "Compare_Int", Relay_In_33)) return; 
+         {
+            {
+            }
+            {
+               logic_uScriptCon_CompareInt_B_33 = selectorVar;
+               
+            }
+         }
+         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_33.In(logic_uScriptCon_CompareInt_A_33, logic_uScriptCon_CompareInt_B_33);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_33.EqualTo;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_34();
             Relay_In_35();
          }
       }
       else
       {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Input Events Filter.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
       }
    }
    
-   void Relay_In_29()
+   void Relay_Loaded_34()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("201ece82-9240-4432-9dd2-1406879ab5b0", "Input_Events_Filter", Relay_In_29)) return; 
-         {
-            {
-            }
-         }
-         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_29.In(logic_uScriptAct_OnInputEventFilter_KeyCode_29);
-         
-         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_29.KeyDown;
-         
-         if ( test_0 == true )
-         {
-            Relay_In_43();
-         }
+         if (true == CheckDebugBreak("fae72615-f1ab-4726-a9eb-b955bf529578", "Load_Level", Relay_Loaded_34)) return; 
       }
       else
       {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Input Events Filter.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Load Level.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
       }
    }
    
-   void Relay_KeyEvent_30()
+   void Relay_In_34()
    {
-      if (true == CheckDebugBreak("e68d9981-6d8a-421a-9a6c-fae41aa20d74", "Input_Events", Relay_KeyEvent_30)) return; 
-      Relay_In_28();
-   }
-   
-   void Relay_KeyEvent_32()
-   {
-      if (true == CheckDebugBreak("48091c20-0b38-433e-9ee5-99bd3e3702c1", "Input_Events", Relay_KeyEvent_32)) return; 
-      Relay_In_29();
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("fae72615-f1ab-4726-a9eb-b955bf529578", "Load_Level", Relay_In_34)) return; 
+         {
+            {
+            }
+            {
+            }
+            {
+            }
+         }
+         load.In(logic_uScriptAct_LoadLevel_name_34, logic_uScriptAct_LoadLevel_destroyOtherObjects_34, logic_uScriptAct_LoadLevel_blockUntilLoaded_34);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Load Level.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
    }
    
    void Relay_In_35()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("09d02581-a996-40c6-b4eb-8c9a032bc0f6", "Compare_Int", Relay_In_35)) return; 
+         if (true == CheckDebugBreak("bd90408d-595f-4488-87f6-f91fe6cb2daa", "Destroy", Relay_In_35)) return; 
          {
             {
-               logic_uScriptCon_CompareInt_A_35 = selectorVar;
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( play_previous != play || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     play_previous = play;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Destroy_Target_35.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Destroy_Target_35, index + 1);
+               }
+               logic_uScriptAct_Destroy_Target_35[ index++ ] = play;
                
             }
             {
             }
          }
-         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_35.In(logic_uScriptCon_CompareInt_A_35, logic_uScriptCon_CompareInt_B_35);
-         
-         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_35.EqualTo;
-         
-         if ( test_0 == true )
-         {
-            Relay_In_38();
-         }
-      }
-      else
-      {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
-      }
-   }
-   
-   void Relay_In_38()
-   {
-      if ( relayCallCount++ < MaxRelayCallCount )
-      {
-         if (true == CheckDebugBreak("fa22a4d9-f245-4e49-b37d-6167ce3105df", "Set_Int", Relay_In_38)) return; 
-         {
-            {
-            }
-            {
-            }
-         }
-         logic_uScriptAct_SetInt_uScriptAct_SetInt_38.In(logic_uScriptAct_SetInt_Value_38, out logic_uScriptAct_SetInt_Target_38);
-         selectorVar = logic_uScriptAct_SetInt_Target_38;
+         logic_uScriptAct_Destroy_uScriptAct_Destroy_35.In(logic_uScriptAct_Destroy_Target_35, logic_uScriptAct_Destroy_DelayTime_35);
+         logic_uScriptAct_Destroy_WaitOneTick_35 = true;
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
          
       }
       else
       {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Set Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Destroy.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
       }
    }
    
-   void Relay_In_41()
+   void Relay_WaitOneTick_35( )
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("bfa5f1fe-7008-4ad3-933d-1228ba9ce38c", "Set_Int", Relay_In_41)) return; 
          {
             {
-            }
-            {
-            }
-         }
-         logic_uScriptAct_SetInt_uScriptAct_SetInt_41.In(logic_uScriptAct_SetInt_Value_41, out logic_uScriptAct_SetInt_Target_41);
-         selectorVar = logic_uScriptAct_SetInt_Target_41;
-         
-         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         
-      }
-      else
-      {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Set Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
-      }
-   }
-   
-   void Relay_In_43()
-   {
-      if ( relayCallCount++ < MaxRelayCallCount )
-      {
-         if (true == CheckDebugBreak("3ca8e3d4-ee3b-48c9-bab1-e07e81d0d5bf", "Compare_Int", Relay_In_43)) return; 
-         {
-            {
-               logic_uScriptCon_CompareInt_A_43 = selectorVar;
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( play_previous != play || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     play_previous = play;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Destroy_Target_35.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Destroy_Target_35, index + 1);
+               }
+               logic_uScriptAct_Destroy_Target_35[ index++ ] = play;
                
             }
             {
             }
          }
-         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_43.In(logic_uScriptCon_CompareInt_A_43, logic_uScriptCon_CompareInt_B_43);
-         
-         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_43.EqualTo;
-         
-         if ( test_0 == true )
+         logic_uScriptAct_Destroy_WaitOneTick_35 = logic_uScriptAct_Destroy_uScriptAct_Destroy_35.WaitOneTick();
+         if ( true == logic_uScriptAct_Destroy_WaitOneTick_35 )
          {
-            Relay_In_41();
          }
       }
       else
       {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Compare Int.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Destroy.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
       }
    }
-   
    private void UpdateEditorValues( )
    {
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:play", play);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "9036281d-c596-4e32-8f30-bd5283aa9f73", play);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:credit", credit);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "4c0db4c2-f507-496e-8584-fdd4d71ed0ed", credit);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:axis", axis);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "3e1f6fc4-5054-49e1-83a7-981a509b4515", axis);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:axis2", axis2);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "cb811044-40c8-486d-a5de-9501cb6a7261", axis2);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:selectorVar", selectorVar);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "324d3d2c-1a8f-473e-b3c4-9b03e043ffe2", selectorVar);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "f80df78f-def3-4e5e-90e4-a4e3ce0c680a", selectorVar);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:play", play);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "2cd2dfa3-6b98-43d8-8860-393f4d93a6ab", play);
    }
    bool CheckDebugBreak(string guid, string name, ContinueExecution method)
    {
