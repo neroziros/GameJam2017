@@ -119,8 +119,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1869499032821700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.22}
-  m_LocalScale: {x: 1, y: 2.0437999, z: 0.11660959}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 4820772708696252}
   m_RootOrder: 0
@@ -237,7 +237,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1869499032821700}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -254,6 +254,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShieldObject: {fileID: 1869499032821700}
+  minScale: {x: 1, y: 0.5, z: 0.1}
+  maxScale: {x: 1, y: 2, z: 0.1}
 --- !u!114 &114189502316996758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -309,9 +311,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ProjectilePrefab: {fileID: 114213390144860780, guid: feedfd8983ef4e5428c317867e575bfc,
     type: 2}
+  FireColdown: 1
   MaxProjectileBounces: 10
-  MaxProjectileSpeed: 10
-  ChargingSpeed: 1
+  MinProjectileSpeed: 5
+  MaxProjectileSpeed: 60
+  ChargingSpeed: 2
   MaxProjectileLevel: 5
   currentProjectileLevel: 0
 --- !u!114 &114516760722634472

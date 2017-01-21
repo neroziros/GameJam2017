@@ -6,11 +6,20 @@ public class Projectile : MovableEntity
 {
     // Core parameters
     public float LifeTime = 30.0f;
+    private bool isInitialized = false;
 
-    public void Initialize()
+    private float movementSpeed;
+
+    public void Initialize(float speed)
     {
-        //  Start lifetime
+        // Set control parameters
+        movementSpeed = speed;
+
+        // Start lifetime
         StartCoroutine("UpdateLifetime");
+
+        // Mark initialization finished
+        isInitialized = true;
     }
 
     /// <summary>
@@ -18,7 +27,10 @@ public class Projectile : MovableEntity
     /// </summary>
     private void Update()
     {
-        
+        if(!isInitialized)return;
+
+        transform.position += transform.forward * Time.deltaTime * movementSpeed;
+
     }
 
     IEnumerator UpdateLifetime()

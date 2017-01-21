@@ -6,7 +6,8 @@ public class PlayerShieldController : MonoBehaviour
 {
     // Core parameters
     public GameObject ShieldObject;
-
+    public Vector3 minScale = Vector3.one * 0.5f;
+    public Vector3 maxScale = Vector3.one;
     public void Initialize(PlayerController playerController)
     {
         
@@ -14,7 +15,7 @@ public class PlayerShieldController : MonoBehaviour
 
     public void ManageShields(bool state)
     {
-        //todo:
+        ShieldObject.transform.localScale = state ? maxScale : minScale;
     }
 
     public void UpdateShieldInput(InputInstance playerInput)

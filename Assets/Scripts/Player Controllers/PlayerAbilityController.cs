@@ -11,6 +11,7 @@ public class PlayerAbilityController : MonoBehaviour {
     public float FireColdown = 1.0f;
     private bool inColdown = false;
     public int MaxProjectileBounces = 10;
+    public float MinProjectileSpeed = 5.0f;
     public float MaxProjectileSpeed = 10.0f;
 
     // Charging parameters
@@ -68,16 +69,16 @@ public class PlayerAbilityController : MonoBehaviour {
 
     private void FireProjectile()
     {
-        // Reactivate shields
-        Reset();
-
         // Fire projectile
         Projectile newProjectile = Instantiate(ProjectilePrefab.gameObject,
             playerController.ShieldController.ShieldObject.transform.position,
             playerController.ShieldController.ShieldObject.transform.rotation).GetComponent<Projectile>();
 
+        // Get target values
+        float targetSpeed = Mathf.Lerp(MinProjectileSpeed, MaxProjectileSpeed, currentProjectileLevel/MaxProjectileSpeed);
+
         // Initialize projectile
-        newProjectile.Initialize();
+        newProjectile.Initialize(targetSpeed);
 
         // Remove null objects
         currentProjectileList.RemoveAll(item => item == null);
@@ -87,6 +88,10 @@ public class PlayerAbilityController : MonoBehaviour {
 
         // Start coldown
         StartCoroutine("ExecuteFireColdown");
+
+        // Reactivate shields
+        Reset();
+
     }
 
     IEnumerator ExecuteFireColdown()
