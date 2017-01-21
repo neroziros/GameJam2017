@@ -337,6 +337,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c4b6dc4aaaad14a8a4c3d62d5f9398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &672783116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1645089201, guid: 1931d1af87bd7d94e99fcfbe04afc029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UndoNumber: 18
 --- !u!1 &771892414
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,18 +573,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &882945495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1645089201, guid: 1931d1af87bd7d94e99fcfbe04afc029, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UndoNumber: 80
 --- !u!1 &905004512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UseAsMaster: 0
-  undoObjectReference: {fileID: 882945495}
+  undoObjectReference: {fileID: 672783116}
   m_Breakpoints: []
   CurrentBreakpoint: 
   GameObjects:
