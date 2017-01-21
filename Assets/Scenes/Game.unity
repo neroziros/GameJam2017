@@ -148,7 +148,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 42679234}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -3.2983294, y: 7.40664, z: -8.443267}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2111732647}
@@ -346,8 +346,6 @@ MonoBehaviour:
   - {fileID: 1668460955}
   - {fileID: 2029630803}
   - {fileID: 2111732646}
-  - {fileID: 0}
-  - {fileID: 0}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
   - e8b3dc90-0011-45ea-9c74-704268dc7cf5
@@ -366,8 +364,6 @@ MonoBehaviour:
   - 283ce966-02e5-4499-95e0-3c54d663729b
   - 34e5eb95-4aac-4614-a17b-b3e05b227d03
   - 9aa94049-6c02-4f74-b5d5-21f1c9ea4e31
-  - 1131580c-3cb9-4890-af91-41c7e4e5cecb
-  - 739c8ddd-99cc-40e3-9ad2-0653988c08c2
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
 --- !u!4 &223164204

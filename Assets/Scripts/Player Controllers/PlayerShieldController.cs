@@ -8,9 +8,14 @@ public class PlayerShieldController : MonoBehaviour
     public GameObject ShieldObject;
     public Vector3 minScale = Vector3.one * 0.5f;
     public Vector3 maxScale = Vector3.one;
+
+    // Core references
+    private PlayerController controller;
+
     public void Initialize(PlayerController playerController)
     {
-        
+        // Store core components
+        controller = playerController;
     }
 
     public void ManageShields(bool state)
@@ -30,6 +35,30 @@ public class PlayerShieldController : MonoBehaviour
         m_TargetWorldPos = Camera.main.transform.TransformDirection(m_TargetWorldPos);
         m_TargetWorldPos.y = 0;
 
-        transform.rotation = Quaternion.LookRotation(m_TargetWorldPos);
+        transform.parent.rotation = Quaternion.LookRotation(m_TargetWorldPos);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Projectile incomingProjectile = other.GetComponentInChildren<Projectile>();
+        if (incomingProjectile != null)
+        {
+            bool isSamePlayerAndNotEnoughBounces = controller == incomingProjectile.OriginPlayer &&
+                                                   incomingProjectile.currentBounceAmount <= 0;
+            if (!isSamePlayerAndNotEnoughBounces)
+            {
+                Vector3 collisionVector = (this.transform.position - other.transform.position).normalized;
+                ProcessIncomingProjectile(incomingProjectile);
+            }
+        }
+    }
+
+    private void ProcessIncomingProjectile(Projectile projectile)
+    {
+        // Execute damage to missile
+        projectile.DealDamage(1);
+
+        // If it is still alive, bounce the object
+        // todo:
     }
 }

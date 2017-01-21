@@ -6,13 +6,18 @@ public class Projectile : MovableEntity
 {
     // Core parameters
     public float LifeTime = 30.0f;
-    private bool isInitialized = false;
+    [System.NonSerialized]
+    public PlayerController OriginPlayer;
 
+    public int currentBounceAmount = 0;
+
+    private bool isInitialized = false;
     private float movementSpeed;
 
-    public void Initialize(float speed)
+    public void Initialize(PlayerController controller, float speed)
     {
         // Set control parameters
+        OriginPlayer = controller;
         movementSpeed = speed;
 
         // Start lifetime

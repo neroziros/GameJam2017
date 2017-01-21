@@ -78,7 +78,7 @@ public class PlayerAbilityController : MonoBehaviour {
         float targetSpeed = Mathf.Lerp(MinProjectileSpeed, MaxProjectileSpeed, currentProjectileLevel/MaxProjectileSpeed);
 
         // Initialize projectile
-        newProjectile.Initialize(targetSpeed);
+        newProjectile.Initialize(playerController,targetSpeed);
 
         // Remove null objects
         currentProjectileList.RemoveAll(item => item == null);
