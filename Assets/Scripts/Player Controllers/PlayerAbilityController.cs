@@ -32,7 +32,7 @@ public class PlayerAbilityController : MonoBehaviour {
 
     public void UpdatePlayerAbility(InputInstance playerInput)
     {
-        // todo: change this to consider player status
+        // Fire projectile
         if (!inColdown && playerController.CanFire)
         {
             // Charge projectile
