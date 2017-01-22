@@ -353,9 +353,125 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1088170588214796, guid: 3e46b09a0cfafc14c9ced0270fe33253, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114389511130993890, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a5e401f94638c3846a7de843d1d8df5d,
+        type: 3}
+    - target: {fileID: 114799660670887354, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e0cf1302a2fdd1d4e8766065884e3235,
+        type: 3}
+    - target: {fileID: 114412896068123104, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d128166cdb3e61498872a286a8739c3,
+        type: 3}
+    - target: {fileID: 114343232024534038, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0942f8b13276f174e8ff4ac500e97353,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e46b09a0cfafc14c9ced0270fe33253, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &38789988 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1685082837472778, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+    type: 2}
+  m_PrefabInternal: {fileID: 38789987}
+--- !u!1 &38789989 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1176126697191592, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+    type: 2}
+  m_PrefabInternal: {fileID: 38789987}
+--- !u!1 &38789990 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1404459916280428, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+    type: 2}
+  m_PrefabInternal: {fileID: 38789987}
+--- !u!1 &38789991 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1575904964264450, guid: 3e46b09a0cfafc14c9ced0270fe33253,
+    type: 2}
+  m_PrefabInternal: {fileID: 38789987}
+--- !u!95 &38789992
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 38789988}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 644e98b214ee51e419d6ccfb054bd223, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &38789993
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 38789989}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2c4882f78beb7194d8e4efb4171ab90f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &38789994
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 38789990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1e9f3b12f8abbc343980d7bacebbe343, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &38789995
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 38789991}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b060645751c8b044283fe5c0380cb090, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &42679234
 GameObject:
   m_ObjectHideFlags: 0
