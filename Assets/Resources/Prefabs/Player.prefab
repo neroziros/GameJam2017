@@ -884,9 +884,9 @@ MonoBehaviour:
   currentBounceAmount: 0
   PlayerId: 0
   PlayerAvatarControllers:
-  - {fileID: 114836364910118694}
-  - {fileID: 114057496467056848}
   - {fileID: 114647344855935354}
+  - {fileID: 114057496467056848}
+  - {fileID: 114836364910118694}
   - {fileID: 114273899003093698}
   GameplayLayerMask:
     serializedVersion: 2
