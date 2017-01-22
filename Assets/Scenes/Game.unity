@@ -1554,7 +1554,6 @@ MonoBehaviour:
   - {fileID: 38789991}
   - {fileID: 38789990}
   - {fileID: 38789989}
-  - {fileID: 0}
   - {fileID: 1001391366}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
@@ -1695,7 +1694,6 @@ MonoBehaviour:
   - 5ebacc13-53db-43d0-a911-ff510e884163
   - 3609bb72-a3eb-4fc3-801d-cb6ce26dd6b5
   - b784a78f-e0a4-43bd-900b-ff24ec51a496
-  - 8c57d873-84ea-476d-8c77-8dd68f82b472
   - aa7f5ac5-b6a0-40f7-a4a4-3e750aa13599
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
@@ -6013,11 +6011,6 @@ Prefab:
     - target: {fileID: 4825660295258906, guid: ea3e930d91d656541b653ef1c3911660, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114537196673810722, guid: ea3e930d91d656541b653ef1c3911660,
-        type: 2}
-      propertyPath: volume
-      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea3e930d91d656541b653ef1c3911660, type: 2}
