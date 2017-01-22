@@ -702,6 +702,8 @@ GameObject:
   - component: {fileID: 206808250}
   - component: {fileID: 206808252}
   - component: {fileID: 206808251}
+  - component: {fileID: 206808254}
+  - component: {fileID: 206808253}
   m_Layer: 0
   m_Name: obs_roca3_lvl2
   m_TagString: Untagged
@@ -762,6 +764,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 206808249}
   m_Mesh: {fileID: 4300128, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!65 &206808253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 206808249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.634725, y: 1.1636567, z: 1.3826016}
+  m_Center: {x: -0.35539365, y: 0.014952184, z: -0.49828222}
+--- !u!114 &206808254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 206808249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &212307992
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +797,8 @@ GameObject:
   - component: {fileID: 212307993}
   - component: {fileID: 212307995}
   - component: {fileID: 212307994}
+  - component: {fileID: 212307997}
+  - component: {fileID: 212307996}
   m_Layer: 0
   m_Name: obs_roca1_lvl4
   m_TagString: Untagged
@@ -832,6 +859,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 212307992}
   m_Mesh: {fileID: 4300126, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &212307996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 212307992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &212307997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 212307992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2845545, y: 1.7108754, z: 0.52362555}
+  m_Center: {x: 0.008859942, y: 0.12975818, z: -0.1941013}
 --- !u!1 &212581445
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +892,8 @@ GameObject:
   - component: {fileID: 212581446}
   - component: {fileID: 212581448}
   - component: {fileID: 212581447}
+  - component: {fileID: 212581450}
+  - component: {fileID: 212581449}
   m_Layer: 0
   m_Name: obs_roca2_lvl3
   m_TagString: Untagged
@@ -902,6 +954,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 212581445}
   m_Mesh: {fileID: 4300158, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &212581449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 212581445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &212581450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 212581445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.030954, y: 1.5306839, z: 1.3826021}
+  m_Center: {x: -0.19176237, y: 0.23603845, z: -0.49828222}
 --- !u!1 &214892362
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +987,8 @@ GameObject:
   - component: {fileID: 214892363}
   - component: {fileID: 214892365}
   - component: {fileID: 214892364}
+  - component: {fileID: 214892367}
+  - component: {fileID: 214892366}
   m_Layer: 0
   m_Name: roca14_lvl1
   m_TagString: Untagged
@@ -972,6 +1049,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214892362}
   m_Mesh: {fileID: 4300002, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &214892366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214892362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &214892367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214892362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.85121477, y: 2.4414876, z: 1.1729268}
+  m_Center: {x: 0.099550515, y: 0.10066158, z: 0.48557544}
 --- !u!1 &223164202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,6 +2030,8 @@ GameObject:
   - component: {fileID: 411488252}
   - component: {fileID: 411488254}
   - component: {fileID: 411488253}
+  - component: {fileID: 411488256}
+  - component: {fileID: 411488255}
   m_Layer: 0
   m_Name: obs_roca4_lvl2
   m_TagString: Untagged
@@ -1990,6 +2092,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411488251}
   m_Mesh: {fileID: 4300136, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!65 &411488255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411488251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.2785974, y: 1.118974, z: 1.4236221}
+  m_Center: {x: -0.71205306, y: -0.0073894355, z: -0.47777215}
+--- !u!114 &411488256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411488251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &423581906
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,8 +2159,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a31061850feb746a328c1ccf9e44e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FinalHeight: 1
-  InitialHeight: -1
+  FinalHeight: 0.05
+  InitialHeight: -1.88
+  AnimationLenght: 1
 --- !u!1 &428411493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,11 +2714,12 @@ MonoBehaviour:
   - {fileID: 193514406}
   - {fileID: 574355830}
   _possibleStages:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  StageChangeInterval: 30
+  - {fileID: 996377317}
+  - {fileID: 423581908}
+  - {fileID: 1793977563}
+  - {fileID: 784256617}
+  InitialDelay: 1
+  StageChangeInterval: 5
 --- !u!1 &465863008
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,6 +2825,8 @@ GameObject:
   - component: {fileID: 469047201}
   - component: {fileID: 469047203}
   - component: {fileID: 469047202}
+  - component: {fileID: 469047205}
+  - component: {fileID: 469047204}
   m_Layer: 0
   m_Name: obs_roca6_lvl1
   m_TagString: Untagged
@@ -2758,6 +2887,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 469047200}
   m_Mesh: {fileID: 4300118, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &469047204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 469047200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &469047205
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 469047200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.3779526, y: 1.1520264, z: 2.1077607}
+  m_Center: {x: 0.26229623, y: -0.0042529306, z: -0.05212028}
 --- !u!1 &497517913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2990,8 @@ GameObject:
   - component: {fileID: 499951366}
   - component: {fileID: 499951368}
   - component: {fileID: 499951367}
+  - component: {fileID: 499951370}
+  - component: {fileID: 499951369}
   m_Layer: 0
   m_Name: obs_roca2_lvl2
   m_TagString: Untagged
@@ -2898,6 +3052,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 499951365}
   m_Mesh: {fileID: 4300134, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!65 &499951369
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 499951365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.5469275, y: 1.118974, z: 1.8325586}
+  m_Center: {x: -0.077887826, y: -0.007389252, z: -0.6822405}
+--- !u!114 &499951370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 499951365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &509695564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,6 +3403,8 @@ GameObject:
   - component: {fileID: 589980801}
   - component: {fileID: 589980803}
   - component: {fileID: 589980802}
+  - component: {fileID: 589980805}
+  - component: {fileID: 589980804}
   m_Layer: 0
   m_Name: obs_roca12_lvl1
   m_TagString: Untagged
@@ -3286,6 +3465,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 589980800}
   m_Mesh: {fileID: 4300070, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &589980804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589980800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &589980805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589980800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3105186, y: 0.2525185, z: 0.18401352}
+  m_Center: {x: -0.014675011, y: -0.0053931973, z: 0.08243262}
 --- !u!1 &593849653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,6 +3593,8 @@ GameObject:
   - component: {fileID: 612397354}
   - component: {fileID: 612397356}
   - component: {fileID: 612397355}
+  - component: {fileID: 612397358}
+  - component: {fileID: 612397357}
   m_Layer: 0
   m_Name: obs_roca7_lvl1
   m_TagString: Untagged
@@ -3451,6 +3655,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 612397353}
   m_Mesh: {fileID: 4300122, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &612397357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612397353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &612397358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612397353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7434971, y: 4.592741, z: 4.1593933}
+  m_Center: {x: 0.015330764, y: 0.0017382047, z: 2.0630033}
 --- !u!1 &624114784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3461,6 +3688,8 @@ GameObject:
   - component: {fileID: 624114785}
   - component: {fileID: 624114787}
   - component: {fileID: 624114786}
+  - component: {fileID: 624114789}
+  - component: {fileID: 624114788}
   m_Layer: 0
   m_Name: obs_roca1_lvl2
   m_TagString: Untagged
@@ -3521,6 +3750,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 624114784}
   m_Mesh: {fileID: 4300130, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!65 &624114788
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624114784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.634725, y: 1.1636567, z: 1.3826016}
+  m_Center: {x: -0.3553939, y: 0.014953137, z: -0.49828225}
+--- !u!114 &624114789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624114784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &639190287
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,6 +4078,8 @@ GameObject:
   - component: {fileID: 688678404}
   - component: {fileID: 688678406}
   - component: {fileID: 688678405}
+  - component: {fileID: 688678408}
+  - component: {fileID: 688678407}
   m_Layer: 0
   m_Name: obs_roca8_lvl1
   m_TagString: Untagged
@@ -3886,6 +4140,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 688678403}
   m_Mesh: {fileID: 4300008, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &688678407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 688678403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &688678408
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 688678403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5608966, y: 0.66720927, z: 0.64811313}
+  m_Center: {x: -0.03306198, y: -0.13025798, z: -0.051927634}
 --- !u!1 &739778507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4081,8 +4358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a31061850feb746a328c1ccf9e44e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FinalHeight: 1
-  InitialHeight: -1
+  FinalHeight: 0.25
+  InitialHeight: -2.02
+  AnimationLenght: 1
 --- !u!1 &789603200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4378,6 +4656,8 @@ GameObject:
   - component: {fileID: 838127037}
   - component: {fileID: 838127039}
   - component: {fileID: 838127038}
+  - component: {fileID: 838127041}
+  - component: {fileID: 838127040}
   m_Layer: 0
   m_Name: obs_roca1_lvl1
   m_TagString: Untagged
@@ -4438,6 +4718,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 838127036}
   m_Mesh: {fileID: 4300058, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &838127040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838127036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &838127041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838127036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.854491, y: 1.1610782, z: 2.2120008}
+  m_Center: {x: 0.0000002384186, y: -0.00000047683716, z: 0.00000005960463}
 --- !u!1 &921267286
 GameObject:
   m_ObjectHideFlags: 0
@@ -4853,8 +5156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a31061850feb746a328c1ccf9e44e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FinalHeight: 1
-  InitialHeight: -1
+  FinalHeight: -0.1
+  InitialHeight: -4.5
+  AnimationLenght: 1
 --- !u!1 &1002320693
 GameObject:
   m_ObjectHideFlags: 0
@@ -4987,6 +5291,8 @@ GameObject:
   - component: {fileID: 1068039420}
   - component: {fileID: 1068039422}
   - component: {fileID: 1068039421}
+  - component: {fileID: 1068039424}
+  - component: {fileID: 1068039423}
   m_Layer: 0
   m_Name: obs_roca3_lvl3
   m_TagString: Untagged
@@ -5047,6 +5353,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1068039419}
   m_Mesh: {fileID: 4300154, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1068039423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068039419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1068039424
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068039419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2926188, y: 1.4957222, z: 1.4417596}
+  m_Center: {x: -0.060930584, y: 0.26369938, z: -0.6513613}
 --- !u!1 &1112723605
 GameObject:
   m_ObjectHideFlags: 0
@@ -5764,6 +6093,8 @@ GameObject:
   - component: {fileID: 1391495129}
   - component: {fileID: 1391495131}
   - component: {fileID: 1391495130}
+  - component: {fileID: 1391495133}
+  - component: {fileID: 1391495132}
   m_Layer: 0
   m_Name: obs_roca4_lvl3
   m_TagString: Untagged
@@ -5824,6 +6155,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1391495128}
   m_Mesh: {fileID: 4300156, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1391495132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391495128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1391495133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1391495128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.536145, y: 0.66786915, z: 0.3391534}
+  m_Center: {x: -0.07340347, y: -0.0036167526, z: -0.11694488}
 --- !u!1 &1399109114
 GameObject:
   m_ObjectHideFlags: 0
@@ -6357,6 +6711,8 @@ GameObject:
   - component: {fileID: 1509038042}
   - component: {fileID: 1509038044}
   - component: {fileID: 1509038043}
+  - component: {fileID: 1509038046}
+  - component: {fileID: 1509038045}
   m_Layer: 0
   m_Name: obs_roca9_lvl1
   m_TagString: Untagged
@@ -6417,6 +6773,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1509038041}
   m_Mesh: {fileID: 4300006, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1509038045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509038041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1509038046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509038041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6277847, y: 2.1492286, z: 3.38937}
+  m_Center: {x: -0.27475393, y: 0.09819388, z: 1.6946849}
 --- !u!1 &1514880172
 GameObject:
   m_ObjectHideFlags: 0
@@ -9563,6 +9942,8 @@ GameObject:
   - component: {fileID: 1572822110}
   - component: {fileID: 1572822112}
   - component: {fileID: 1572822111}
+  - component: {fileID: 1572822114}
+  - component: {fileID: 1572822113}
   m_Layer: 0
   m_Name: obs_roca1_lvl3
   m_TagString: Untagged
@@ -9623,6 +10004,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1572822109}
   m_Mesh: {fileID: 4300152, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1572822113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572822109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1572822114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572822109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.030954, y: 1.5306845, z: 1.3826026}
+  m_Center: {x: -0.19176213, y: 0.23603763, z: -0.49828243}
 --- !u!1 &1582513017
 GameObject:
   m_ObjectHideFlags: 0
@@ -9703,6 +10107,8 @@ GameObject:
   - component: {fileID: 1649123378}
   - component: {fileID: 1649123380}
   - component: {fileID: 1649123379}
+  - component: {fileID: 1649123382}
+  - component: {fileID: 1649123381}
   m_Layer: 0
   m_Name: obs_roca10_lvl1
   m_TagString: Untagged
@@ -9763,6 +10169,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1649123377}
   m_Mesh: {fileID: 4300004, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1649123381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649123377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1649123382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649123377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0820656, y: 2.29162, z: 1.8540734}
+  m_Center: {x: -0.70186156, y: 0.24712197, z: 0.5930134}
 --- !u!1 &1698531292
 GameObject:
   m_ObjectHideFlags: 0
@@ -9773,6 +10202,8 @@ GameObject:
   - component: {fileID: 1698531293}
   - component: {fileID: 1698531295}
   - component: {fileID: 1698531294}
+  - component: {fileID: 1698531297}
+  - component: {fileID: 1698531296}
   m_Layer: 0
   m_Name: roca13_lvl1
   m_TagString: Untagged
@@ -9833,6 +10264,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1698531292}
   m_Mesh: {fileID: 4300016, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1698531296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698531292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1698531297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698531292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.73715264, y: 2.033372, z: 1.059417}
+  m_Center: {x: 0.057689015, y: 0.090007685, z: 0.47458756}
 --- !u!1 &1729975192
 GameObject:
   m_ObjectHideFlags: 0
@@ -9843,6 +10297,8 @@ GameObject:
   - component: {fileID: 1729975193}
   - component: {fileID: 1729975195}
   - component: {fileID: 1729975194}
+  - component: {fileID: 1729975197}
+  - component: {fileID: 1729975196}
   m_Layer: 0
   m_Name: obs_roca11_lvl1
   m_TagString: Untagged
@@ -9903,6 +10359,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1729975192}
   m_Mesh: {fileID: 4300014, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1729975196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729975192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1729975197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729975192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6957182, y: 0.52040493, z: 0.71757275}
+  m_Center: {x: 0.06343066, y: 0.10798984, z: 0.3133431}
 --- !u!1 &1758099736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10207,8 +10686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6a31061850feb746a328c1ccf9e44e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FinalHeight: 1
-  InitialHeight: -1
+  FinalHeight: 0
+  InitialHeight: -2
+  AnimationLenght: 1
 --- !u!1 &1806326980
 GameObject:
   m_ObjectHideFlags: 0
@@ -10566,6 +11046,8 @@ GameObject:
   - component: {fileID: 1956436234}
   - component: {fileID: 1956436236}
   - component: {fileID: 1956436235}
+  - component: {fileID: 1956436238}
+  - component: {fileID: 1956436237}
   m_Layer: 0
   m_Name: obs_roca2_lvl4
   m_TagString: Untagged
@@ -10626,6 +11108,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956436233}
   m_Mesh: {fileID: 4300132, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &1956436237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1956436233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1956436238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1956436233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.3120565, y: 1.0984572, z: 1.4236223}
+  m_Center: {x: -0.19532421, y: 0.010522069, z: -0.47777247}
 --- !u!1001 &1967230875
 Prefab:
   m_ObjectHideFlags: 0
@@ -11080,6 +11585,8 @@ GameObject:
   - component: {fileID: 2099418687}
   - component: {fileID: 2099418689}
   - component: {fileID: 2099418688}
+  - component: {fileID: 2099418691}
+  - component: {fileID: 2099418690}
   m_Layer: 0
   m_Name: roca4_lvl1
   m_TagString: Untagged
@@ -11140,6 +11647,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2099418686}
   m_Mesh: {fileID: 4300110, guid: 6321e8d2afe21c044aa11f525ee54f92, type: 3}
+--- !u!114 &2099418690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2099418686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2099418691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2099418686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8512148, y: 2.4414878, z: 1.1729269}
+  m_Center: {x: 0.09955006, y: 0.10066019, z: 0.48557577}
 --- !u!1 &2109730008
 GameObject:
   m_ObjectHideFlags: 0

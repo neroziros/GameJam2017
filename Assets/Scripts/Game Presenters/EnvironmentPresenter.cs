@@ -10,12 +10,34 @@ public class EnvironmentPresenter : MonoBehaviour
     [SerializeField]
     private WallSetPresenter[] _possibleStages = new WallSetPresenter[4];
 
+    private int currentStage = 0;
+
+    public float InitialDelay = 15.0f;
+
     public float StageChangeInterval = 30.0f;
 
     // Use this for initialization
     public void Initialize()
     {
-        // todo:
+        StartCoroutine("PossibleStagesProcess");
+    }
+
+    IEnumerator PossibleStagesProcess()
+    {
+        yield return new WaitForSeconds(InitialDelay);
+
+        while (true)
+        {
+            if (GamePresenter.Instance.CurrentMatchState == GamePresenter.State.Running)
+            {
+                _possibleStages[currentStage].Display();
+                
+                yield return new WaitForSeconds(StageChangeInterval);
+
+                _possibleStages[currentStage].Hide();
+                currentStage = (currentStage+1)% _possibleStages.Length;
+            }
+        }
     }
 
     public Transform[] GetPossibleSpawnPoints()
