@@ -43,6 +43,8 @@ Shader "Particles/Refraction" {
             uniform float _RefractionIntensity;
             uniform sampler2D _Refraction; uniform float4 _Refraction_ST;
             uniform sampler2D _AlphaMask; uniform float4 _AlphaMask_ST;
+			uniform float4 _TintColor;
+
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -95,7 +97,7 @@ Shader "Particles/Refraction" {
                 float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
 ////// Lighting:
                 float3 finalColor = 0;
-                return fixed4(lerp(sceneColor.rgb, finalColor,0.0),1);
+                return fixed4(lerp(sceneColor.rgb + _TintColor * _AlphaMask_var.r * _RefractionIntensity, finalColor,0.0),1);
             }
             ENDCG
         }

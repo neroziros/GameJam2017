@@ -84,10 +84,10 @@ public class InputInstance
 
             this.FireCharging = Input.GetKey(config.GamepadFire);
             this.FireRelease = Input.GetKeyUp(config.GamepadFire);
-            /*
+
             this.Attract = Input.GetAxisRaw(config.GamepadAttract) > 0;
-            this.Repel = Input.GetAxisRaw(config.GamepadRepel) > 0;
-            */
+            this.Repel = Input.GetAxisRaw(config.GamepadAttract) < 0;
+
             if (Debugging)
             {
                 for (int j = 1; j <= 4; j++)

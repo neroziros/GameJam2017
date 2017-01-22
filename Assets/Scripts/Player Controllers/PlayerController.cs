@@ -47,6 +47,13 @@ public class PlayerController : MovableEntity
     {
         get { return State == PlayerState.Normal; }
     }
+
+
+    public override void UpdateMovementVector(Vector3 redirectionTarget, bool wasABounces = true)
+    {
+        transform.Translate(redirectionTarget);
+    }
+
     // Initialize this class
     public void Initialize(PlayerPresenter playerPresenter,int index)
 	{

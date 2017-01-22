@@ -409,9 +409,12 @@ MonoBehaviour:
   ChargingSpeed: 2
   MaxProjectileLevel: 5
   currentProjectileLevel: 0
+  ForceRange: 5
   VfxRenderer: {fileID: 23121484738987212}
   VfxDuration: 1
+  ForceColdown: 1.5
   RepulseScale: 10
+  RefractionIntensity: 0.2
 --- !u!114 &114516760722634472
 MonoBehaviour:
   m_ObjectHideFlags: 1
