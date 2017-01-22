@@ -4382,6 +4382,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4f4eb4b52998ab94586caa2ecbe83f32, type: 3}
   - {fileID: 8300000, guid: c5848de883176b94eb41eb0752619ac2, type: 3}
   - {fileID: 8300000, guid: 2cd022eafa4c61543afd0770d1cc5fd9, type: 3}
+  - {fileID: 8300000, guid: ea052835756eb29479ffd1c8153371c8, type: 3}
+  - {fileID: 8300000, guid: 038f9d5d14e9f174db4483125f4c7e25, type: 3}
   volume: 1
   gamePrefsName: 
 --- !u!1 &739778507
@@ -7009,52 +7011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f2f850f107b3b4682aa8cbf2558a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1458623252
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063777664130620, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1336070099927946, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: cdd5278de0d29434fb414e45fb1bd993, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1469007451
 GameObject:
   m_ObjectHideFlags: 0

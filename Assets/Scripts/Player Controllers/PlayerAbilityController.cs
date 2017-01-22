@@ -167,7 +167,7 @@ public class PlayerAbilityController : MonoBehaviour {
         StartCoroutine("ExecuteFireColdown");
 
         // Play sfx
-        BaseSoundManager.Instance.PlaySoundByIndex(1 ,this.transform.position);
+        BaseSoundManager.Instance.PlaySoundByIndex(this.playerController.PlayerAvatarControllers[this.playerController.PlayerIndex].AudioIndexes[(int)AvatarController.AudioIndexesEnum.Attack], this.transform.position);
 
         // Reactivate shields
         Reset();

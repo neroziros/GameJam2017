@@ -14,6 +14,12 @@ public class AvatarController : MonoBehaviour {
     private bool isInitialized = false;
 
     // Configurable animations
+    public enum AudioIndexesEnum
+    {
+        Attack,
+        Hit,
+    }
+    public int[] AudioIndexes = new int[2]; 
 
     // Use this for initialization
     public void Initialize (PlayerController playerController) {

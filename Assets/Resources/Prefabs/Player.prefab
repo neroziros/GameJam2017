@@ -773,6 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95474622225160080}
   CoreImage: {fileID: 212152117343828470}
+  AudioIndexes: 0400000005000000
 --- !u!114 &114265617547635230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -797,6 +798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95191521617471400}
   CoreImage: {fileID: 212717930421321154}
+  AudioIndexes: 
 --- !u!114 &114286196029621360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -880,7 +882,7 @@ MonoBehaviour:
   PlayerAvatarControllers:
   - {fileID: 114647344855935354}
   - {fileID: 114057496467056848}
-  - {fileID: 114647344855935354}
+  - {fileID: 114836364910118694}
   - {fileID: 114273899003093698}
   GameplayLayerMask:
     serializedVersion: 2
@@ -899,6 +901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95153878164434006}
   CoreImage: {fileID: 212438782333645202}
+  AudioIndexes: 0100000002000000
 --- !u!114 &114836364910118694
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -912,6 +915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95383304019651952}
   CoreImage: {fileID: 212711286046317352}
+  AudioIndexes: 
 --- !u!114 &114898623046519590
 MonoBehaviour:
   m_ObjectHideFlags: 1

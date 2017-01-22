@@ -15,7 +15,8 @@ public class PlayerController : MovableEntity
 
     // Main player identifier
     public ID PlayerId = ID.Player1;
-    private int PlayerIndex = -1;
+    [System.NonSerialized]
+    public int PlayerIndex = -1;
 
     // Main controllers
     public PlayerInput InputController { get; private set; }
@@ -187,7 +188,7 @@ public class PlayerController : MovableEntity
         if (isSamePlayerAndNotEnoughBounces)
             return;
 
-        BaseSoundManager.Instance.PlaySoundByIndex(2, this.transform.position);
+        BaseSoundManager.Instance.PlaySoundByIndex(this.PlayerAvatarControllers[this.PlayerIndex].AudioIndexes[(int)AvatarController.AudioIndexesEnum.Hit], this.transform.position);
 
         // Reduce player health point
         this.DealDamage(1);
