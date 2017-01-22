@@ -13,7 +13,7 @@ public class WallSetPresenter : MonoBehaviour
     public void Display()
     {
         this.transform.position = new Vector3(this.transform.position.x, InitialHeight,this.transform.position.z); ;
-        this.transform.DOLocalMoveY(FinalHeight, AnimationLenght);
+        this.transform.DOLocalMoveY(FinalHeight, AnimationLenght).SetEase(Ease.OutElastic);
     }
 
     public void Hide()

@@ -10,8 +10,6 @@ public class CoreUIPresenter : MonoBehaviour {
     // Use this for initialization
     public void Initialize()
     {
-       // WinnerScreen.gameObject.SetActive(false);
-
         foreach (var presenter in PlayerUIPresenter)
         {
             presenter.gameObject.SetActive(false);

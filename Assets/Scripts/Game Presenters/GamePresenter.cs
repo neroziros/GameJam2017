@@ -61,6 +61,8 @@ public class GamePresenter : MonoBehaviour {
             return;
 
         this.UpdateMatchTimer();
+
+	    CheckPlayers();
 	}
 
     private void CheckPlayers()
@@ -77,6 +79,7 @@ public class GamePresenter : MonoBehaviour {
                 {
                     winnerPlayer = player;
                     UiPresenter.RequestWinScreen(index);
+                    EndMatch();
                     return;
                 }
             }
@@ -88,9 +91,6 @@ public class GamePresenter : MonoBehaviour {
     {
         // Set end game state
         this.CurrentMatchState = State.Ended;
-        
-        // Display winner
-        CheckPlayers();
     }
 
 
