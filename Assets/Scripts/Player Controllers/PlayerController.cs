@@ -69,6 +69,7 @@ public class PlayerController : MovableEntity
         // Set player identifier
         this.PlayerId = (ID) index;
         this.transform.name = this.PlayerId.ToString();
+        this.MaxHitPoints = this.HitPoints;
 
         // Set initial player variables
         this.playerPresenter = playerPresenter;

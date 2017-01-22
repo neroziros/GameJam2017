@@ -7,6 +7,8 @@ public class Entity : MonoBehaviour {
     // Player status
     [Header("Player Status")]
     public int HitPoints = 1;
+    [System.NonSerialized]
+    public int MaxHitPoints;
     public bool IsAlive { get { return this.HitPoints >= 1; } }
 
     public virtual void ChangeRole( bool respawn = false)

@@ -12,7 +12,7 @@ public class GamePresenter : MonoBehaviour {
     // Core presenters
     public PlayerPresenter PlayerPresenter { get; private set; }
     public EnvironmentPresenter EnvironmentPresenter { get; private set; }
-    public GlobalUIPresenter UiPresenter { get; private set; }
+    public CoreUIPresenter UiPresenter { get; private set; }
     public AudioPresenter AudioPresenter { get; private set; }
 
     // Match parameters
@@ -36,13 +36,13 @@ public class GamePresenter : MonoBehaviour {
 	    // Get core presenters
         this.PlayerPresenter = this.GetComponentInChildren<PlayerPresenter>();
         this.EnvironmentPresenter = this.GetComponentInChildren<EnvironmentPresenter>();
-        this.UiPresenter = this.GetComponentInChildren<GlobalUIPresenter>();
+        this.UiPresenter = this.GetComponentInChildren<CoreUIPresenter>();
         this.AudioPresenter = this.GetComponentInChildren<AudioPresenter>();
 
         // Initialize core presenters
         this.EnvironmentPresenter.Initialize();
-        //this.UiPresenter.Initialize();
         this.PlayerPresenter.Initialize(this.EnvironmentPresenter);
+        this.UiPresenter.Initialize();
         //this.AudioPresenter.Initialize(true);
 
         // Display connected gamepad
