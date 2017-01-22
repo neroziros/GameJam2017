@@ -7,9 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: borde_escudo
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_Shader: {fileID: 4800000, guid: e205ec5a2dab342e78812532c2f67fd5, type: 3}
+  m_ShaderKeywords: COLR_1_2
+  m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
@@ -71,6 +71,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - first:
+        name: _AmbientPower
+      second: 0
+    - first:
         name: _BumpScale
       second: 1
     - first:
@@ -92,6 +95,15 @@ Material:
         name: _GlossyReflections
       second: 1
     - first:
+        name: _GradientHeight
+      second: 10
+    - first:
+        name: _GradientYStartPos
+      second: 0
+    - first:
+        name: _LightmapPower
+      second: 0.5
+    - first:
         name: _Metallic
       second: 0
     - first:
@@ -103,6 +115,9 @@ Material:
     - first:
         name: _Parallax
       second: 0.02
+    - first:
+        name: _ShadowPower
+      second: 0.25
     - first:
         name: _SmoothnessTextureChannel
       second: 0
@@ -120,8 +135,47 @@ Material:
       second: 1
     m_Colors:
     - first:
+        name: _AmbientColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _BackBottomColor
+      second: {r: 0, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _BackTopColor
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _BottomColor
+      second: {r: 0, g: 0.5, b: 0.5, a: 0}
+    - first:
         name: _Color
       second: {r: 0.10980393, g: 0.14901961, b: 0.92549026, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _FrontBottomColor
+      second: {r: 0, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _FrontTopColor
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _LeftBottomColor
+      second: {r: 0, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _LeftTopColor
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _LightTint
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _LightmapColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _RightBottomColor
+      second: {r: 0, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _RightTopColor
+      second: {r: 0, g: 1, b: 0, a: 0}
+    - first:
+        name: _TopColor
+      second: {r: 0, g: 1, b: 0, a: 0}
