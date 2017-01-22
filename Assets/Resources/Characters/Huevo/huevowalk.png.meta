@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 8c26a6183c4a641449cb67c2c54c33ed
+timeCreated: 1485066619
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: huevowalk_0
+    21300002: huevowalk_1
+    21300004: huevowalk_2
+    21300006: huevowalk_3
+    21300008: huevowalk_4
+    21300010: huevowalk_5
+    21300012: huevowalk_6
+    21300014: huevowalk_7
+    21300016: huevowalk_8
+    21300018: huevowalk_9
+    21300020: huevowalk_10
+    21300022: huevowalk_11
+    21300024: huevowalk_12
+    21300026: huevowalk_13
+    21300028: huevowalk_14
+    21300030: huevowalk_15
+    21300032: huevowalk_16
+    21300034: huevowalk_17
+    21300036: huevowalk_18
+    21300038: huevowalk_19
+    21300040: huevowalk_20
+    21300042: huevowalk_21
+    21300044: huevowalk_22
+    21300046: huevowalk_23
+    21300048: huevowalk_24
+    21300050: huevowalk_25
+    21300052: huevowalk_26
+    21300054: huevowalk_27
+    21300056: huevowalk_28
+    21300058: huevowalk_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: huevowalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2271
+        width: 344
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 2271
+        width: 344
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_2
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 2271
+        width: 345
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_3
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2272
+        width: 351
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_4
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 2272
+        width: 356
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1823
+        width: 359
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1821
+        width: 352
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_7
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1820
+        width: 344
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_8
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1819
+        width: 343
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_9
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1819
+        width: 343
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1374
+        width: 344
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_11
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1377
+        width: 344
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_12
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1372
+        width: 344
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_13
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1366
+        width: 350
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_14
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1368
+        width: 351
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 919
+        width: 354
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_16
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 921
+        width: 355
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_17
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 922
+        width: 352
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_18
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 924
+        width: 343
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_19
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 924
+        width: 343
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 344
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 477
+        width: 344
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_22
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 478
+        width: 344
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_23
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 479
+        width: 343
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_24
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 481
+        width: 343
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 344
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_26
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 30
+        width: 344
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_27
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 27
+        width: 344
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_28
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 26
+        width: 343
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevowalk_29
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 23
+        width: 343
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

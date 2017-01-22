@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 81dc772ee9c9ffd4a8dda78113409e05
+timeCreated: 1485066593
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: huevoidle_0
+    21300002: huevoidle_1
+    21300004: huevoidle_2
+    21300006: huevoidle_3
+    21300008: huevoidle_4
+    21300010: huevoidle_5
+    21300012: huevoidle_6
+    21300014: huevoidle_7
+    21300016: huevoidle_8
+    21300018: huevoidle_9
+    21300020: huevoidle_10
+    21300022: huevoidle_11
+    21300024: huevoidle_12
+    21300026: huevoidle_13
+    21300028: huevoidle_14
+    21300030: huevoidle_15
+    21300032: huevoidle_16
+    21300034: huevoidle_17
+    21300036: huevoidle_18
+    21300038: huevoidle_19
+    21300040: huevoidle_20
+    21300042: huevoidle_21
+    21300044: huevoidle_22
+    21300046: huevoidle_23
+    21300048: huevoidle_24
+    21300050: huevoidle_25
+    21300052: huevoidle_26
+    21300054: huevoidle_27
+    21300056: huevoidle_28
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: huevoidle_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2154
+        width: 344
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2154
+        width: 344
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_2
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2155
+        width: 343
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2155
+        width: 345
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_4
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 2156
+        width: 343
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1724
+        width: 343
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1724
+        width: 344
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_7
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1724
+        width: 344
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_8
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1724
+        width: 345
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_9
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1724
+        width: 344
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_10
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1294
+        width: 343
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1292
+        width: 343
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1291
+        width: 343
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_13
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1292
+        width: 344
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_14
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1293
+        width: 345
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 863
+        width: 343
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 863
+        width: 344
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_17
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 863
+        width: 344
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_18
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 862
+        width: 344
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_19
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 861
+        width: 343
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 430
+        width: 344
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_21
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 430
+        width: 344
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_22
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 431
+        width: 343
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_23
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 431
+        width: 688
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 344
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_25
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1
+        width: 344
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_26
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 344
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_27
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 344
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: huevoidle_28
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 0
+        width: 343
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
