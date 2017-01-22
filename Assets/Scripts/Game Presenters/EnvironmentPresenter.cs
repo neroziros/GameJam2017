@@ -8,7 +8,7 @@ public class EnvironmentPresenter : MonoBehaviour
     private Transform[] _possibleSpawnPoints = new Transform[4];
     
     [SerializeField]
-    private Transform[] _possibleStages = new Transform[4];
+    private WallSetPresenter[] _possibleStages = new WallSetPresenter[4];
 
     public float StageChangeInterval = 30.0f;
 
