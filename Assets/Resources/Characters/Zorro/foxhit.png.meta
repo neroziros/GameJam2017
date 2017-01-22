@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 20ff24fd0e1190746beeaf87efb6e68c
+timeCreated: 1485056592
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: foxhit_0
+    21300002: foxhit_1
+    21300004: foxhit_2
+    21300006: foxhit_3
+    21300008: foxhit_4
+    21300010: foxhit_5
+    21300012: foxhit_6
+    21300014: foxhit_7
+    21300016: foxhit_8
+    21300018: foxhit_9
+    21300020: foxhit_10
+    21300022: foxhit_11
+    21300024: foxhit_12
+    21300026: foxhit_13
+    21300028: foxhit_14
+    21300030: foxhit_15
+    21300032: foxhit_16
+    21300034: foxhit_17
+    21300036: foxhit_18
+    21300038: foxhit_19
+    21300040: foxhit_20
+    21300042: foxhit_21
+    21300044: foxhit_22
+    21300046: foxhit_23
+    21300048: foxhit_24
+    21300050: foxhit_25
+    21300052: foxhit_26
+    21300054: foxhit_27
+    21300056: foxhit_28
+    21300058: foxhit_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: foxhit_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3623
+        width: 361
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3628
+        width: 403
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_2
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 3600
+        width: 358
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_3
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 3599
+        width: 345
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3093
+        width: 331
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3101
+        width: 317
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_6
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 3110
+        width: 305
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_7
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 3129
+        width: 287
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2634
+        width: 284
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 2656
+        width: 274
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_10
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2651
+        width: 282
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_11
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2640
+        width: 289
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2117
+        width: 295
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_13
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 2112
+        width: 305
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_14
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 2109
+        width: 321
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_15
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2109
+        width: 331
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1598
+        width: 341
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1603
+        width: 353
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_18
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1610
+        width: 368
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_19
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1618
+        width: 377
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1105
+        width: 388
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_21
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1103
+        width: 402
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_22
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1103
+        width: 410
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_23
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1105
+        width: 411
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 590
+        width: 415
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_25
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 584
+        width: 413
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_26
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 576
+        width: 409
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_27
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 569
+        width: 403
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_28
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 48
+        width: 393
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxhit_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 45
+        width: 381
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

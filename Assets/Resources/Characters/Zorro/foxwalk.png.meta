@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: e0f9e00d8615b9f448e412bd72d88c3f
+timeCreated: 1485056529
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: foxwalk_0
+    21300002: foxwalk_1
+    21300004: foxwalk_2
+    21300006: foxwalk_3
+    21300008: foxwalk_4
+    21300010: foxwalk_5
+    21300012: foxwalk_6
+    21300014: foxwalk_7
+    21300016: foxwalk_8
+    21300018: foxwalk_9
+    21300020: foxwalk_10
+    21300022: foxwalk_11
+    21300024: foxwalk_12
+    21300026: foxwalk_13
+    21300028: foxwalk_14
+    21300030: foxwalk_15
+    21300032: foxwalk_16
+    21300034: foxwalk_17
+    21300036: foxwalk_18
+    21300038: foxwalk_19
+    21300040: foxwalk_20
+    21300042: foxwalk_21
+    21300044: foxwalk_22
+    21300046: foxwalk_23
+    21300048: foxwalk_24
+    21300050: foxwalk_25
+    21300052: foxwalk_26
+    21300054: foxwalk_27
+    21300056: foxwalk_28
+    21300058: foxwalk_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: foxwalk_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2869
+        width: 361
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_1
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2876
+        width: 357
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_2
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 2882
+        width: 355
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_3
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 2889
+        width: 351
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2486
+        width: 347
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2491
+        width: 349
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_6
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2498
+        width: 361
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_7
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2502
+        width: 371
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2099
+        width: 376
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2104
+        width: 378
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_10
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2100
+        width: 378
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_11
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2096
+        width: 379
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1683
+        width: 379
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_13
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1681
+        width: 378
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_14
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1678
+        width: 379
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_15
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1674
+        width: 378
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1261
+        width: 378
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1257
+        width: 377
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_18
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1253
+        width: 376
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_19
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1250
+        width: 377
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 837
+        width: 374
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_21
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 834
+        width: 374
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_22
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 832
+        width: 373
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_23
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 830
+        width: 371
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 419
+        width: 369
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_25
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 417
+        width: 368
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_26
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 416
+        width: 366
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_27
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 414
+        width: 365
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 363
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxwalk_29
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1
+        width: 361
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

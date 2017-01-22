@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 408c9c21c3b042544b599e51ca75dd36
+timeCreated: 1485056567
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: foxidle_0
+    21300002: foxidle_1
+    21300004: foxidle_2
+    21300006: foxidle_3
+    21300008: foxidle_4
+    21300010: foxidle_5
+    21300012: foxidle_6
+    21300014: foxidle_7
+    21300016: foxidle_8
+    21300018: foxidle_9
+    21300020: foxidle_10
+    21300022: foxidle_11
+    21300024: foxidle_12
+    21300026: foxidle_13
+    21300028: foxidle_14
+    21300030: foxidle_15
+    21300032: foxidle_16
+    21300034: foxidle_17
+    21300036: foxidle_18
+    21300038: foxidle_19
+    21300040: foxidle_20
+    21300042: foxidle_21
+    21300044: foxidle_22
+    21300046: foxidle_23
+    21300048: foxidle_24
+    21300050: foxidle_25
+    21300052: foxidle_26
+    21300054: foxidle_27
+    21300056: foxidle_28
+    21300058: foxidle_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: foxidle_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2589
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2589
+        width: 363
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_2
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2589
+        width: 365
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_3
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2589
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2219
+        width: 371
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2219
+        width: 374
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 2219
+        width: 376
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_7
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2219
+        width: 372
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1849
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1849
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_10
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1849
+        width: 361
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_11
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1849
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1479
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1479
+        width: 361
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_14
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1479
+        width: 361
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_15
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1479
+        width: 359
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1109
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_17
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1109
+        width: 361
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_18
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1109
+        width: 361
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_19
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1109
+        width: 359
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 739
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 739
+        width: 361
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_22
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 739
+        width: 360
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_23
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 739
+        width: 359
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 369
+        width: 360
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 369
+        width: 361
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_26
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 369
+        width: 360
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_27
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 369
+        width: 359
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 361
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: foxidle_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 360
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
