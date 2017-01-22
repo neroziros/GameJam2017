@@ -26,15 +26,15 @@ public class selector : uScriptLogic
    
    //local nodes
    public System.Single axis = (float) 0;
-   public System.Single axis2 = (float) 0;
+   public System.Single axis1 = (float) 0;
    public UnityEngine.GameObject credit = default(UnityEngine.GameObject);
    UnityEngine.GameObject credit_previous = null;
-   UnityEngine.GameObject local_37_UnityEngine_GameObject = default(UnityEngine.GameObject);
-   UnityEngine.GameObject local_37_UnityEngine_GameObject_previous = null;
-   UnityEngine.GameObject local_48_UnityEngine_GameObject = default(UnityEngine.GameObject);
-   UnityEngine.GameObject local_48_UnityEngine_GameObject_previous = null;
-   System.String local_closed_System_String = "closed";
-   System.String local_open_System_String = "open";
+   UnityEngine.GameObject local_36_UnityEngine_GameObject = default(UnityEngine.GameObject);
+   UnityEngine.GameObject local_36_UnityEngine_GameObject_previous = null;
+   UnityEngine.GameObject local_46_UnityEngine_GameObject = default(UnityEngine.GameObject);
+   UnityEngine.GameObject local_46_UnityEngine_GameObject_previous = null;
+   UnityEngine.GameObject local_53_UnityEngine_GameObject = default(UnityEngine.GameObject);
+   UnityEngine.GameObject local_53_UnityEngine_GameObject_previous = null;
    public UnityEngine.GameObject play = default(UnityEngine.GameObject);
    UnityEngine.GameObject play_previous = null;
    public System.Int32 selectorVar = (int) 1;
@@ -114,13 +114,13 @@ public class selector : uScriptLogic
    bool logic_uScriptCon_CompareInt_LessThan_21 = true;
    //pointer to script instanced logic node
    uScriptAct_GetAxis logic_uScriptAct_GetAxis_uScriptAct_GetAxis_22 = new uScriptAct_GetAxis( );
-   System.String logic_uScriptAct_GetAxis_axisName_22 = "Vertical 1";
+   System.String logic_uScriptAct_GetAxis_axisName_22 = "Horizontal 1";
    System.Single logic_uScriptAct_GetAxis_result_22;
    System.Single logic_uScriptAct_GetAxis_rawResult_22;
    bool logic_uScriptAct_GetAxis_Out_22 = true;
    //pointer to script instanced logic node
    uScriptAct_GetAxis logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24 = new uScriptAct_GetAxis( );
-   System.String logic_uScriptAct_GetAxis_axisName_24 = "Vertical 1";
+   System.String logic_uScriptAct_GetAxis_axisName_24 = "Horizontal 1";
    System.Single logic_uScriptAct_GetAxis_result_24;
    System.Single logic_uScriptAct_GetAxis_rawResult_24;
    bool logic_uScriptAct_GetAxis_Out_24 = true;
@@ -167,61 +167,62 @@ public class selector : uScriptLogic
    System.Boolean logic_uScriptAct_LoadLevel_blockUntilLoaded_34 = (bool) true;
    bool logic_uScriptAct_LoadLevel_Out_34 = true;
    //pointer to script instanced logic node
-   uScriptAct_AnimatorPlay logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_36 = new uScriptAct_AnimatorPlay( );
-   UnityEngine.GameObject[] logic_uScriptAct_AnimatorPlay_Target_36 = new UnityEngine.GameObject[] {};
-   System.String logic_uScriptAct_AnimatorPlay_Name_36 = "";
-   System.Int32 logic_uScriptAct_AnimatorPlay_Layer_36 = (int) -1;
-   System.Single logic_uScriptAct_AnimatorPlay_NormalizedTime_36 = (float) -1;
-   bool logic_uScriptAct_AnimatorPlay_Out_36 = true;
+   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_37 = new uScriptAct_OnInputEventFilter( );
+   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_37 = UnityEngine.KeyCode.JoystickButton1;
+   bool logic_uScriptAct_OnInputEventFilter_KeyDown_37 = true;
+   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_37 = true;
+   bool logic_uScriptAct_OnInputEventFilter_KeyUp_37 = true;
    //pointer to script instanced logic node
-   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_38 = new uScriptAct_OnInputEventFilter( );
-   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_38 = UnityEngine.KeyCode.JoystickButton1;
-   bool logic_uScriptAct_OnInputEventFilter_KeyDown_38 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_38 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyUp_38 = true;
+   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_40 = new uScriptCon_CompareInt( );
+   System.Int32 logic_uScriptCon_CompareInt_A_40 = (int) 1;
+   System.Int32 logic_uScriptCon_CompareInt_B_40 = (int) 0;
+   bool logic_uScriptCon_CompareInt_GreaterThan_40 = true;
+   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_40 = true;
+   bool logic_uScriptCon_CompareInt_EqualTo_40 = true;
+   bool logic_uScriptCon_CompareInt_NotEqualTo_40 = true;
+   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_40 = true;
+   bool logic_uScriptCon_CompareInt_LessThan_40 = true;
    //pointer to script instanced logic node
-   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_41 = new uScriptCon_CompareInt( );
-   System.Int32 logic_uScriptCon_CompareInt_A_41 = (int) 1;
-   System.Int32 logic_uScriptCon_CompareInt_B_41 = (int) 0;
-   bool logic_uScriptCon_CompareInt_GreaterThan_41 = true;
-   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_41 = true;
-   bool logic_uScriptCon_CompareInt_EqualTo_41 = true;
-   bool logic_uScriptCon_CompareInt_NotEqualTo_41 = true;
-   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_41 = true;
-   bool logic_uScriptCon_CompareInt_LessThan_41 = true;
+   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_41 = new uScriptAct_SetInt( );
+   System.Int32 logic_uScriptAct_SetInt_Value_41 = (int) 3;
+   System.Int32 logic_uScriptAct_SetInt_Target_41;
+   bool logic_uScriptAct_SetInt_Out_41 = true;
    //pointer to script instanced logic node
-   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_42 = new uScriptAct_SetInt( );
-   System.Int32 logic_uScriptAct_SetInt_Value_42 = (int) 3;
-   System.Int32 logic_uScriptAct_SetInt_Target_42;
-   bool logic_uScriptAct_SetInt_Out_42 = true;
+   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_43 = new uScriptAct_SetInt( );
+   System.Int32 logic_uScriptAct_SetInt_Value_43 = (int) 2;
+   System.Int32 logic_uScriptAct_SetInt_Target_43;
+   bool logic_uScriptAct_SetInt_Out_43 = true;
    //pointer to script instanced logic node
-   uScriptAct_SetInt logic_uScriptAct_SetInt_uScriptAct_SetInt_44 = new uScriptAct_SetInt( );
-   System.Int32 logic_uScriptAct_SetInt_Value_44 = (int) 2;
-   System.Int32 logic_uScriptAct_SetInt_Target_44;
-   bool logic_uScriptAct_SetInt_Out_44 = true;
+   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_45 = new uScriptAct_OnInputEventFilter( );
+   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_45 = UnityEngine.KeyCode.JoystickButton2;
+   bool logic_uScriptAct_OnInputEventFilter_KeyDown_45 = true;
+   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_45 = true;
+   bool logic_uScriptAct_OnInputEventFilter_KeyUp_45 = true;
    //pointer to script instanced logic node
-   uScriptAct_OnInputEventFilter logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_46 = new uScriptAct_OnInputEventFilter( );
-   UnityEngine.KeyCode logic_uScriptAct_OnInputEventFilter_KeyCode_46 = UnityEngine.KeyCode.JoystickButton2;
-   bool logic_uScriptAct_OnInputEventFilter_KeyDown_46 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyHeld_46 = true;
-   bool logic_uScriptAct_OnInputEventFilter_KeyUp_46 = true;
+   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_47 = new uScriptCon_CompareInt( );
+   System.Int32 logic_uScriptCon_CompareInt_A_47 = (int) 3;
+   System.Int32 logic_uScriptCon_CompareInt_B_47 = (int) 0;
+   bool logic_uScriptCon_CompareInt_GreaterThan_47 = true;
+   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_47 = true;
+   bool logic_uScriptCon_CompareInt_EqualTo_47 = true;
+   bool logic_uScriptCon_CompareInt_NotEqualTo_47 = true;
+   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_47 = true;
+   bool logic_uScriptCon_CompareInt_LessThan_47 = true;
    //pointer to script instanced logic node
-   uScriptAct_AnimatorPlay logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_47 = new uScriptAct_AnimatorPlay( );
-   UnityEngine.GameObject[] logic_uScriptAct_AnimatorPlay_Target_47 = new UnityEngine.GameObject[] {};
-   System.String logic_uScriptAct_AnimatorPlay_Name_47 = "";
-   System.Int32 logic_uScriptAct_AnimatorPlay_Layer_47 = (int) -1;
-   System.Single logic_uScriptAct_AnimatorPlay_NormalizedTime_47 = (float) -1;
-   bool logic_uScriptAct_AnimatorPlay_Out_47 = true;
+   uScriptAct_Toggle logic_uScriptAct_Toggle_uScriptAct_Toggle_49 = new uScriptAct_Toggle( );
+   UnityEngine.GameObject[] logic_uScriptAct_Toggle_Target_49 = new UnityEngine.GameObject[] {};
+   System.Boolean logic_uScriptAct_Toggle_IgnoreChildren_49 = (bool) false;
+   bool logic_uScriptAct_Toggle_Out_49 = true;
    //pointer to script instanced logic node
-   uScriptCon_CompareInt logic_uScriptCon_CompareInt_uScriptCon_CompareInt_49 = new uScriptCon_CompareInt( );
-   System.Int32 logic_uScriptCon_CompareInt_A_49 = (int) 3;
-   System.Int32 logic_uScriptCon_CompareInt_B_49 = (int) 0;
-   bool logic_uScriptCon_CompareInt_GreaterThan_49 = true;
-   bool logic_uScriptCon_CompareInt_GreaterThanOrEqualTo_49 = true;
-   bool logic_uScriptCon_CompareInt_EqualTo_49 = true;
-   bool logic_uScriptCon_CompareInt_NotEqualTo_49 = true;
-   bool logic_uScriptCon_CompareInt_LessThanOrEqualTo_49 = true;
-   bool logic_uScriptCon_CompareInt_LessThan_49 = true;
+   uScriptAct_Toggle logic_uScriptAct_Toggle_uScriptAct_Toggle_50 = new uScriptAct_Toggle( );
+   UnityEngine.GameObject[] logic_uScriptAct_Toggle_Target_50 = new UnityEngine.GameObject[] {};
+   System.Boolean logic_uScriptAct_Toggle_IgnoreChildren_50 = (bool) false;
+   bool logic_uScriptAct_Toggle_Out_50 = true;
+   //pointer to script instanced logic node
+   uScriptAct_Toggle logic_uScriptAct_Toggle_uScriptAct_Toggle_52 = new uScriptAct_Toggle( );
+   UnityEngine.GameObject[] logic_uScriptAct_Toggle_Target_52 = new UnityEngine.GameObject[] {};
+   System.Boolean logic_uScriptAct_Toggle_IgnoreChildren_52 = (bool) false;
+   bool logic_uScriptAct_Toggle_Out_52 = true;
    
    //event nodes
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_0 = default(UnityEngine.GameObject);
@@ -229,8 +230,9 @@ public class selector : uScriptLogic
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_28 = default(UnityEngine.GameObject);
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_29 = default(UnityEngine.GameObject);
    UnityEngine.GameObject event_UnityEngine_GameObject_Instance_30 = default(UnityEngine.GameObject);
-   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_40 = default(UnityEngine.GameObject);
-   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_50 = default(UnityEngine.GameObject);
+   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_39 = default(UnityEngine.GameObject);
+   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_48 = default(UnityEngine.GameObject);
+   UnityEngine.GameObject event_UnityEngine_GameObject_Instance_51 = default(UnityEngine.GameObject);
    
    //property nodes
    
@@ -268,29 +270,42 @@ public class selector : uScriptLogic
          
          //setup new listeners
       }
-      if ( null == local_37_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      if ( null == local_36_UnityEngine_GameObject || false == m_RegisteredForEvents )
       {
-         local_37_UnityEngine_GameObject = GameObject.Find( "credits" ) as UnityEngine.GameObject;
+         local_36_UnityEngine_GameObject = GameObject.Find( "credits" ) as UnityEngine.GameObject;
       }
       //if our game object reference was changed then we need to reset event listeners
-      if ( local_37_UnityEngine_GameObject_previous != local_37_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      if ( local_36_UnityEngine_GameObject_previous != local_36_UnityEngine_GameObject || false == m_RegisteredForEvents )
       {
          //tear down old listeners
          
-         local_37_UnityEngine_GameObject_previous = local_37_UnityEngine_GameObject;
+         local_36_UnityEngine_GameObject_previous = local_36_UnityEngine_GameObject;
          
          //setup new listeners
       }
-      if ( null == local_48_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      if ( null == local_46_UnityEngine_GameObject || false == m_RegisteredForEvents )
       {
-         local_48_UnityEngine_GameObject = GameObject.Find( "credits" ) as UnityEngine.GameObject;
+         local_46_UnityEngine_GameObject = GameObject.Find( "credits" ) as UnityEngine.GameObject;
       }
       //if our game object reference was changed then we need to reset event listeners
-      if ( local_48_UnityEngine_GameObject_previous != local_48_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      if ( local_46_UnityEngine_GameObject_previous != local_46_UnityEngine_GameObject || false == m_RegisteredForEvents )
       {
          //tear down old listeners
          
-         local_48_UnityEngine_GameObject_previous = local_48_UnityEngine_GameObject;
+         local_46_UnityEngine_GameObject_previous = local_46_UnityEngine_GameObject;
+         
+         //setup new listeners
+      }
+      if ( null == local_53_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      {
+         local_53_UnityEngine_GameObject = GameObject.Find( "credits" ) as UnityEngine.GameObject;
+      }
+      //if our game object reference was changed then we need to reset event listeners
+      if ( local_53_UnityEngine_GameObject_previous != local_53_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      {
+         //tear down old listeners
+         
+         local_53_UnityEngine_GameObject_previous = local_53_UnityEngine_GameObject;
          
          //setup new listeners
       }
@@ -318,20 +333,29 @@ public class selector : uScriptLogic
          //setup new listeners
       }
       //if our game object reference was changed then we need to reset event listeners
-      if ( local_37_UnityEngine_GameObject_previous != local_37_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      if ( local_36_UnityEngine_GameObject_previous != local_36_UnityEngine_GameObject || false == m_RegisteredForEvents )
       {
          //tear down old listeners
          
-         local_37_UnityEngine_GameObject_previous = local_37_UnityEngine_GameObject;
+         local_36_UnityEngine_GameObject_previous = local_36_UnityEngine_GameObject;
          
          //setup new listeners
       }
       //if our game object reference was changed then we need to reset event listeners
-      if ( local_48_UnityEngine_GameObject_previous != local_48_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      if ( local_46_UnityEngine_GameObject_previous != local_46_UnityEngine_GameObject || false == m_RegisteredForEvents )
       {
          //tear down old listeners
          
-         local_48_UnityEngine_GameObject_previous = local_48_UnityEngine_GameObject;
+         local_46_UnityEngine_GameObject_previous = local_46_UnityEngine_GameObject;
+         
+         //setup new listeners
+      }
+      //if our game object reference was changed then we need to reset event listeners
+      if ( local_53_UnityEngine_GameObject_previous != local_53_UnityEngine_GameObject || false == m_RegisteredForEvents )
+      {
+         //tear down old listeners
+         
+         local_53_UnityEngine_GameObject_previous = local_53_UnityEngine_GameObject;
          
          //setup new listeners
       }
@@ -437,38 +461,57 @@ public class selector : uScriptLogic
             }
          }
       }
-      if ( null == event_UnityEngine_GameObject_Instance_40 || false == m_RegisteredForEvents )
+      if ( null == event_UnityEngine_GameObject_Instance_39 || false == m_RegisteredForEvents )
       {
-         event_UnityEngine_GameObject_Instance_40 = uScript_MasterComponent.LatestMaster;
-         if ( null != event_UnityEngine_GameObject_Instance_40 )
+         event_UnityEngine_GameObject_Instance_39 = uScript_MasterComponent.LatestMaster;
+         if ( null != event_UnityEngine_GameObject_Instance_39 )
          {
             {
-               uScript_Input component = event_UnityEngine_GameObject_Instance_40.GetComponent<uScript_Input>();
+               uScript_Input component = event_UnityEngine_GameObject_Instance_39.GetComponent<uScript_Input>();
                if ( null == component )
                {
-                  component = event_UnityEngine_GameObject_Instance_40.AddComponent<uScript_Input>();
+                  component = event_UnityEngine_GameObject_Instance_39.AddComponent<uScript_Input>();
                }
                if ( null != component )
                {
-                  component.KeyEvent += Instance_KeyEvent_40;
+                  component.KeyEvent += Instance_KeyEvent_39;
                }
             }
          }
       }
-      if ( null == event_UnityEngine_GameObject_Instance_50 || false == m_RegisteredForEvents )
+      if ( null == event_UnityEngine_GameObject_Instance_48 || false == m_RegisteredForEvents )
       {
-         event_UnityEngine_GameObject_Instance_50 = uScript_MasterComponent.LatestMaster;
-         if ( null != event_UnityEngine_GameObject_Instance_50 )
+         event_UnityEngine_GameObject_Instance_48 = uScript_MasterComponent.LatestMaster;
+         if ( null != event_UnityEngine_GameObject_Instance_48 )
          {
             {
-               uScript_Input component = event_UnityEngine_GameObject_Instance_50.GetComponent<uScript_Input>();
+               uScript_Input component = event_UnityEngine_GameObject_Instance_48.GetComponent<uScript_Input>();
                if ( null == component )
                {
-                  component = event_UnityEngine_GameObject_Instance_50.AddComponent<uScript_Input>();
+                  component = event_UnityEngine_GameObject_Instance_48.AddComponent<uScript_Input>();
                }
                if ( null != component )
                {
-                  component.KeyEvent += Instance_KeyEvent_50;
+                  component.KeyEvent += Instance_KeyEvent_48;
+               }
+            }
+         }
+      }
+      if ( null == event_UnityEngine_GameObject_Instance_51 || false == m_RegisteredForEvents )
+      {
+         event_UnityEngine_GameObject_Instance_51 = uScript_MasterComponent.LatestMaster;
+         if ( null != event_UnityEngine_GameObject_Instance_51 )
+         {
+            {
+               uScript_Global component = event_UnityEngine_GameObject_Instance_51.GetComponent<uScript_Global>();
+               if ( null == component )
+               {
+                  component = event_UnityEngine_GameObject_Instance_51.AddComponent<uScript_Global>();
+               }
+               if ( null != component )
+               {
+                  component.uScriptStart += Instance_uScriptStart_51;
+                  component.uScriptLateStart += Instance_uScriptLateStart_51;
                }
             }
          }
@@ -535,23 +578,34 @@ public class selector : uScriptLogic
             }
          }
       }
-      if ( null != event_UnityEngine_GameObject_Instance_40 )
+      if ( null != event_UnityEngine_GameObject_Instance_39 )
       {
          {
-            uScript_Input component = event_UnityEngine_GameObject_Instance_40.GetComponent<uScript_Input>();
+            uScript_Input component = event_UnityEngine_GameObject_Instance_39.GetComponent<uScript_Input>();
             if ( null != component )
             {
-               component.KeyEvent -= Instance_KeyEvent_40;
+               component.KeyEvent -= Instance_KeyEvent_39;
             }
          }
       }
-      if ( null != event_UnityEngine_GameObject_Instance_50 )
+      if ( null != event_UnityEngine_GameObject_Instance_48 )
       {
          {
-            uScript_Input component = event_UnityEngine_GameObject_Instance_50.GetComponent<uScript_Input>();
+            uScript_Input component = event_UnityEngine_GameObject_Instance_48.GetComponent<uScript_Input>();
             if ( null != component )
             {
-               component.KeyEvent -= Instance_KeyEvent_50;
+               component.KeyEvent -= Instance_KeyEvent_48;
+            }
+         }
+      }
+      if ( null != event_UnityEngine_GameObject_Instance_51 )
+      {
+         {
+            uScript_Global component = event_UnityEngine_GameObject_Instance_51.GetComponent<uScript_Global>();
+            if ( null != component )
+            {
+               component.uScriptStart -= Instance_uScriptStart_51;
+               component.uScriptLateStart -= Instance_uScriptLateStart_51;
             }
          }
       }
@@ -578,14 +632,15 @@ public class selector : uScriptLogic
       logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_31.SetParent(g);
       logic_uScriptCon_CompareInt_uScriptCon_CompareInt_33.SetParent(g);
       load.SetParent(g);
-      logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_36.SetParent(g);
-      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_38.SetParent(g);
-      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_41.SetParent(g);
-      logic_uScriptAct_SetInt_uScriptAct_SetInt_42.SetParent(g);
-      logic_uScriptAct_SetInt_uScriptAct_SetInt_44.SetParent(g);
-      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_46.SetParent(g);
-      logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_47.SetParent(g);
-      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_49.SetParent(g);
+      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_37.SetParent(g);
+      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_40.SetParent(g);
+      logic_uScriptAct_SetInt_uScriptAct_SetInt_41.SetParent(g);
+      logic_uScriptAct_SetInt_uScriptAct_SetInt_43.SetParent(g);
+      logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_45.SetParent(g);
+      logic_uScriptCon_CompareInt_uScriptCon_CompareInt_47.SetParent(g);
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.SetParent(g);
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.SetParent(g);
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.SetParent(g);
    }
    public void Awake()
    {
@@ -603,6 +658,15 @@ public class selector : uScriptLogic
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.OffOut += uScriptAct_Toggle_OffOut_11;
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.ToggleOut += uScriptAct_Toggle_ToggleOut_11;
       load.Loaded += uScriptAct_LoadLevel_Loaded_34;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.OnOut += uScriptAct_Toggle_OnOut_49;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.OffOut += uScriptAct_Toggle_OffOut_49;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.ToggleOut += uScriptAct_Toggle_ToggleOut_49;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.OnOut += uScriptAct_Toggle_OnOut_50;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.OffOut += uScriptAct_Toggle_OffOut_50;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.ToggleOut += uScriptAct_Toggle_ToggleOut_50;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.OnOut += uScriptAct_Toggle_OnOut_52;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.OffOut += uScriptAct_Toggle_OffOut_52;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.ToggleOut += uScriptAct_Toggle_ToggleOut_52;
    }
    
    public void Start()
@@ -662,6 +726,15 @@ public class selector : uScriptLogic
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.OffOut -= uScriptAct_Toggle_OffOut_11;
       logic_uScriptAct_Toggle_uScriptAct_Toggle_11.ToggleOut -= uScriptAct_Toggle_ToggleOut_11;
       load.Loaded -= uScriptAct_LoadLevel_Loaded_34;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.OnOut -= uScriptAct_Toggle_OnOut_49;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.OffOut -= uScriptAct_Toggle_OffOut_49;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_49.ToggleOut -= uScriptAct_Toggle_ToggleOut_49;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.OnOut -= uScriptAct_Toggle_OnOut_50;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.OffOut -= uScriptAct_Toggle_OffOut_50;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_50.ToggleOut -= uScriptAct_Toggle_ToggleOut_50;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.OnOut -= uScriptAct_Toggle_OnOut_52;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.OffOut -= uScriptAct_Toggle_OffOut_52;
+      logic_uScriptAct_Toggle_uScriptAct_Toggle_52.ToggleOut -= uScriptAct_Toggle_ToggleOut_52;
    }
    
    void Instance_OnUpdate_0(object o, System.EventArgs e)
@@ -820,7 +893,7 @@ public class selector : uScriptLogic
       Relay_KeyEvent_30( );
    }
    
-   void Instance_KeyEvent_40(object o, System.EventArgs e)
+   void Instance_KeyEvent_39(object o, System.EventArgs e)
    {
       //reset event call
       //if it ever goes above MaxRelayCallCount before being reset
@@ -829,10 +902,10 @@ public class selector : uScriptLogic
       
       //fill globals
       //relay event to nodes
-      Relay_KeyEvent_40( );
+      Relay_KeyEvent_39( );
    }
    
-   void Instance_KeyEvent_50(object o, System.EventArgs e)
+   void Instance_KeyEvent_48(object o, System.EventArgs e)
    {
       //reset event call
       //if it ever goes above MaxRelayCallCount before being reset
@@ -841,7 +914,31 @@ public class selector : uScriptLogic
       
       //fill globals
       //relay event to nodes
-      Relay_KeyEvent_50( );
+      Relay_KeyEvent_48( );
+   }
+   
+   void Instance_uScriptStart_51(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_uScriptStart_51( );
+   }
+   
+   void Instance_uScriptLateStart_51(object o, System.EventArgs e)
+   {
+      //reset event call
+      //if it ever goes above MaxRelayCallCount before being reset
+      //then we assume it is stuck in an infinite loop
+      if ( relayCallCount < MaxRelayCallCount ) relayCallCount = 0;
+      
+      //fill globals
+      //relay event to nodes
+      Relay_uScriptLateStart_51( );
    }
    
    void uScriptAct_Toggle_OnOut_6(object o, System.EventArgs e)
@@ -933,6 +1030,69 @@ public class selector : uScriptLogic
       //fill globals
       //relay event to nodes
       Relay_Loaded_34( );
+   }
+   
+   void uScriptAct_Toggle_OnOut_49(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_OnOut_49( );
+   }
+   
+   void uScriptAct_Toggle_OffOut_49(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_OffOut_49( );
+   }
+   
+   void uScriptAct_Toggle_ToggleOut_49(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_ToggleOut_49( );
+   }
+   
+   void uScriptAct_Toggle_OnOut_50(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_OnOut_50( );
+   }
+   
+   void uScriptAct_Toggle_OffOut_50(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_OffOut_50( );
+   }
+   
+   void uScriptAct_Toggle_ToggleOut_50(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_ToggleOut_50( );
+   }
+   
+   void uScriptAct_Toggle_OnOut_52(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_OnOut_52( );
+   }
+   
+   void uScriptAct_Toggle_OffOut_52(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_OffOut_52( );
+   }
+   
+   void uScriptAct_Toggle_ToggleOut_52(object o, System.EventArgs e)
+   {
+      //fill globals
+      //relay event to nodes
+      Relay_ToggleOut_52( );
    }
    
    void Relay_OnUpdate_0()
@@ -1799,7 +1959,7 @@ public class selector : uScriptLogic
             }
          }
          logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24.In(logic_uScriptAct_GetAxis_axisName_24, out logic_uScriptAct_GetAxis_result_24, out logic_uScriptAct_GetAxis_rawResult_24);
-         axis2 = logic_uScriptAct_GetAxis_result_24;
+         axis1 = logic_uScriptAct_GetAxis_result_24;
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
          bool test_0 = logic_uScriptAct_GetAxis_uScriptAct_GetAxis_24.Out;
@@ -1822,7 +1982,7 @@ public class selector : uScriptLogic
          if (true == CheckDebugBreak("9312ec8a-38c3-4cc9-b76e-19e1b201233f", "Compare_Float", Relay_In_26)) return; 
          {
             {
-               logic_uScriptCon_CompareFloat_A_26 = axis2;
+               logic_uScriptCon_CompareFloat_A_26 = axis1;
                
             }
             {
@@ -2001,74 +2161,23 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_In_36()
+   void Relay_In_37()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("51ffd320-1ad6-4c13-aba8-f12b5c2ee962", "Animator_Play", Relay_In_36)) return; 
+         if (true == CheckDebugBreak("1e6ed750-9cd9-41d7-afad-06554803cefd", "Input_Events_Filter", Relay_In_37)) return; 
          {
-            {
-               int index = 0;
-               {
-                  //if our game object reference was changed then we need to reset event listeners
-                  if ( local_37_UnityEngine_GameObject_previous != local_37_UnityEngine_GameObject || false == m_RegisteredForEvents )
-                  {
-                     //tear down old listeners
-                     
-                     local_37_UnityEngine_GameObject_previous = local_37_UnityEngine_GameObject;
-                     
-                     //setup new listeners
-                  }
-               }
-               if ( logic_uScriptAct_AnimatorPlay_Target_36.Length <= index)
-               {
-                  System.Array.Resize(ref logic_uScriptAct_AnimatorPlay_Target_36, index + 1);
-               }
-               logic_uScriptAct_AnimatorPlay_Target_36[ index++ ] = local_37_UnityEngine_GameObject;
-               
-            }
-            {
-               logic_uScriptAct_AnimatorPlay_Name_36 = local_open_System_String;
-               
-            }
-            {
-            }
             {
             }
          }
-         logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_36.In(logic_uScriptAct_AnimatorPlay_Target_36, logic_uScriptAct_AnimatorPlay_Name_36, logic_uScriptAct_AnimatorPlay_Layer_36, logic_uScriptAct_AnimatorPlay_NormalizedTime_36);
+         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_37.In(logic_uScriptAct_OnInputEventFilter_KeyCode_37);
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_36.Out;
+         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_37.KeyDown;
          
          if ( test_0 == true )
          {
-            Relay_In_42();
-         }
-      }
-      else
-      {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Animator Play.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
-      }
-   }
-   
-   void Relay_In_38()
-   {
-      if ( relayCallCount++ < MaxRelayCallCount )
-      {
-         if (true == CheckDebugBreak("1e6ed750-9cd9-41d7-afad-06554803cefd", "Input_Events_Filter", Relay_In_38)) return; 
-         {
-            {
-            }
-         }
-         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_38.In(logic_uScriptAct_OnInputEventFilter_KeyCode_38);
-         
-         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_38.KeyDown;
-         
-         if ( test_0 == true )
-         {
-            Relay_In_41();
+            Relay_In_40();
          }
       }
       else
@@ -2077,33 +2186,33 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_KeyEvent_40()
+   void Relay_KeyEvent_39()
    {
-      if (true == CheckDebugBreak("8a36fb98-6a19-4cce-96a4-fa77195fd388", "Input_Events", Relay_KeyEvent_40)) return; 
-      Relay_In_38();
+      if (true == CheckDebugBreak("8a36fb98-6a19-4cce-96a4-fa77195fd388", "Input_Events", Relay_KeyEvent_39)) return; 
+      Relay_In_37();
    }
    
-   void Relay_In_41()
+   void Relay_In_40()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("842aeea7-4ecb-4cee-9bd4-5d1a2285cd84", "Compare_Int", Relay_In_41)) return; 
+         if (true == CheckDebugBreak("842aeea7-4ecb-4cee-9bd4-5d1a2285cd84", "Compare_Int", Relay_In_40)) return; 
          {
             {
             }
             {
-               logic_uScriptCon_CompareInt_B_41 = selectorVar;
+               logic_uScriptCon_CompareInt_B_40 = selectorVar;
                
             }
          }
-         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_41.In(logic_uScriptCon_CompareInt_A_41, logic_uScriptCon_CompareInt_B_41);
+         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_40.In(logic_uScriptCon_CompareInt_A_40, logic_uScriptCon_CompareInt_B_40);
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_41.EqualTo;
+         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_40.EqualTo;
          
          if ( test_0 == true )
          {
-            Relay_In_36();
+            Relay_TurnOn_49();
          }
       }
       else
@@ -2112,19 +2221,19 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_In_42()
+   void Relay_In_41()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("6a6bdd98-59f0-4577-9e53-51728bda4643", "Set_Int", Relay_In_42)) return; 
+         if (true == CheckDebugBreak("6a6bdd98-59f0-4577-9e53-51728bda4643", "Set_Int", Relay_In_41)) return; 
          {
             {
             }
             {
             }
          }
-         logic_uScriptAct_SetInt_uScriptAct_SetInt_42.In(logic_uScriptAct_SetInt_Value_42, out logic_uScriptAct_SetInt_Target_42);
-         selectorVar = logic_uScriptAct_SetInt_Target_42;
+         logic_uScriptAct_SetInt_uScriptAct_SetInt_41.In(logic_uScriptAct_SetInt_Value_41, out logic_uScriptAct_SetInt_Target_41);
+         selectorVar = logic_uScriptAct_SetInt_Target_41;
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
          
@@ -2135,19 +2244,19 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_In_44()
+   void Relay_In_43()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("4b0c59ef-2fb8-47a7-b499-4362c6870fbc", "Set_Int", Relay_In_44)) return; 
+         if (true == CheckDebugBreak("4b0c59ef-2fb8-47a7-b499-4362c6870fbc", "Set_Int", Relay_In_43)) return; 
          {
             {
             }
             {
             }
          }
-         logic_uScriptAct_SetInt_uScriptAct_SetInt_44.In(logic_uScriptAct_SetInt_Value_44, out logic_uScriptAct_SetInt_Target_44);
-         selectorVar = logic_uScriptAct_SetInt_Target_44;
+         logic_uScriptAct_SetInt_uScriptAct_SetInt_43.In(logic_uScriptAct_SetInt_Value_43, out logic_uScriptAct_SetInt_Target_43);
+         selectorVar = logic_uScriptAct_SetInt_Target_43;
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
          
@@ -2158,23 +2267,23 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_In_46()
+   void Relay_In_45()
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("fd56140f-2610-41b6-aeb9-3a8cb3984a70", "Input_Events_Filter", Relay_In_46)) return; 
+         if (true == CheckDebugBreak("fd56140f-2610-41b6-aeb9-3a8cb3984a70", "Input_Events_Filter", Relay_In_45)) return; 
          {
             {
             }
          }
-         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_46.In(logic_uScriptAct_OnInputEventFilter_KeyCode_46);
+         logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_45.In(logic_uScriptAct_OnInputEventFilter_KeyCode_45);
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_46.KeyDown;
+         bool test_0 = logic_uScriptAct_OnInputEventFilter_uScriptAct_OnInputEventFilter_45.KeyDown;
          
          if ( test_0 == true )
          {
-            Relay_In_49();
+            Relay_In_47();
          }
       }
       else
@@ -2187,74 +2296,23 @@ public class selector : uScriptLogic
    {
       if ( relayCallCount++ < MaxRelayCallCount )
       {
-         if (true == CheckDebugBreak("1cc85a93-477f-4562-b56e-f8fce30e90e6", "Animator_Play", Relay_In_47)) return; 
+         if (true == CheckDebugBreak("67f13f8b-4127-4d37-a639-84006d9e7d67", "Compare_Int", Relay_In_47)) return; 
          {
             {
-               int index = 0;
-               {
-                  //if our game object reference was changed then we need to reset event listeners
-                  if ( local_48_UnityEngine_GameObject_previous != local_48_UnityEngine_GameObject || false == m_RegisteredForEvents )
-                  {
-                     //tear down old listeners
-                     
-                     local_48_UnityEngine_GameObject_previous = local_48_UnityEngine_GameObject;
-                     
-                     //setup new listeners
-                  }
-               }
-               if ( logic_uScriptAct_AnimatorPlay_Target_47.Length <= index)
-               {
-                  System.Array.Resize(ref logic_uScriptAct_AnimatorPlay_Target_47, index + 1);
-               }
-               logic_uScriptAct_AnimatorPlay_Target_47[ index++ ] = local_48_UnityEngine_GameObject;
+            }
+            {
+               logic_uScriptCon_CompareInt_B_47 = selectorVar;
                
-            }
-            {
-               logic_uScriptAct_AnimatorPlay_Name_47 = local_closed_System_String;
-               
-            }
-            {
-            }
-            {
             }
          }
-         logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_47.In(logic_uScriptAct_AnimatorPlay_Target_47, logic_uScriptAct_AnimatorPlay_Name_47, logic_uScriptAct_AnimatorPlay_Layer_47, logic_uScriptAct_AnimatorPlay_NormalizedTime_47);
+         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_47.In(logic_uScriptCon_CompareInt_A_47, logic_uScriptCon_CompareInt_B_47);
          
          //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptAct_AnimatorPlay_uScriptAct_AnimatorPlay_47.Out;
+         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_47.EqualTo;
          
          if ( test_0 == true )
          {
-            Relay_In_44();
-         }
-      }
-      else
-      {
-         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Animator Play.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
-      }
-   }
-   
-   void Relay_In_49()
-   {
-      if ( relayCallCount++ < MaxRelayCallCount )
-      {
-         if (true == CheckDebugBreak("67f13f8b-4127-4d37-a639-84006d9e7d67", "Compare_Int", Relay_In_49)) return; 
-         {
-            {
-            }
-            {
-               logic_uScriptCon_CompareInt_B_49 = selectorVar;
-               
-            }
-         }
-         logic_uScriptCon_CompareInt_uScriptCon_CompareInt_49.In(logic_uScriptCon_CompareInt_A_49, logic_uScriptCon_CompareInt_B_49);
-         
-         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
-         bool test_0 = logic_uScriptCon_CompareInt_uScriptCon_CompareInt_49.EqualTo;
-         
-         if ( test_0 == true )
-         {
-            Relay_In_47();
+            Relay_TurnOff_50();
          }
       }
       else
@@ -2263,10 +2321,519 @@ public class selector : uScriptLogic
       }
    }
    
-   void Relay_KeyEvent_50()
+   void Relay_KeyEvent_48()
    {
-      if (true == CheckDebugBreak("3a22ef07-1fe2-4fa0-a787-8ef000d1c5e7", "Input_Events", Relay_KeyEvent_50)) return; 
-      Relay_In_46();
+      if (true == CheckDebugBreak("3a22ef07-1fe2-4fa0-a787-8ef000d1c5e7", "Input_Events", Relay_KeyEvent_48)) return; 
+      Relay_In_45();
+   }
+   
+   void Relay_OnOut_49()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("c3f811b7-ca3b-43b9-90b2-2b952e694851", "Toggle", Relay_OnOut_49)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_OffOut_49()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("c3f811b7-ca3b-43b9-90b2-2b952e694851", "Toggle", Relay_OffOut_49)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_ToggleOut_49()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("c3f811b7-ca3b-43b9-90b2-2b952e694851", "Toggle", Relay_ToggleOut_49)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_TurnOn_49()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("c3f811b7-ca3b-43b9-90b2-2b952e694851", "Toggle", Relay_TurnOn_49)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_36_UnityEngine_GameObject_previous != local_36_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_36_UnityEngine_GameObject_previous = local_36_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_49.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_49, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_49[ index++ ] = local_36_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_49.TurnOn(logic_uScriptAct_Toggle_Target_49, logic_uScriptAct_Toggle_IgnoreChildren_49);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_Toggle_uScriptAct_Toggle_49.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_41();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_TurnOff_49()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("c3f811b7-ca3b-43b9-90b2-2b952e694851", "Toggle", Relay_TurnOff_49)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_36_UnityEngine_GameObject_previous != local_36_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_36_UnityEngine_GameObject_previous = local_36_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_49.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_49, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_49[ index++ ] = local_36_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_49.TurnOff(logic_uScriptAct_Toggle_Target_49, logic_uScriptAct_Toggle_IgnoreChildren_49);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_Toggle_uScriptAct_Toggle_49.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_41();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_Toggle_49()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("c3f811b7-ca3b-43b9-90b2-2b952e694851", "Toggle", Relay_Toggle_49)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_36_UnityEngine_GameObject_previous != local_36_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_36_UnityEngine_GameObject_previous = local_36_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_49.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_49, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_49[ index++ ] = local_36_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_49.Toggle(logic_uScriptAct_Toggle_Target_49, logic_uScriptAct_Toggle_IgnoreChildren_49);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_Toggle_uScriptAct_Toggle_49.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_41();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_OnOut_50()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("6e08ed0b-3c21-4d1b-8ad9-42d000b8dd14", "Toggle", Relay_OnOut_50)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_OffOut_50()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("6e08ed0b-3c21-4d1b-8ad9-42d000b8dd14", "Toggle", Relay_OffOut_50)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_ToggleOut_50()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("6e08ed0b-3c21-4d1b-8ad9-42d000b8dd14", "Toggle", Relay_ToggleOut_50)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_TurnOn_50()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("6e08ed0b-3c21-4d1b-8ad9-42d000b8dd14", "Toggle", Relay_TurnOn_50)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_46_UnityEngine_GameObject_previous != local_46_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_46_UnityEngine_GameObject_previous = local_46_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_50.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_50, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_50[ index++ ] = local_46_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_50.TurnOn(logic_uScriptAct_Toggle_Target_50, logic_uScriptAct_Toggle_IgnoreChildren_50);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_Toggle_uScriptAct_Toggle_50.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_43();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_TurnOff_50()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("6e08ed0b-3c21-4d1b-8ad9-42d000b8dd14", "Toggle", Relay_TurnOff_50)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_46_UnityEngine_GameObject_previous != local_46_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_46_UnityEngine_GameObject_previous = local_46_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_50.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_50, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_50[ index++ ] = local_46_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_50.TurnOff(logic_uScriptAct_Toggle_Target_50, logic_uScriptAct_Toggle_IgnoreChildren_50);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_Toggle_uScriptAct_Toggle_50.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_43();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_Toggle_50()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("6e08ed0b-3c21-4d1b-8ad9-42d000b8dd14", "Toggle", Relay_Toggle_50)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_46_UnityEngine_GameObject_previous != local_46_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_46_UnityEngine_GameObject_previous = local_46_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_50.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_50, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_50[ index++ ] = local_46_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_50.Toggle(logic_uScriptAct_Toggle_Target_50, logic_uScriptAct_Toggle_IgnoreChildren_50);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         bool test_0 = logic_uScriptAct_Toggle_uScriptAct_Toggle_50.Out;
+         
+         if ( test_0 == true )
+         {
+            Relay_In_43();
+         }
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_uScriptStart_51()
+   {
+      if (true == CheckDebugBreak("5d8b3d5f-c75e-4738-99fe-eb849acbd835", "uScript_Events", Relay_uScriptStart_51)) return; 
+      Relay_TurnOff_52();
+   }
+   
+   void Relay_uScriptLateStart_51()
+   {
+      if (true == CheckDebugBreak("5d8b3d5f-c75e-4738-99fe-eb849acbd835", "uScript_Events", Relay_uScriptLateStart_51)) return; 
+   }
+   
+   void Relay_OnOut_52()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("7b7bd60b-b280-4350-9e6a-facdbaf62364", "Toggle", Relay_OnOut_52)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_OffOut_52()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("7b7bd60b-b280-4350-9e6a-facdbaf62364", "Toggle", Relay_OffOut_52)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_ToggleOut_52()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("7b7bd60b-b280-4350-9e6a-facdbaf62364", "Toggle", Relay_ToggleOut_52)) return; 
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_TurnOn_52()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("7b7bd60b-b280-4350-9e6a-facdbaf62364", "Toggle", Relay_TurnOn_52)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_53_UnityEngine_GameObject_previous != local_53_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_53_UnityEngine_GameObject_previous = local_53_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_52.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_52, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_52[ index++ ] = local_53_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_52.TurnOn(logic_uScriptAct_Toggle_Target_52, logic_uScriptAct_Toggle_IgnoreChildren_52);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_TurnOff_52()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("7b7bd60b-b280-4350-9e6a-facdbaf62364", "Toggle", Relay_TurnOff_52)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_53_UnityEngine_GameObject_previous != local_53_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_53_UnityEngine_GameObject_previous = local_53_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_52.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_52, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_52[ index++ ] = local_53_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_52.TurnOff(logic_uScriptAct_Toggle_Target_52, logic_uScriptAct_Toggle_IgnoreChildren_52);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
+   }
+   
+   void Relay_Toggle_52()
+   {
+      if ( relayCallCount++ < MaxRelayCallCount )
+      {
+         if (true == CheckDebugBreak("7b7bd60b-b280-4350-9e6a-facdbaf62364", "Toggle", Relay_Toggle_52)) return; 
+         {
+            {
+               int index = 0;
+               {
+                  //if our game object reference was changed then we need to reset event listeners
+                  if ( local_53_UnityEngine_GameObject_previous != local_53_UnityEngine_GameObject || false == m_RegisteredForEvents )
+                  {
+                     //tear down old listeners
+                     
+                     local_53_UnityEngine_GameObject_previous = local_53_UnityEngine_GameObject;
+                     
+                     //setup new listeners
+                  }
+               }
+               if ( logic_uScriptAct_Toggle_Target_52.Length <= index)
+               {
+                  System.Array.Resize(ref logic_uScriptAct_Toggle_Target_52, index + 1);
+               }
+               logic_uScriptAct_Toggle_Target_52[ index++ ] = local_53_UnityEngine_GameObject;
+               
+            }
+            {
+            }
+         }
+         logic_uScriptAct_Toggle_uScriptAct_Toggle_52.Toggle(logic_uScriptAct_Toggle_Target_52, logic_uScriptAct_Toggle_IgnoreChildren_52);
+         
+         //save off values because, if there are multiple, our relay logic could cause them to change before the next value is tested
+         
+      }
+      else
+      {
+         uScriptDebug.Log( "Possible infinite loop detected in uScript selector.uscript at Toggle.  If this is in error you can change the Maximum Node Recursion in the Preferences Panel and regenerate the script.", uScriptDebug.Type.Error);
+      }
    }
    
    private void UpdateEditorValues( )
@@ -2277,18 +2844,16 @@ public class selector : uScriptLogic
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "4c0db4c2-f507-496e-8584-fdd4d71ed0ed", credit);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:axis", axis);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "3e1f6fc4-5054-49e1-83a7-981a509b4515", axis);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:axis2", axis2);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "cb811044-40c8-486d-a5de-9501cb6a7261", axis2);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:open", local_open_System_String);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "94c6368b-ef6b-421e-9bba-3c5e13d9973a", local_open_System_String);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:37", local_37_UnityEngine_GameObject);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "fd67a818-2035-4636-9ad6-c4741f5c03ea", local_37_UnityEngine_GameObject);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:axis1", axis1);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "cb811044-40c8-486d-a5de-9501cb6a7261", axis1);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:36", local_36_UnityEngine_GameObject);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "fd67a818-2035-4636-9ad6-c4741f5c03ea", local_36_UnityEngine_GameObject);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:selectorVar", selectorVar);
       uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "29eba0e1-e37a-43bf-853c-ee5443d40d85", selectorVar);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:closed", local_closed_System_String);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "7bc46f68-cedf-4e9e-863d-5adbd1ea7e95", local_closed_System_String);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:48", local_48_UnityEngine_GameObject);
-      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "84cf5f06-12cf-431d-8e71-bcda86f3210b", local_48_UnityEngine_GameObject);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:46", local_46_UnityEngine_GameObject);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "84cf5f06-12cf-431d-8e71-bcda86f3210b", local_46_UnityEngine_GameObject);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "selector.uscript:53", local_53_UnityEngine_GameObject);
+      uScript_MasterComponent.LatestMasterComponent.UpdateNodeValue( "545df527-a4c8-4755-a14f-cc22ef03d4ed", local_53_UnityEngine_GameObject);
    }
    bool CheckDebugBreak(string guid, string name, ContinueExecution method)
    {
