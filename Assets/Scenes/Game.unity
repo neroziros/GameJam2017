@@ -1252,6 +1252,7 @@ MonoBehaviour:
   - {fileID: 327293258}
   - {fileID: 926120771}
   - {fileID: 135100968}
+  - {fileID: 0}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
   - e8b3dc90-0011-45ea-9c74-704268dc7cf5
@@ -1380,6 +1381,7 @@ MonoBehaviour:
   - 30a655cf-8f70-41dd-8a59-c1dbabb9f9b9
   - 154d939d-13e4-4c68-95ab-209c7e437541
   - ecdc0e5a-fbc2-4967-9097-acc587650e89
+  - 02857202-d229-4322-bcf8-92dac2009f37
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
 --- !u!4 &223164204
