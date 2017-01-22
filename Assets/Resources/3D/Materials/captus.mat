@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: captus
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION
+  m_Shader: {fileID: 4800000, guid: e205ec5a2dab342e78812532c2f67fd5, type: 3}
+  m_ShaderKeywords: COLR_1_2 FRONT_SOLID_ON
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -128,6 +128,9 @@ Material:
         name: _Parallax
       second: 0.02
     - first:
+        name: _ShadowPower
+      second: 0.25
+    - first:
         name: _SmoothnessTextureChannel
       second: 0
     - first:
@@ -148,13 +151,13 @@ Material:
       second: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - first:
         name: _BackBottomColor
-      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+      second: {r: 0.275519, g: 0.7205882, b: 0.4995883, a: 0}
     - first:
         name: _BackTopColor
-      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+      second: {r: 0, g: 1, b: 0, a: 0}
     - first:
         name: _BottomColor
-      second: {r: 0, g: 0.5, b: 0.5, a: 0}
+      second: {r: 0.275519, g: 0.7205882, b: 0.4995883, a: 0}
     - first:
         name: _Color
       second: {r: 0.05295081, g: 0.8705036, b: 0.018886162, a: 1}
@@ -172,16 +175,16 @@ Material:
       second: {r: 0, g: 0, b: 0, a: 1}
     - first:
         name: _FrontBottomColor
-      second: {r: 1, g: 0, b: 0, a: 0}
+      second: {r: 0.42463234, g: 0.7445487, b: 0.875, a: 0}
     - first:
         name: _FrontTopColor
-      second: {r: 1, g: 0, b: 0, a: 0}
+      second: {r: 0.42463234, g: 0.7445487, b: 0.875, a: 0}
     - first:
         name: _LeftBottomColor
-      second: {r: 0.5, g: 0, b: 0.5, a: 0}
+      second: {r: 0.275519, g: 0.7205882, b: 0.4995883, a: 0}
     - first:
         name: _LeftTopColor
-      second: {r: 0.5, g: 0, b: 0.5, a: 0}
+      second: {r: 0, g: 1, b: 0, a: 0}
     - first:
         name: _LightTint
       second: {r: 1, g: 1, b: 1, a: 0}
@@ -190,10 +193,10 @@ Material:
       second: {r: 0, g: 0, b: 0, a: 0}
     - first:
         name: _RightBottomColor
-      second: {r: 0, g: 0, b: 1, a: 0}
+      second: {r: 0.275519, g: 0.7205882, b: 0.4995883, a: 0}
     - first:
         name: _RightTopColor
-      second: {r: 0, g: 0, b: 1, a: 0}
+      second: {r: 0, g: 1, b: 0, a: 0}
     - first:
         name: _TopColor
       second: {r: 0, g: 1, b: 0, a: 0}

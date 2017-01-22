@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: a68e7b336217b9d43b31d760e179b3b3
+timeCreated: 1485041230
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ToroIdle_0
+    21300002: ToroIdle_1
+    21300004: ToroIdle_2
+    21300006: ToroIdle_3
+    21300008: ToroIdle_4
+    21300010: ToroIdle_5
+    21300012: ToroIdle_6
+    21300014: ToroIdle_7
+    21300016: ToroIdle_8
+    21300018: ToroIdle_9
+    21300020: ToroIdle_10
+    21300022: ToroIdle_11
+    21300024: ToroIdle_12
+    21300026: ToroIdle_13
+    21300028: ToroIdle_14
+    21300030: ToroIdle_15
+    21300032: ToroIdle_16
+    21300034: ToroIdle_17
+    21300036: ToroIdle_18
+    21300038: ToroIdle_19
+    21300040: ToroIdle_20
+    21300042: ToroIdle_21
+    21300044: ToroIdle_22
+    21300046: ToroIdle_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ToroIdle_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1709
+        width: 383
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1710
+        width: 381
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_2
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1710
+        width: 379
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_3
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1711
+        width: 376
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1711
+        width: 374
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1286
+        width: 372
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1287
+        width: 369
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1287
+        width: 366
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_8
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1287
+        width: 364
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_9
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1287
+        width: 361
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 861
+        width: 358
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 861
+        width: 356
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_12
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 862
+        width: 353
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_13
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 861
+        width: 355
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_14
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 861
+        width: 358
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 435
+        width: 360
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_16
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 435
+        width: 363
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_17
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 435
+        width: 365
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_18
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 435
+        width: 368
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_19
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 435
+        width: 371
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 374
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_21
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 7
+        width: 375
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_22
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 6
+        width: 378
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 6
+        width: 381
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: e75da08e8d965a74b9dca43c2f555faf
+timeCreated: 1485041260
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ToroWalk_0
+    21300002: ToroWalk_1
+    21300004: ToroWalk_2
+    21300006: ToroWalk_3
+    21300008: ToroWalk_4
+    21300010: ToroWalk_5
+    21300012: ToroWalk_6
+    21300014: ToroWalk_7
+    21300016: ToroWalk_8
+    21300018: ToroWalk_9
+    21300020: ToroWalk_10
+    21300022: ToroWalk_11
+    21300024: ToroWalk_12
+    21300026: ToroWalk_13
+    21300028: ToroWalk_14
+    21300030: ToroWalk_15
+    21300032: ToroWalk_16
+    21300034: ToroWalk_17
+    21300036: ToroWalk_18
+    21300038: ToroWalk_19
+    21300040: ToroWalk_20
+    21300042: ToroWalk_21
+    21300044: ToroWalk_22
+    21300046: ToroWalk_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ToroWalk_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1803
+        width: 332
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_1
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1802
+        width: 339
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1800
+        width: 345
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_3
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1799
+        width: 351
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1799
+        width: 358
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1352
+        width: 369
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1352
+        width: 381
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1353
+        width: 392
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_8
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1353
+        width: 392
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_9
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1352
+        width: 387
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 905
+        width: 382
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 905
+        width: 377
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_12
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 904
+        width: 372
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_13
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 904
+        width: 367
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_14
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 905
+        width: 363
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 459
+        width: 359
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 459
+        width: 354
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_17
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 459
+        width: 351
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_18
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 459
+        width: 350
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_19
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 460
+        width: 346
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 15
+        width: 344
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_21
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 16
+        width: 341
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_22
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 17
+        width: 339
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroWalk_23
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 19
+        width: 336
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
