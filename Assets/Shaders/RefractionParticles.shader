@@ -97,7 +97,7 @@ Shader "Particles/Refraction" {
                 float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
 ////// Lighting:
                 float3 finalColor = 0;
-                return fixed4(lerp(sceneColor.rgb + _TintColor * _AlphaMask_var.r * _RefractionIntensity, finalColor,0.0),1);
+                return fixed4(lerp(sceneColor.rgb + _TintColor * _AlphaMask_var.r * _RefractionIntensity * 3, finalColor,0.0),1);
             }
             ENDCG
         }
