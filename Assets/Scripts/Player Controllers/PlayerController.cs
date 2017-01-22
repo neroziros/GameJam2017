@@ -21,16 +21,13 @@ public class PlayerController : MovableEntity
     public PlayerShieldController ShieldController { get; private set; }
     public PlayerMovementController MovementController { get; private set; }
     public PlayerCameraController CameraController { get; private set; }
-    public AvatarController PlayerAvatarController { get; private set; }
+    public AvatarController[] PlayerAvatarControllers { get; private set; }
     public AudioController PlayerAudioController { get; private set; }
     public PlayerAbilityController PlayerAbilityController { get; private set; }
 
     // Collisions
     public LayerMask GameplayLayerMask;
     public float DisplacementDurations = 0.5f;
-
-    // Audio indexes
-    public int[] AudioClipIndexes = new[] {1, 2, 3}; 
 
     // General state
     private PlayerState _state = PlayerState.Normal;
@@ -77,7 +74,6 @@ public class PlayerController : MovableEntity
         this.InputController = this.GetComponentInChildren<PlayerInput>();
         this.MovementController = this.GetComponentInChildren<PlayerMovementController>();
         this.CameraController = this.GetComponentInChildren<PlayerCameraController>();
-        this.PlayerAvatarController = this.GetComponentInChildren<AvatarController>();
         this.PlayerAudioController = this.GetComponentInChildren<AudioController>();
 
         this.ShieldController = this.GetComponentInChildren<PlayerShieldController>();
@@ -92,6 +88,13 @@ public class PlayerController : MovableEntity
         //this.CameraController.Initialize(this, cameraConfiguration);
         //this.PlayerAvatarController.Initialize(this);
         //this.PlayerUIPresenter.Initialize(this);
+
+        // Display proper avatar
+        foreach (var avatar in PlayerAvatarControllers)
+        {
+            avatar.gameObject.SetActive(false);
+        }
+        PlayerAvatarControllers[index].gameObject.SetActive(true);
 	}
 
     #region Player Components Update
@@ -178,7 +181,7 @@ public class PlayerController : MovableEntity
         if (isSamePlayerAndNotEnoughBounces)
             return;
 
-        BaseSoundManager.Instance.PlaySoundByIndex(AudioClipIndexes[2], this.transform.position);
+        BaseSoundManager.Instance.PlaySoundByIndex(2, this.transform.position);
 
         // Reduce player health point
         this.DealDamage(1);

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 public class GamePresenter : MonoBehaviour {
     // Singleton
@@ -21,7 +22,7 @@ public class GamePresenter : MonoBehaviour {
     
     // Match time controls
     public float CurrentMatchDuration = 0.0f;
-
+    private PlayerController winnerPlayer;
     void Awake()
     {
         // Set singleton refere
@@ -54,13 +55,32 @@ public class GamePresenter : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update ()
+	private  void Update ()
 	{
         if (this.CurrentMatchState != GamePresenter.State.Running)
             return;
 
         this.UpdateMatchTimer();
 	}
+
+    private void CheckPlayers()
+    {
+        int currentAlivePlayers = PlayerPresenter.Players.Count(player => player.IsAlive);
+
+        // Check if there is only one winner
+        if (currentAlivePlayers == 1)
+        {
+            foreach (var player in PlayerPresenter.Players)
+            {
+                if (player.IsAlive)
+                {
+                    winnerPlayer = player;
+                    EndMatch();
+                    return;
+                }
+            }
+        }
+    }
 
     // Ends the match
     public void EndMatch()
