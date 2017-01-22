@@ -171,13 +171,14 @@ GameObject:
   - component: {fileID: 583164009}
   - component: {fileID: 583164012}
   - component: {fileID: 583164010}
+  - component: {fileID: 583164013}
   m_Layer: 5
   m_Name: credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &583164008
 RectTransform:
   m_ObjectHideFlags: 0
@@ -193,7 +194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1928, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 139.02, y: 111.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &583164009
@@ -232,7 +233,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 15200000, guid: 567eabf9c8015074bb84a07b6ba088e5, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -256,6 +257,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c4b6dc4aaaad14a8a4c3d62d5f9398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &583164013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583164007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927d590d5d6a46041ab2d194e28d2f7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Image: {fileID: 583164010}
 --- !u!1 &777395076
 GameObject:
   m_ObjectHideFlags: 0
