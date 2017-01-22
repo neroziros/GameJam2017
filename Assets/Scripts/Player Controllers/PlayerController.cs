@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System.Runtime.CompilerServices;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 /// <summary>
 /// Manages the player status
@@ -26,6 +27,7 @@ public class PlayerController : MovableEntity
 
     // Collisions
     public LayerMask GameplayLayerMask;
+    public float DisplacementDurations = 0.5f;
 
     // General state
     private PlayerState _state = PlayerState.Normal;
@@ -41,7 +43,7 @@ public class PlayerController : MovableEntity
     }
     public bool CanMove
     {
-        get { return true; }
+        get { return State != PlayerState.Displacement; }
     }
     public bool CanFire
     {
@@ -51,7 +53,11 @@ public class PlayerController : MovableEntity
 
     public override void UpdateMovementVector(Vector3 redirectionTarget, bool wasABounces = true)
     {
-        transform.Translate(redirectionTarget);
+        State = PlayerState.Displacement;
+        transform.DOMove(transform.position + redirectionTarget, this.DisplacementDurations).OnComplete(() =>
+        {
+            State = PlayerState.Normal;
+        });
     }
 
     // Initialize this class
@@ -190,6 +196,7 @@ public class PlayerController : MovableEntity
     {
         Normal,
         Stunned,
+        Displacement,
     }
     public enum ID
     {

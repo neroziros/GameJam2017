@@ -32,13 +32,16 @@ public class PlayerShieldController : MonoBehaviour
 
     IEnumerator ExecuteShieldStun()
     {
-        controller.State = PlayerController.PlayerState.Stunned;
-        ShieldObject.gameObject.SetActive(false);
+        if (controller.State == PlayerController.PlayerState.Normal)
+        {
+            controller.State = PlayerController.PlayerState.Stunned;
+            ShieldObject.gameObject.SetActive(false);
 
-        yield return new  WaitForSeconds(ShieldStunDuration);
+            yield return new WaitForSeconds(ShieldStunDuration);
 
-        controller.State = PlayerController.PlayerState.Normal;
-        ShieldObject.gameObject.SetActive(true);
+            controller.State = PlayerController.PlayerState.Normal;
+            ShieldObject.gameObject.SetActive(true);
+        }
     }
 
 

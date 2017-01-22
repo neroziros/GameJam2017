@@ -391,7 +391,7 @@ InputManager:
     joyNum: 4
   - serializedVersion: 3
     m_Name: Control 1 Gatillo 1
-    descriptiveName: 
+    descriptiveName: Control 1 Gatillo 1
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
@@ -403,8 +403,8 @@ InputManager:
     snap: 0
     invert: 1
     type: 2
-    axis: 4
-    joyNum: 2
+    axis: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: Control 2 Gatillo 1
     descriptiveName: 
@@ -419,8 +419,8 @@ InputManager:
     snap: 0
     invert: 1
     type: 2
-    axis: 4
-    joyNum: 4
+    axis: 2
+    joyNum: 2
   - serializedVersion: 3
     m_Name: Control 3 Gatillo 1
     descriptiveName: 
@@ -435,7 +435,7 @@ InputManager:
     snap: 0
     invert: 1
     type: 2
-    axis: 4
+    axis: 2
     joyNum: 3
   - serializedVersion: 3
     m_Name: Control 4 Gatillo 1
@@ -451,5 +451,5 @@ InputManager:
     snap: 0
     invert: 1
     type: 2
-    axis: 4
+    axis: 2
     joyNum: 4

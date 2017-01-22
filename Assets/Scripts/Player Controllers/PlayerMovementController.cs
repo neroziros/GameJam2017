@@ -5,9 +5,12 @@ using UnityEngine;
 public class PlayerMovementController : MonoBehaviour
 {
     public float MaxSpeed = 1.0f;
+    private PlayerController controller;
 
     public void Initialize(PlayerController playerController)
-    {}
+    {
+        controller = playerController;
+    }
 
     public void UpdateMovement(InputInstance playerInput)
     {
@@ -15,7 +18,7 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 m_TargetWorldPos = new Vector3(playerInput.StrafeRight, 0, playerInput.MoveForward);
 
         // Check if we must move
-        if (m_TargetWorldPos.magnitude == 0)
+        if (m_TargetWorldPos.magnitude == 0 || !controller.CanMove)
             return;
 
         m_TargetWorldPos = Camera.main.transform.TransformDirection(m_TargetWorldPos);
