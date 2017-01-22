@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PerPlayerUIPresenter : MonoBehaviour
 {
     public Image Health;
+    public Image CharacterIcon;
     public float AnimationLenght = 0.35f;
 
     private int oldHealth = -1;
@@ -15,6 +16,8 @@ public class PerPlayerUIPresenter : MonoBehaviour
     public void Initialize(PlayerController playerController)
     {
         _playerController = playerController;
+
+        CharacterIcon.sprite = playerController.PlayerAvatarControllers[playerController.PlayerIndex].RegularSprite;
 
         oldHealth = _playerController.HitPoints;
     }
@@ -30,6 +33,11 @@ public class PerPlayerUIPresenter : MonoBehaviour
 
             this.Health.DOFillAmount((float) this._playerController.HitPoints/this._playerController.MaxHitPoints,
                 AnimationLenght);
+        }
+
+        if (!_playerController.IsAlive)
+        {
+            CharacterIcon.sprite = _playerController.PlayerAvatarControllers[_playerController.PlayerIndex].DedSprite;
         }
     }
 }

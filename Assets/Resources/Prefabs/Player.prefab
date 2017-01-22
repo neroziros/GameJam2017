@@ -773,6 +773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95474622225160080}
   CoreImage: {fileID: 212152117343828470}
+  RegularSprite: {fileID: 21300000, guid: a0b57740a32a197458b42bb55604f358, type: 3}
+  DedSprite: {fileID: 21300000, guid: 5c9370fdd71f4934b9ffaf5e20d90839, type: 3}
   AudioIndexes: 0400000005000000
 --- !u!114 &114265617547635230
 MonoBehaviour:
@@ -798,6 +800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95191521617471400}
   CoreImage: {fileID: 212717930421321154}
+  RegularSprite: {fileID: 21300000, guid: 7758492f252ea104ab5d7bb47e4e459e, type: 3}
+  DedSprite: {fileID: 21300000, guid: f13b67e8947a4064b9850a93bcb2095f, type: 3}
   AudioIndexes: 
 --- !u!114 &114286196029621360
 MonoBehaviour:
@@ -901,6 +905,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95153878164434006}
   CoreImage: {fileID: 212438782333645202}
+  RegularSprite: {fileID: 21300000, guid: 0284aa7b0b5903f4b9f2afdb6eae7255, type: 3}
+  DedSprite: {fileID: 21300000, guid: 46c5960c482760f47ba21acee5e2488f, type: 3}
   AudioIndexes: 0100000002000000
 --- !u!114 &114836364910118694
 MonoBehaviour:
@@ -915,6 +921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoreAvatar: {fileID: 95383304019651952}
   CoreImage: {fileID: 212711286046317352}
+  RegularSprite: {fileID: 21300000, guid: 6d41da775396cf74da3b57552991ee7c, type: 3}
+  DedSprite: {fileID: 21300000, guid: c49d99b4a7e10724f80ecf8ed4edd755, type: 3}
   AudioIndexes: 
 --- !u!114 &114898623046519590
 MonoBehaviour:
