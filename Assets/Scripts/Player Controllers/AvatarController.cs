@@ -13,6 +13,9 @@ public class AvatarController : MonoBehaviour {
     public SpriteRenderer CoreImage;
     private bool isInitialized = false;
 
+    public Sprite RegularSprite;
+    public Sprite DedSprite;
+
     // Configurable animations
     public enum AudioIndexesEnum
     {

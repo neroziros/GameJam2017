@@ -70,12 +70,13 @@ public class GamePresenter : MonoBehaviour {
         // Check if there is only one winner
         if (currentAlivePlayers == 1)
         {
-            foreach (var player in PlayerPresenter.Players)
+            for (int index = 0; index < PlayerPresenter.Players.Length; index++)
             {
+                var player = PlayerPresenter.Players[index];
                 if (player.IsAlive)
                 {
                     winnerPlayer = player;
-                    EndMatch();
+                    UiPresenter.RequestWinScreen(index);
                     return;
                 }
             }
@@ -88,31 +89,8 @@ public class GamePresenter : MonoBehaviour {
         // Set end game state
         this.CurrentMatchState = State.Ended;
         
-        /*
         // Display winner
-        if (winnerPlayer != null)
-        {
-            // Display winners and losers
-            foreach (var playerPresenter in this.PlayerPresenter.Players)
-            {
-                // Check if the player is the winner
-                if(playerPresenter == winnerPlayer)
-                    playerPresenter.PlayerUIPresenter.DisplayEndGameMessage(EndGameMessage.Winner);
-                // Check if the player was defeated
-                else
-                    playerPresenter.PlayerUIPresenter.DisplayEndGameMessage(EndGameMessage.Defeated);
-            }
-        }
-        else
-        {
-            // Display draw players
-            foreach (var playerPresenter in this.PlayerPresenter.Players)
-                playerPresenter.PlayerUIPresenter.DisplayEndGameMessage(EndGameMessage.Draw);
-        }
-
-        // Display general message
-        this.UiPresenter.DisplayEndGameLayout();
-        */
+        CheckPlayers();
     }
 
 

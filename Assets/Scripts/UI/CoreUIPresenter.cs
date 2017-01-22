@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class CoreUIPresenter : MonoBehaviour {
 
-    public PerPlayerUIPresenter[] PlayerUIPresenter = new PerPlayerUIPresenter[4]; 
+    public PerPlayerUIPresenter[] PlayerUIPresenter = new PerPlayerUIPresenter[4];
+    public WinScreen WinnerScreen;
 
     // Use this for initialization
     public void Initialize()
     {
+        WinnerScreen.gameObject.SetActive(false);
+
         foreach (var presenter in PlayerUIPresenter)
         {
             presenter.gameObject.SetActive(false);
@@ -19,5 +22,11 @@ public class CoreUIPresenter : MonoBehaviour {
             PlayerUIPresenter[i].gameObject.SetActive(true);
             PlayerUIPresenter[i].Initialize(GamePresenter.Instance.PlayerPresenter.Players[i]);
         }
+    }
+
+    public void RequestWinScreen(int winnerIndex)
+    {
+        WinnerScreen.gameObject.SetActive(true);
+        WinnerScreen.DisplayWinScreen(winnerIndex);
     }
 }
