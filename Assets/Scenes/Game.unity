@@ -1517,7 +1517,6 @@ MonoBehaviour:
   - {fileID: 1556749693}
   - {fileID: 2004947635}
   - {fileID: 1268074718}
-  - {fileID: 0}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
   - e8b3dc90-0011-45ea-9c74-704268dc7cf5
@@ -1650,7 +1649,6 @@ MonoBehaviour:
   - b6710dc2-febc-4efe-9825-a5283dc0d966
   - ecf97562-5fa4-4231-b22e-ee16f6ddc59b
   - 6d5c567a-253d-490f-968d-3271adf6a756
-  - 029569cb-cacc-42de-8840-48df18358736
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
 --- !u!4 &223164204
@@ -1898,6 +1896,23 @@ GameObject:
   m_PrefabParentObject: {fileID: 1580762238049272, guid: 25f779f0f0eb3624ca41536a9bedf014,
     type: 2}
   m_PrefabInternal: {fileID: 1967230875}
+--- !u!95 &256275158
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256275157}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb0cb027949d6e141b6e81f343adf0d8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &275658142
 GameObject:
   m_ObjectHideFlags: 0
