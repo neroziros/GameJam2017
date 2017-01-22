@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class AvatarController : MonoBehaviour {
 
@@ -8,68 +9,50 @@ public class AvatarController : MonoBehaviour {
     private PlayerController mainPlayerController;
 
     // Possible Avatars
-    public Animator HumanAvatar;
-    public Animator MonsterAvatar;
-    private Animator currentAvatar; 
+    public Animator CoreAvatar;
+    public SpriteRenderer CoreImage;
+    private bool isInitialized = false;
 
-    // Particle system
-    public GameObject MagicalGirlFX;
-    public float PFXDuration = 3.0f;
+    // Configurable animations
 
     // Use this for initialization
     public void Initialize (PlayerController playerController) {
         // Store main player component reference
         this.mainPlayerController = playerController;
-
-        // Set initial avatar
-        // todo:
+        isInitialized = true;
     }
 
-    #region Avatar Animation
-
-    public void ExecuteParticleSystem()
+    public void UpdateAvatar(InputInstance input)
     {
-        this.MagicalGirlFX.SetActive(false);
+        // Update orientation
+        if (input.StrafeRight > 0)
+        {
+            CoreImage.flipX = false;
+        }
+        else if (input.StrafeRight < 0)
+        {
+            CoreImage.flipX = true;
+        }
 
-        StopCoroutine("DelayedPFXDeactivation");
-        StartCoroutine("DelayedPFXDeactivation");
+        // Update movement
+        if (input.StrafeRight != 0 || input.MoveForward != 0)
+        {
+            CoreAvatar.SetBool("Moving",true);
+        }
+        else
+        {
+            CoreAvatar.SetBool("Moving", false);
+        }
     }
 
-    IEnumerator DelayedPFXDeactivation()
+    public void OnHit()
     {
-        this.MagicalGirlFX.SetActive(true);
-        yield return new WaitForSeconds(this.PFXDuration);
-        this.MagicalGirlFX.SetActive(false);
+        CoreAvatar.SetTrigger("hit");
     }
-
-    public void SetCrouchAnimation(bool crouch)
+    
+    private void Update()
     {
-        this.currentAvatar.SetBool("Crunch", crouch);
+        if(!isInitialized)
+            return;
     }
-
-    public void UpdateMovementAnimation(float inputX, float inputY, bool running,bool currentCrouch)
-    {
-        this.currentAvatar.SetBool("Run",running);
-
-        this.currentAvatar.SetFloat("InputX", inputX);
-        this.currentAvatar.SetFloat("InputY", inputY);
-
-        this.SetCrouchAnimation(currentCrouch);
-    }
-
-    public void PlayDiveAnimation()
-    {
-        this.currentAvatar.SetTrigger("Dive");
-    }
-
-    public void PlayJumpAnimation()
-    {
-        this.currentAvatar.SetTrigger("Jump");
-    }
-
-    #endregion
-
-
-    #region Avatar Management
-    #endregion
 }

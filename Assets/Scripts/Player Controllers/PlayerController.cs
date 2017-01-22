@@ -15,13 +15,14 @@ public class PlayerController : MovableEntity
 
     // Main player identifier
     public ID PlayerId = ID.Player1;
+    private int PlayerIndex = -1;
 
     // Main controllers
     public PlayerInput InputController { get; private set; }
     public PlayerShieldController ShieldController { get; private set; }
     public PlayerMovementController MovementController { get; private set; }
     public PlayerCameraController CameraController { get; private set; }
-    public AvatarController[] PlayerAvatarControllers { get; private set; }
+    public AvatarController[] PlayerAvatarControllers = new AvatarController[4];
     public AudioController PlayerAudioController { get; private set; }
     public PlayerAbilityController PlayerAbilityController { get; private set; }
 
@@ -65,6 +66,7 @@ public class PlayerController : MovableEntity
 	{
         // Set player identifier
         this.PlayerId = (ID) index;
+        this.PlayerIndex = index;
         this.transform.name = this.PlayerId.ToString();
         this.MaxHitPoints = this.HitPoints;
 
@@ -95,7 +97,9 @@ public class PlayerController : MovableEntity
             avatar.gameObject.SetActive(false);
         }
         PlayerAvatarControllers[index].gameObject.SetActive(true);
-	}
+        PlayerAvatarControllers[index].Initialize(this);
+
+    }
 
     #region Player Components Update
     // Update is called once per frame
@@ -126,6 +130,8 @@ public class PlayerController : MovableEntity
         this.MovementController.UpdateMovement(this.InputController.InputInstance);
         this.ShieldController.UpdateShieldInput(this.InputController.InputInstance);
         this.PlayerAbilityController.UpdatePlayerAbility(this.InputController.InputInstance);
+        this.PlayerAvatarControllers[this.PlayerIndex].UpdateAvatar(this.InputController.InputInstance);
+
     }
 
     // Update player controllers every physics frame
@@ -186,6 +192,9 @@ public class PlayerController : MovableEntity
         // Reduce player health point
         this.DealDamage(1);
 
+        // Execute avatar animation
+        this.PlayerAvatarControllers[this.PlayerIndex].OnHit();
+        
         // Kill projectile
         projectile.DealDamage(projectile.HitPoints);
     }
