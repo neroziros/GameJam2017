@@ -26,7 +26,7 @@ public class EnvironmentPresenter : MonoBehaviour
     {
         yield return new WaitForSeconds(InitialDelay);
 
-        while (true)
+        while (GamePresenter.Instance.CurrentMatchState != GamePresenter.State.Ended)
         {
             if (GamePresenter.Instance.CurrentMatchState == GamePresenter.State.Running)
             {
@@ -37,6 +37,7 @@ public class EnvironmentPresenter : MonoBehaviour
                 _possibleStages[currentStage].Hide();
                 currentStage = (currentStage+1)% _possibleStages.Length;
             }
+
         }
     }
 
