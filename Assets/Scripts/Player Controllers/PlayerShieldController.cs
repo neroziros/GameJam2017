@@ -24,6 +24,8 @@ public class PlayerShieldController : MonoBehaviour
 
     public void OnShieldCollision()
     {
+        BaseSoundManager.Instance.PlaySoundByIndex(3, this.transform.position);
+
         StopCoroutine("ExecuteShieldStun");
         StartCoroutine("ExecuteShieldStun");
     }
