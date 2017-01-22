@@ -38,6 +38,9 @@ public class PlayerPresenter : MonoBehaviour {
 
     // Use this for initialization
     public void Initialize (EnvironmentPresenter environmentPresenter) {
+        // Clamp player amount
+        this.PlayerAmount = Mathf.Min(this.PlayerAmount, Input.GetJoystickNames().Length);
+
         // Store environment presenters
 	    this.environmentPresenter = environmentPresenter;
 
