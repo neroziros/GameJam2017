@@ -29,6 +29,7 @@ public class BounceableSourface : MonoBehaviour
     {
         // Execute damage to missile
         projectile.DealDamage(1);
+        BaseSoundManager.Instance.PlaySoundByIndex(3, this.transform.position);
 
         // If it is still alive, bounce the object
         if (projectile.IsAlive)
