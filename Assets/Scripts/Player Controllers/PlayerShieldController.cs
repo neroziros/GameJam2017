@@ -8,8 +8,7 @@ public class PlayerShieldController : MonoBehaviour
     // Core parameters
     public GameObject ShieldObject;
     public float ShieldStunDuration = 0.5f;
-    public Vector3 minScale = Vector3.one * 0.5f;
-    public Vector3 maxScale = Vector3.one;
+    public GameObject ChargingParticleSystem;
 
     // Core references
     private PlayerController controller;
@@ -47,7 +46,8 @@ public class PlayerShieldController : MonoBehaviour
 
     public void ManageShields(bool state)
     {
-        ShieldObject.transform.localScale = state ? maxScale : minScale;
+        ChargingParticleSystem.SetActive(!state);
+        ShieldObject.SetActive(state);
     }
 
     public void UpdateShieldInput(InputInstance playerInput)

@@ -6,8 +6,13 @@ public class EnvironmentPresenter : MonoBehaviour
 {
     [SerializeField]
     private Transform[] _possibleSpawnPoints = new Transform[4];
+    
+    [SerializeField]
+    private Transform[] _possibleStages = new Transform[4];
 
-	// Use this for initialization
+    public float StageChangeInterval = 30.0f;
+
+    // Use this for initialization
     public void Initialize()
     {
         // todo:
