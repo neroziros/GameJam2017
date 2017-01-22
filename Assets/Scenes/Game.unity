@@ -1220,6 +1220,7 @@ MonoBehaviour:
   - {fileID: 423581906}
   - {fileID: 1569147764}
   - {fileID: 1561335686}
+  - {fileID: 710919001}
   GameObjectGuids:
   - eaf2bb7c-0245-4d9e-8f1a-b099def6e236
   - e8b3dc90-0011-45ea-9c74-704268dc7cf5
@@ -1337,6 +1338,7 @@ MonoBehaviour:
   - f6537e47-7232-4faa-9ca5-35ac9bbfe3af
   - a75af3ca-6474-4ae8-95d6-c7de573f4acc
   - 9c7d1f81-202f-4d1d-a9fd-b801d41540d3
+  - 7941ad49-4a6f-4cdf-a23e-6d7d81fa81ae
   m_uScriptsToAttach: []
   m_FilesToAddToVC: []
 --- !u!4 &223164204
@@ -4163,6 +4165,52 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5608966, y: 0.66720927, z: 0.64811313}
   m_Center: {x: -0.03306198, y: -0.13025798, z: -0.051927634}
+--- !u!1 &710919001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 710919002}
+  - component: {fileID: 710919003}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710919002
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710919001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1009101831}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710919003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710919001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 118efc527870f0449800b3c6e6ae8b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameSounds:
+  - {fileID: 8300000, guid: d6ec71fef1ce7d242b02b60264d959dc, type: 3}
+  - {fileID: 8300000, guid: 4f4eb4b52998ab94586caa2ecbe83f32, type: 3}
+  - {fileID: 8300000, guid: c5848de883176b94eb41eb0752619ac2, type: 3}
+  volume: 1
+  gamePrefsName: 
 --- !u!1 &739778507
 GameObject:
   m_ObjectHideFlags: 0
@@ -5267,6 +5315,11 @@ Prefab:
     - target: {fileID: 4825660295258906, guid: ea3e930d91d656541b653ef1c3911660, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114242559327363660, guid: ea3e930d91d656541b653ef1c3911660,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ea3e930d91d656541b653ef1c3911660, type: 2}

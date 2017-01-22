@@ -29,6 +29,9 @@ public class PlayerController : MovableEntity
     public LayerMask GameplayLayerMask;
     public float DisplacementDurations = 0.5f;
 
+    // Audio indexes
+    public int[] AudioClipIndexes = new[] {1, 2, 3}; 
+
     // General state
     private PlayerState _state = PlayerState.Normal;
 
@@ -173,6 +176,8 @@ public class PlayerController : MovableEntity
                                        projectile.currentBounceAmount <= 0;
         if (isSamePlayerAndNotEnoughBounces)
             return;
+
+        BaseSoundManager.Instance.PlaySoundByIndex(AudioClipIndexes[2], this.transform.position);
 
         // Reduce player health point
         this.DealDamage(1);

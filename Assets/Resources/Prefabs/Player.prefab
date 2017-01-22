@@ -694,6 +694,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   DisplacementDurations: 0.5
+  AudioClipIndexes: 000000000100000002000000
 --- !u!114 &114898623046519590
 MonoBehaviour:
   m_ObjectHideFlags: 1
