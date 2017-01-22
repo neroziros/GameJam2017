@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: b32f8b866e8a7e645933fe30617eeac3
+timeCreated: 1485094046
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FoxLose_0
+    21300002: FoxLose_1
+    21300004: FoxLose_2
+    21300006: FoxLose_3
+    21300008: FoxLose_4
+    21300010: FoxLose_5
+    21300012: FoxLose_6
+    21300014: FoxLose_7
+    21300016: FoxLose_8
+    21300018: FoxLose_9
+    21300020: FoxLose_10
+    21300022: FoxLose_11
+    21300024: FoxLose_12
+    21300026: FoxLose_13
+    21300028: FoxLose_14
+    21300030: FoxLose_15
+    21300032: FoxLose_16
+    21300034: FoxLose_17
+    21300036: FoxLose_18
+    21300038: FoxLose_19
+    21300040: FoxLose_20
+    21300042: FoxLose_21
+    21300044: FoxLose_22
+    21300046: FoxLose_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxLose_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1508
+        width: 395
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1503
+        width: 405
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_2
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1498
+        width: 409
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_3
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1500
+        width: 412
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_4
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1510
+        width: 418
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1146
+        width: 410
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1145
+        width: 418
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1144
+        width: 423
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_8
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1144
+        width: 423
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_9
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1140
+        width: 422
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 777
+        width: 419
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_11
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 777
+        width: 412
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_12
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 776
+        width: 406
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_13
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 778
+        width: 406
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_14
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 777
+        width: 406
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 411
+        width: 402
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_16
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 411
+        width: 400
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_17
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 411
+        width: 389
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_18
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 410
+        width: 379
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_19
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 414
+        width: 390
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 50
+        width: 409
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 49
+        width: 423
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_22
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 49
+        width: 418
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxLose_23
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 48
+        width: 410
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

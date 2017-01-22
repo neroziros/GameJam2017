@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: 0c37b354d38792a4396df341c4511957
+timeCreated: 1485094203
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ToroLose_0
+    21300002: ToroLose_1
+    21300004: ToroLose_2
+    21300006: ToroLose_3
+    21300008: ToroLose_4
+    21300010: ToroLose_5
+    21300012: ToroLose_6
+    21300014: ToroLose_7
+    21300016: ToroLose_8
+    21300018: ToroLose_9
+    21300020: ToroLose_10
+    21300022: ToroLose_11
+    21300024: ToroLose_12
+    21300026: ToroLose_13
+    21300028: ToroLose_14
+    21300030: ToroLose_15
+    21300032: ToroLose_16
+    21300034: ToroLose_17
+    21300036: ToroLose_18
+    21300038: ToroLose_19
+    21300040: ToroLose_20
+    21300042: ToroLose_21
+    21300044: ToroLose_22
+    21300046: ToroLose_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ToroLose_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1523
+        width: 318
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1523
+        width: 319
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_2
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1523
+        width: 318
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_3
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1523
+        width: 319
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_4
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1523
+        width: 320
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1147
+        width: 320
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1147
+        width: 321
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_7
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1147
+        width: 322
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_8
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1147
+        width: 322
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_9
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1147
+        width: 323
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 771
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 771
+        width: 323
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_12
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 771
+        width: 322
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_13
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 771
+        width: 322
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_14
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 771
+        width: 322
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 395
+        width: 321
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 395
+        width: 321
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_17
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 395
+        width: 320
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_18
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 395
+        width: 320
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_19
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 395
+        width: 319
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 319
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 19
+        width: 319
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_22
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 19
+        width: 319
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ToroLose_23
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 19
+        width: 319
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

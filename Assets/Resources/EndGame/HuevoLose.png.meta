@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: 8a21690066adcea419b5c004a1dae7b3
+timeCreated: 1485094100
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HuevoLose_0
+    21300002: HuevoLose_1
+    21300004: HuevoLose_2
+    21300006: HuevoLose_3
+    21300008: HuevoLose_4
+    21300010: HuevoLose_5
+    21300012: HuevoLose_6
+    21300014: HuevoLose_7
+    21300016: HuevoLose_8
+    21300018: HuevoLose_9
+    21300020: HuevoLose_10
+    21300022: HuevoLose_11
+    21300024: HuevoLose_12
+    21300026: HuevoLose_13
+    21300028: HuevoLose_14
+    21300030: HuevoLose_15
+    21300032: HuevoLose_16
+    21300034: HuevoLose_17
+    21300036: HuevoLose_18
+    21300038: HuevoLose_19
+    21300040: HuevoLose_20
+    21300042: HuevoLose_21
+    21300044: HuevoLose_22
+    21300046: HuevoLose_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HuevoLose_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1665
+        width: 386
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1667
+        width: 391
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1669
+        width: 395
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_3
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1671
+        width: 399
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_4
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1671
+        width: 405
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1261
+        width: 406
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1261
+        width: 407
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_7
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1262
+        width: 404
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_8
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1262
+        width: 396
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_9
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1263
+        width: 390
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 854
+        width: 401
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_11
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 854
+        width: 410
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_12
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 855
+        width: 414
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_13
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 855
+        width: 416
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_14
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 854
+        width: 417
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 443
+        width: 411
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 443
+        width: 405
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_17
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 442
+        width: 393
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_18
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 442
+        width: 395
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_19
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 441
+        width: 402
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_20
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 31
+        width: 404
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 31
+        width: 399
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_22
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 30
+        width: 400
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HuevoLose_23
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 28
+        width: 395
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

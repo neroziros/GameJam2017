@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: e0cf1302a2fdd1d4e8766065884e3235
+timeCreated: 1485094069
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FoxWin_0
+    21300002: FoxWin_1
+    21300004: FoxWin_2
+    21300006: FoxWin_3
+    21300008: FoxWin_4
+    21300010: FoxWin_5
+    21300012: FoxWin_6
+    21300014: FoxWin_7
+    21300016: FoxWin_8
+    21300018: FoxWin_9
+    21300020: FoxWin_10
+    21300022: FoxWin_11
+    21300024: FoxWin_12
+    21300026: FoxWin_13
+    21300028: FoxWin_14
+    21300030: FoxWin_15
+    21300032: FoxWin_16
+    21300034: FoxWin_17
+    21300036: FoxWin_18
+    21300038: FoxWin_19
+    21300040: FoxWin_20
+    21300042: FoxWin_21
+    21300044: FoxWin_22
+    21300046: FoxWin_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxWin_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1599
+        width: 379
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1599
+        width: 385
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1599
+        width: 389
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_3
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1600
+        width: 392
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_4
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1600
+        width: 395
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1210
+        width: 398
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1210
+        width: 400
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_7
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1210
+        width: 401
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_8
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1211
+        width: 402
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_9
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1210
+        width: 401
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 816
+        width: 401
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_11
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 813
+        width: 401
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 812
+        width: 400
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_13
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 812
+        width: 399
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_14
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 812
+        width: 398
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 422
+        width: 397
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_16
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 422
+        width: 396
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_17
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 423
+        width: 394
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 423
+        width: 392
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_19
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 424
+        width: 390
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 33
+        width: 388
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 34
+        width: 386
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_22
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 34
+        width: 384
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FoxWin_23
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 35
+        width: 382
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
